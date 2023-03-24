@@ -2,53 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1200">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bell Schedule</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');</style>
-    <script>
-        function showHide (choice) {
-            let elements = document.querySelectorAll('.target');
-            elements = elements.length ? elements : [elements];
-            for (var index = 0; index < elements.length; index++) {
-                elements[index].style.display = 'none';
-            }
-            document.getElementById(choice).style.display = 'block';
-
-            let navs = document.querySelectorAll('.nav-link');
-            navs = navs.length ? navs : [navs];
-            for (var index = 0; index < navs.length; index++) {
-                navs[index].style.color = 'white';
-            }
-            document.getElementById(choice + "nav").style.color = 'yellow';
-        }
-    </script>
   </head>
-  <body style="font-family: 'Pacifico', cursive;">
+  <body >
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="margin-bottom:1.2em;">
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" id="MFnav" href="javascript:showHide('MF')">M/T/Th/F</a>
+                    <a class="nav-link" id="MFnav" href="javascript:calendar='MF';showHide()">M/T/Th/F</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="Wednav" href="javascript:showHide('Wed')">Wed</a>
+                    <a class="nav-link" id="Wednav" href="javascript:calendar='Wed';showHide()">Wed</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="Massnav" href="javascript:showHide('Mass')">Mass</a>
+                    <a class="nav-link" id="Massnav" href="javascript:calendar='Mass';showHide()">Mass</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="OnePMnav" href="javascript:showHide('OnePM')">1pm</a>
+                    <a class="nav-link" id="OnePMnav" href="javascript:calendar='OnePM';showHide()">1pm</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="Ashnav" href="javascript:showHide('Ash')">Ash Wed</a>
+                    <a class="nav-link" id="Ashnav" href="javascript:calendar='Ash';showHide()">Ash Wed</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="d0321nav" href="javascript:calendar='d0321';showHide()">03/21</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="d0323nav" href="javascript:calendar='d0323';showHide()">03/23</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="d0324nav" href="javascript:calendar='d0324';showHide()">03/24</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div id="MF" class="container target" style="font-size:1.7em;">
-        <table class="table table-bordered table-striped">
+    <div id="MF" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
             <thead  style="background-color: yellow;">
                 <tr>
                     <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
@@ -86,8 +78,8 @@
           </table>
     </div>
 
-    <div id="Wed" class="container target" style="font-size:1.7em;">
-        <table class="table table-bordered table-striped">
+    <div id="Wed" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
             <thead style="background-color: yellow;">
                 <tr>
                     <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
@@ -125,8 +117,8 @@
           </table>
     </div>
 
-    <div id="Mass" class="container target" style="font-size:1.7em;">
-        <table class="table table-bordered table-striped">
+    <div id="Mass" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
             <thead style="background-color: yellow;">
                 <tr>
                     <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
@@ -164,8 +156,8 @@
           </table>
     </div>
 
-    <div id="OnePM" class="container target" style="font-size:1.7em;">
-        <table class="table table-bordered table-striped">
+    <div id="OnePM" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
             <thead style="background-color: yellow;">
                 <tr>
                     <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
@@ -203,8 +195,8 @@
           </table>
     </div>
 
-    <div id="Ash" class="container target" style="font-size:1.7em;">
-        <table class="table table-bordered table-striped">
+    <div id="Ash" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
             <thead style="background-color: yellow;">
                 <tr>
                     <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
@@ -233,7 +225,7 @@
                     <td>4th</td><td>10:31 am</td><td>10:57 am</td><td>0:26</td><td>0:06</td>
                 </tr>
                 <tr>
-                    <td>5th</td><td>11:03 am</td><td>11:29 pm</td><td>0:26</td><td>0:06</td>
+                    <td>5th</td><td>11:03 am</td><td>11:29 am</td><td>0:26</td><td>0:06</td>
                 </tr>
                 <tr>
                     <td>6th</td><td>11:35 am</td><td>12:01 pm</td><td>0:26</td><td>0:06</td>
@@ -246,8 +238,248 @@
           </table>
     </div>
 
+    <div id="d0321" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
+            <thead style="background-color: yellow;">
+                <tr>
+                    <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: aqua;">
+                <tr>
+                    <td>HR</td><td>7:40 am</td><td>7:45 am</td><td>0:05</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>1st</td><td>7:51 am</td><td>8:33 am</td><td>0:42</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>2nd</td><td>8:39 am</td><td>9:21 am</td><td>0:42</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>To HR</td><td>9:27 am</td><td>9:32 am</td><td>0:05</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>3rd</td><td>9:38 am</td><td>10:25 am</td><td>0:47</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>7th</td><td>10:31 am</td><td>11:18 am</td><td>0:47</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>4th</td><td>11:24 am</td><td>12:11 am</td><td>0:47</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>5th</td><td>12:17 pm</td><td>01:04 pm</td><td>0:47</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>6th</td><td>01:10 pm</td><td>01:57 pm</td><td>0:47</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>8th</td><td>02:03 pm</td><td>02:50 pm</td><td>0:47</td><td>0:06</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <div id="d0323" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
+            <thead style="background-color: yellow;">
+                <tr>
+                    <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: aqua;">
+                <tr>
+                    <td>HR</td><td>7:40 am</td><td>8:10 am</td><td>0:30</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>1st</td><td>8:16 am</td><td>9:00 am</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>2nd</td><td>9:06 am</td><td>9:50 am</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>3rd</td><td>9:56 am</td><td>10:40 am</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>4th</td><td>10:46 am</td><td>11:30 am</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>5th</td><td>11:36 am</td><td>12:20 am</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>6th</td><td>12:26 pm</td><td>01:10 pm</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>7th</td><td>1:16 pm</td><td>2:00 pm</td><td>0:44</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>8th</td><td>2:06 pm</td><td>2:50 pm</td><td>0:44</td><td>0:06</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <div id="d0324" class="container target" style="font-size:1.5em;">
+        <table class="table table-bordered">
+            <thead style="background-color: yellow;">
+                <tr>
+                    <th>Period</th><th>Start</th><th>End</th><th>Duration</th><th>Passing</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: aqua;">
+                <tr>
+                    <td>HR</td><td>7:40 am</td><td>7:46 am</td><td>0:06</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>1st</td><td>7:52 am</td><td>8:32 am</td><td>0:40</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>2nd</td><td>8:38 am</td><td>9:18 am</td><td>0:40</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>3rd</td><td>9:24 am</td><td>10:04 am</td><td>0:40</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>4th</td><td>10:10 am</td><td>10:50 am</td><td>0:40</td><td>0:04</td>
+                </tr>
+                <tr>
+                    <td>5th</td><td>10:54 am</td><td>11:34 am</td><td>0:40</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>6th</td><td>11:40 am</td><td>12:20 pm</td><td>0:40</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>HR-GYM</td><td>12:26 pm</td><td>1:15 pm</td><td>0:49</td><td>0:09</td>
+                </tr>
+                <tr>
+                    <td>7th</td><td>1:24 pm</td><td>2:04 pm</td><td>0:40</td><td>0:06</td>
+                </tr>
+                <tr>
+                    <td>8th</td><td>2:10 pm</td><td>2:50 pm</td><td>0:40</td><td>0:06</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <h3> CLOCK: <span id="time"></span> </h3>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script>showHide("MF");</script>
+    <script>
+        calendar = "MF";
+
+        // Helper function for refreshTime()
+        function getDate(timeStr) {
+            let now3 = new Date();
+            let hr = parseInt(timeStr.split(":")[0]);
+            let mi = parseInt((timeStr.split(":")[1]).split(" ")[0]);
+            let meridiem = timeStr.split(" ")[1];
+            if (meridiem == "pm" && hr < 12) {
+                hr = hr + 12;
+            } 
+            now3.setHours(hr, mi, 0, 0);
+            return now3;
+        }
+
+        function showHide() {
+            // Show Hide Divisions so current calendar is displayed
+            let elements = document.querySelectorAll('.target');
+            elements = elements.length ? elements : [elements];
+            for (var index = 0; index < elements.length; index++) {
+                elements[index].style.display = 'none';
+            }
+            document.getElementById(calendar).style.display = 'block';
+
+            // Color menu bar for currently shown division
+            let navs = document.querySelectorAll('.nav-link');
+            navs = navs.length ? navs : [navs];
+            for (let index = 0; index < navs.length; index++) {
+                navs[index].style.color = 'white';
+            }
+            document.getElementById(calendar + "nav").style.color = 'yellow';
+        }
+        
+        // Updates clock and background coloring
+        function refreshTime() {
+            // Update Clock
+            const timeDisplay = document.getElementById("time");
+            const dateString = new Date().toLocaleString();
+            const formattedString = dateString.replace(", ", " - ");
+            timeDisplay.textContent = formattedString;
+
+            // Get table for currently shown division
+            let section = document.getElementById(calendar);
+            let table = section.getElementsByTagName("table");
+            var now2 = new Date();
+            
+            // Highlight Current Period
+            for (var r = 1, n = table[0].rows.length; r < n; r++) {
+                let startStr = table[0].rows[r].cells[1].innerHTML;
+                let startTime = getDate(startStr)
+                let endStr = table[0].rows[r].cells[2].innerHTML;
+                let endTime = getDate(endStr);
+                // console.log(startTime, now, endTime);
+                if (startTime <= now2 && now2 <= endTime) {
+                    // console.log("Row:", r);
+                    table[0].rows[r].cells[0].style.color = 'red';
+                    table[0].rows[r].cells[0].style.backgroundColor = 'Cornsilk';
+                    table[0].rows[r].cells[1].style.color = 'red';
+                    table[0].rows[r].cells[1].style.backgroundColor = 'Cornsilk';
+                    table[0].rows[r].cells[2].style.color = 'red';
+                    table[0].rows[r].cells[2].style.backgroundColor = 'Cornsilk';
+                    table[0].rows[r].cells[3].style.color = 'red';
+                    table[0].rows[r].cells[3].style.backgroundColor = 'Cornsilk';
+                    table[0].rows[r].cells[4].style.color = 'black';
+                    table[0].rows[r].cells[4].style.backgroundColor = 'aqua';
+                    if (r > 1) {
+                        table[0].rows[r-1].cells[4].style.color = 'black';
+                        table[0].rows[r-1].cells[4].style.backgroundColor = 'aqua'; 
+                    }
+                }
+            }
+            // Highlight if in passing between periods
+            for (var r = 1, n = table[0].rows.length; r < n-1; r++) {
+                let startStr = table[0].rows[r].cells[2].innerHTML;
+                let startTime = getDate(startStr)
+                let endStr = table[0].rows[r+1].cells[1].innerHTML;
+                let endTime = getDate(endStr);
+                // console.log(startTime, now, endTime);
+                if (startTime <= now2 && now2 <= endTime) {
+                    // console.log("Row:", r);
+                    table[0].rows[r].cells[4].style.color = 'red';
+                    table[0].rows[r].cells[4].style.backgroundColor = 'Cornsilk';
+                    table[0].rows[r].cells[3].style.color = 'black';
+                    table[0].rows[r].cells[3].style.backgroundColor = 'aqua';
+                    table[0].rows[r].cells[2].style.color = 'black';
+                    table[0].rows[r].cells[2].style.backgroundColor = 'aqua';
+                    table[0].rows[r].cells[1].style.color = 'black';
+                    table[0].rows[r].cells[1].style.backgroundColor = 'aqua';
+                    table[0].rows[r].cells[0].style.color = 'black';
+                    table[0].rows[r].cells[0].style.backgroundColor = 'aqua';
+                }
+            }
+        }
+
+        // Determine which division to show based on current date
+        let now = new Date();
+        if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "321") {
+            calendar = "d0321";
+        } 
+        else if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "323") {
+            calendar = "d0323";
+        }
+        else if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "324") {
+            calendar = "d0324";
+        }
+        else if (now.getDay() == 3) {
+            calendar = "Wed";
+        } else {
+            calendar = "MF";
+        }
+        showHide();
+
+        // Update screen every second
+        setInterval(refreshTime, 1000);
+
+    </script>
   </body>
 </html>

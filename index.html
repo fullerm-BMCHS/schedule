@@ -27,7 +27,7 @@
                     <a class="nav-link" id="Ashnav" href="javascript:calendar='Ash';showHide()">Ash Wed</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="d0321nav" href="javascript:calendar='d0321';showHide()">03/21</a>
+                    <a class="nav-link" id="NewMassnav" href="javascript:calendar='NewMass';showHide()">New Mass</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="d0323nav" href="javascript:calendar='d0323';showHide()">03/23</a>
@@ -238,7 +238,7 @@
           </table>
     </div>
 
-    <div id="d0321" class="container target" style="font-size:1.5em;">
+    <div id="NewMass" class="container target" style="font-size:1.5em;">
         <table class="table table-bordered">
             <thead style="background-color: yellow;">
                 <tr>
@@ -461,17 +461,14 @@
 
         // Determine which division to show based on current date
         let now = new Date();
-        if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "321") {
-            calendar = "d0321";
+        if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "329") {
+            calendar = "NewMass";
         } 
         else if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "323") {
             calendar = "d0323";
         }
         else if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "324") {
             calendar = "d0324";
-        }
-        else if ( (now.getMonth() + 1).toString() + now.getDate().toString() == "329") {
-            calendar = "d0321";
         }
         else if (now.getDay() == 3) {
             calendar = "Wed";

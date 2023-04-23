@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bell Schedule</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <button type="button" onclick="navClick('btn-MF')" id="btn-MF" class="active">M/T/Th/F</button>
+        <button type="button" onclick="navClick('btn-Wed')" id="btn-Wed">Wed</button>
+        <button type="button" onclick="navClick('btn-Mass')" id="btn-Mass">Mass</button>
+        <button type="button" onclick="navClick('btn-1pm')" id="btn-1pm">1pm</button>
+        <!-- <button type="button" onclick="navClick('btn-d001')" id="btn-d001">??/??</button> -->
+        <button type="button" onclick="navClick('btn-Cal')" id="btn-Cal" class="split">Calendar</button>
+    </div>
+
+    <div id="schedule"></div>
+
+    <div id="time"></div>    
+
+    <script src="script.js"></script>
+</body>
+</html>

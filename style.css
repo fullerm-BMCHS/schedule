@@ -62,3 +62,8 @@ th {
     background-color: #04AA6D;
     color: white;
 }
+
+td {
+    background-color: aqua;
+    color: black;
+}

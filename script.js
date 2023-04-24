@@ -183,7 +183,7 @@ function updateScreen() {
     // Update Clock
     const timeDiv = document.getElementById("time");
     const dateString = now.toLocaleString('en-US');
-    timeDiv.innerHTML = "<h3>CLOCK: " + dateString + "</h3>";
+    timeDiv.innerHTML = "<h2>CLOCK: " + dateString + "</h2>";
 
     if (currentButton == "btn-Cal")
         return;
@@ -197,7 +197,7 @@ function updateScreen() {
         let startTime = getDate(startStr)
         let endStr = table.rows[r].cells[2].innerHTML;
         let endTime = getDate(endStr);
-        // console.log(startTime, now, endTime);
+        console.log(startTime, now, endTime);
         if (startTime <= now && now <= endTime) {
             // console.log("Row:", r);
             table.rows[r].cells[0].style.color = 'red';

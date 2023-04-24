@@ -53,12 +53,14 @@
 table {
     border-collapse: collapse;
     width: 100%;
+    border: 1px solid black;
 }
   
 th, td {
     text-align: left;
     vertical-align: top;
     padding: 8px;
+    border: 1px solid black;
 }
   
 tr:nth-child(odd){background-color: #f2f2f2}

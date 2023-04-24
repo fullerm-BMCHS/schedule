@@ -46,6 +46,10 @@
   }
 
  /* Style schedule table */ 
+
+#schedule {
+    font-size: 1.3em;   
+}
 table {
     border-collapse: collapse;
     width: 100%;

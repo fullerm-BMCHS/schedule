@@ -164,6 +164,7 @@ function buildTable(tableArr) {
 
 // Helper function for updateScreen()
 function getDate(timeStr) {
+    timeStr = timeStr.trim();
     let now = new Date();
     let hr = parseInt(timeStr.split(":")[0]);
     let mi = parseInt((timeStr.split(":")[1]).split(" ")[0]);

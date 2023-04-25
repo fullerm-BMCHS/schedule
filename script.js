@@ -58,8 +58,8 @@ var data = {
         ["8th", " 2:03 pm", " 2:50 pm", "0:47", "0:06"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["04/24/2023", "Monday", "Spring Art Show 5pm - 7pm"],
-        ["04/25/2023", "Tuesday", "Junior Class Mass <br> Shrek the Musical 7:30pm - 9:00pm"],
+        ["04/24/2023", "Monday", "Spring Art Show - Cancelled for Weather"],
+        ["04/25/2023", "Tuesday", "Junior Class Mass<br>Spring Art Show 5pm - 7pm<br>Shrek the Musical 7:30pm - 9:00pm"],
         ["04/26/2023", "Wednesday", "Shrek the Musical 7:30pm - 9:00pm"],
         ["04/27/2023", "Thursday", "Shrek the Musical 7:30pm - 9:00pm"],
         ["04/28/2023", "Friday", "Grad Nite 3:00pm - 12:00am"],

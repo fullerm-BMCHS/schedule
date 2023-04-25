@@ -63,7 +63,7 @@ var data = {
         ["04/26/2023", "Wednesday", "Shrek the Musical 7:30pm - 9:00pm"],
         ["04/27/2023", "Thursday", "Shrek the Musical 7:30pm - 9:00pm"],
         ["04/28/2023", "Friday", "Grad Nite 3:00pm - 12:00am"],
-        ["05/01/2023", "Monday", "AP Testing:<br>8am-United States Government and Politics (Dome) <br>12pm-Chemistry (Dome)<br>12pb-Spanish Literature and Culture (Dome C)<br>11:59pm Deadline for AP Computer Science Principles students to submit their Create performance task as final."],
+        ["05/01/2023", "Monday", "AP Testing:<br>8am-United States Government and Politics (Dome) <br>12pm-Chemistry (Dome)<br>12pm-Spanish Literature and Culture (Dome C)<br>11:59pm Deadline for AP CSP Performance Task"],
         ["05/02/2023", "Tuesday", "AP Testing:<br>8am-Environmental Science (Dome)<br>12pm-Psychology (Dome)"],
         ["05/03/2023", "Wednesday", "AP Testing:<br>8am-English Literature and Composition (Gym)<br>12pm-Comparative Government and Politics (Dome W)<br>12pm-Computer Science A (Dome)"],
         ["05/04/2023", "Thursday", "AP Testing:<br>8am-Human Geography (Dome)<br>8am-Macroeconomics (Dome W)<br>12pm-Statistics (Gym)"],

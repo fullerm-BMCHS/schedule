@@ -47,27 +47,17 @@ var data = {
         ["8th", "12:27 pm", " 1:00 pm", "0:33", "0:06"]],
     "btn-d001" : [
         ["Period","Start","End","Duration","Passing"],
-        [" HR", " 7:40 am", " 7:46 am", "0:06", "0:06"],
-        ["1st", " 7:52 am", " 8:39 am", "0:47", "0:06"],
-        ["2nd", " 8:45 am", " 9:32 am", "0:47", "0:06"],
-        ["3rd", " 9:38 am", "10:25 am", "0:47", "0:06"],
-        ["4th", "10:31 am", "11:18 am", "0:47", "0:06"],
-        ["5th", "11:24 am", "12:11 pm", "0:47", "0:06"],
-        ["6th", "12:17 pm", " 1:04 pm", "0:47", "0:06"],
-        ["7th", " 1:10 pm", " 1:57 pm", "0:47", "0:06"],
-        ["8th", " 2:03 pm", " 2:50 pm", "0:47", "0:06"]],
+        [" HR", " 7:40 am", " 7:54 am", "0:14", "0:06"],
+        ["1st", " 8:00 am", " 8:46 am", "0:46", "0:06"],
+        ["2nd", " 8:52 am", " 9:38 am", "0:46", "0:06"],
+        ["3rd", " 9:44 am", "10:30 am", "0:46", "0:06"],
+        ["4th", "10:36 am", "11:22 am", "0:46", "0:06"],
+        ["5th", "11:28 am", "12:14 pm", "0:46", "0:06"],
+        ["6th", "12:20 pm", " 1:06 pm", "0:46", "0:06"],
+        ["7th", " 1:12 pm", " 1:58 pm", "0:46", "0:06"],
+        ["8th", " 2:04 pm", " 2:50 pm", "0:46", "0:06"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["04/24/2023", "Monday", "Spring Art Show - Cancelled for Weather"],
-        ["04/25/2023", "Tuesday", "Junior Class Mass<br>Spring Art Show 5pm - 7pm<br>Shrek the Musical 7:30pm - 9:00pm"],
-        ["04/26/2023", "Wednesday", "Shrek the Musical 7:30pm - 9:00pm"],
-        ["04/27/2023", "Thursday", "Shrek the Musical 7:30pm - 9:00pm"],
-        ["04/28/2023", "Friday", "Grad Nite 3:00pm - 12:00am"],
-        ["05/01/2023", "Monday", "AP Testing:<br>8am-United States Government and Politics (Dome) <br>12pm-Chemistry (Dome)<br>12pm-Spanish Literature and Culture (Dome C)<br>11:59pm Deadline for AP CSP Performance Task"],
-        ["05/02/2023", "Tuesday", "AP Testing:<br>8am-Environmental Science (Dome)<br>12pm-Psychology (Dome)"],
-        ["05/03/2023", "Wednesday", "AP Testing:<br>8am-English Literature and Composition (Gym)<br>12pm-Comparative Government and Politics (Dome W)<br>12pm-Computer Science A (Dome)"],
-        ["05/04/2023", "Thursday", "AP Testing:<br>8am-Human Geography (Dome)<br>8am-Macroeconomics (Dome W)<br>12pm-Statistics (Gym)"],
-        ["05/05/2023", "Friday", "AP Testing:<br>8am-European History (Dome C)<br>8am-United States History (Dome and Gym)<br>12pm-Microeconomics (Dome)"],
         ["05/08/2023", "Monday", "AP Testing:<br>8am-Calculus AB (Dome)<br>8am-Calculus BC (Dome)<br>12pm-Computer Science Principles (Dome)"],
         ["05/09/2023", "Tuesday", "AP Testing:<br>8am-English Language and Composition (Dome)<br>12pm-Physics C: Mechanics (Dome)<br>2pm-Physics C: Electricity and Magnetism (Dome)"],
         ["05/10/2023", "Wednesday", "AP Testing:<br>8am-Spanish Language and Culture (Dome C)<br>12pm-Biology (Dome)"],
@@ -119,6 +109,17 @@ var data = {
         ["05/29/2024", "Wednesday", "Semester Exams:<br>Period ?: 8:00am - 9:30am<br>Period ?: 10:00am - 11:30am"],
         ["05/30/2024", "Thursday", "Semester Exams:<br>Period ?: 8:00am - 9:30am<br>Period ?: 10:00am - 11:30am"],
         ["05/31/2024", "Friday", "Semester Exams:<br>Period ?: 8:00am - 9:30am<br>Period ?: 10:00am - 11:30am<br>End of Semester"],
+        ["***OLDER**", "*OLD*", "**********OLDER EVENTS***********"],
+        ["04/24/2023", "Monday", "Spring Art Show - Cancelled for Weather"],
+        ["04/25/2023", "Tuesday", "Junior Class Mass<br>Spring Art Show 5pm - 7pm<br>Shrek the Musical 7:30pm - 9:00pm"],
+        ["04/26/2023", "Wednesday", "Shrek the Musical 7:30pm - 9:00pm"],
+        ["04/27/2023", "Thursday", "Shrek the Musical 7:30pm - 9:00pm"],
+        ["04/28/2023", "Friday", "Grad Nite 3:00pm - 12:00am"],
+        ["05/01/2023", "Monday", "AP Testing:<br>8am-United States Government and Politics (Dome) <br>12pm-Chemistry (Dome)<br>12pm-Spanish Literature and Culture (Dome C)<br>11:59pm Deadline for AP CSP Performance Task"],
+        ["05/02/2023", "Tuesday", "AP Testing:<br>8am-Environmental Science (Dome)<br>12pm-Psychology (Dome)"],
+        ["05/03/2023", "Wednesday", "AP Testing:<br>8am-English Literature and Composition (Gym)<br>12pm-Comparative Government and Politics (Dome W)<br>12pm-Computer Science A (Dome)"],
+        ["05/04/2023", "Thursday", "AP Testing:<br>8am-Human Geography (Dome)<br>8am-Macroeconomics (Dome W)<br>12pm-Statistics (Gym)"],
+        ["05/05/2023", "Friday", "AP Testing:<br>8am-European History (Dome C)<br>8am-United States History (Dome and Gym)<br>12pm-Microeconomics (Dome)"],
     ],                            
 }
 
@@ -243,8 +244,8 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "4/25/2023")
-    document.getElementById("btn-Mass").click();
+if (day.toLocaleDateString('en-Us') == "5/12/2023")
+    document.getElementById("btn-d001").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

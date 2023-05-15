@@ -47,15 +47,16 @@ var data = {
         ["8th", "12:27 pm", " 1:00 pm", "0:33", "0:06"]],
     "btn-d001" : [
         ["Period","Start","End","Duration","Passing"],
-        [" HR", " 7:40 am", " 7:54 am", "0:14", "0:06"],
-        ["1st", " 8:00 am", " 8:46 am", "0:46", "0:06"],
-        ["2nd", " 8:52 am", " 9:38 am", "0:46", "0:06"],
-        ["3rd", " 9:44 am", "10:30 am", "0:46", "0:06"],
-        ["4th", "10:36 am", "11:22 am", "0:46", "0:06"],
-        ["5th", "11:28 am", "12:14 pm", "0:46", "0:06"],
-        ["6th", "12:20 pm", " 1:06 pm", "0:46", "0:06"],
-        ["7th", " 1:12 pm", " 1:58 pm", "0:46", "0:06"],
-        ["8th", " 2:04 pm", " 2:50 pm", "0:46", "0:06"]],
+        [" HR", " 7:40 am", " 7:45 am", "0:05", "0:06"],
+        ["1st", " 7:51 am", " 8:36 am", "0:45", "0:06"],
+        ["To HR", " 8:42 am", " 8:53 am", "0:11", "0:06"],
+        ["2nd", " 8:59 am", " 9:44 am", "0:45", "0:06"],
+        ["3rd", " 9:50 am", "10:35 am", "0:45", "0:06"],
+        ["7th", "10:41 am", "11:26 am", "0:45", "0:06"],
+        ["4th", "11:32 am", "12:17 pm", "0:45", "0:06"],
+        ["5th", "12:23 pm", " 1:08 pm", "0:45", "0:06"],
+        ["6th", " 1:14 pm", " 1:59 pm", "0:45", "0:06"],
+        ["8th", " 2:05 pm", " 2:50 pm", "0:45", "0:06"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["05/08/2023", "Monday", "AP Testing:<br>8am-Calculus AB (Dome)<br>8am-Calculus BC (Dome)<br>12pm-Computer Science Principles (Dome)"],
@@ -250,7 +251,7 @@ function updateScreen() {
 let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "5/15/2023")
-    document.getElementById("btn-Mass").click();
+    document.getElementById("btn-d001").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

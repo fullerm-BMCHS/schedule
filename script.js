@@ -249,8 +249,8 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "5/12/2023")
-    document.getElementById("btn-d001").click();
+if (day.toLocaleDateString('en-Us') == "5/15/2023")
+    document.getElementById("btn-Mass").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

@@ -68,6 +68,17 @@ var data = {
         ["5th", "12:40 pm", " 1:19 pm", "0:39", "0:06"],
         ["6th", " 1:25 pm", " 2:04 pm", "0:39", "0:06"],
         ["8th", " 2:10 pm", " 2:50 pm", "0:39", "0:06"]],
+    "btn-d003" : [
+        ["Period","Start","End","Duration","Passing"],        
+        [" HR", " 7:40 am", " 7:46 am", "0:06", "0:06"],
+        ["1st", " 7:52 am", " 8:39 am", "0:47", "0:06"],
+        ["2nd", " 8:45 am", " 9:50 am", "1:05", "0:06"],
+        ["3rd", " 9:56 am", "10:40 am", "0:44", "0:06"],
+        ["4th", "10:46 am", "11:30 am", "0:44", "0:06"],
+        ["5th", "11:36 am", "12:20 pm", "0:44", "0:06"],
+        ["6th", "12:26 pm", " 1:10 pm", "0:44", "0:06"],
+        ["7th", " 1:16 pm", " 2:00 pm", "0:44", "0:06"],
+        ["8th", " 2:06 pm", " 2:50 pm", "0:44", "0:06"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["05/22/2023", "Monday", "Senior Mass and Yearbook Signing 9am"],
@@ -268,6 +279,8 @@ if (day.toLocaleDateString('en-Us') == "5/24/2023")
     document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "5/26/2023")
     document.getElementById("btn-d002").click();
+else if (day.toLocaleDateString('en-Us') == "5/22/2023")
+    document.getElementById("btn-d003").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

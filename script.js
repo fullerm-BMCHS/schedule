@@ -70,10 +70,10 @@ var data = {
         ["8th", " 2:10 pm", " 2:50 pm", "0:39", "0:06"]],
     "btn-d003" : [
         ["Period","Start","End","Duration","Passing"],        
-        ["To class", " 7:55 am", " 8:00 am", "0:05", "0:05"],
+        ["Arrive", " 7:30 am", " 7:55 am", "0:15", "0:05"],
         ["Exam 1", " 8:00 am", " 9:30 am", "1:30", "0:30"],
-        ["Exam 2", "10:00 am", "11:30 am", "1:30", "0:00"],
-        ["Dismiss", "11:30 am", " 3:30 pm", "4:00", "0:00"]],
+        ["Exam 2", "10:00 am", "11:30 am", "1:30", "0:01"],
+        ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["05/30/2023", "Tuesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>Faculty Walking Together - Teal A 1pm"],

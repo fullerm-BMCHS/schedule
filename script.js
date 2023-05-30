@@ -76,7 +76,7 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["05/30/2023", "Tuesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>Faculty Walking Together - Teal A 1pm"],
+        ["05/30/2023", "Tuesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>Faculty Walking Together - Teal A 12pm - 1pm"],
         ["05/31/2023", "Wednesday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["06/01/2023", "Thursday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 8: 10:00am - 11:30am"],
         ["06/02/2023", "Friday", "Semester Exams:<br>Period 2: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am<br>End of Semester<br>Last Day of School"],

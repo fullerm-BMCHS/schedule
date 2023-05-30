@@ -70,23 +70,12 @@ var data = {
         ["8th", " 2:10 pm", " 2:50 pm", "0:39", "0:06"]],
     "btn-d003" : [
         ["Period","Start","End","Duration","Passing"],        
-        [" HR", " 7:40 am", " 7:46 am", "0:06", "0:06"],
-        ["1st", " 7:52 am", " 8:39 am", "0:47", "0:06"],
-        ["2nd", " 8:45 am", " 9:50 am", "1:05", "0:06"],
-        ["3rd", " 9:56 am", "10:40 am", "0:44", "0:06"],
-        ["4th", "10:46 am", "11:30 am", "0:44", "0:06"],
-        ["5th", "11:36 am", "12:20 pm", "0:44", "0:06"],
-        ["6th", "12:26 pm", " 1:10 pm", "0:44", "0:06"],
-        ["7th", " 1:16 pm", " 2:00 pm", "0:44", "0:06"],
-        ["8th", " 2:06 pm", " 2:50 pm", "0:44", "0:06"]],
+        ["To class", " 7:55 am", " 8:00 am", "0:05", "0:05"],
+        ["Exam 1", " 8:00 am", " 9:30 am", "1:30", "0:30"],
+        ["Exam 2", "10:00 am", "11:30 am", "1:30", "0:00"],
+        ["Dismiss", "11:30 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["05/22/2023", "Monday", "Senior Mass and Yearbook Signing 9am"],
-        ["05/23/2023", "Tuesday", "Senior Parade 8:30am<br>Seniors dismissed at 2pm"],
-        ["05/24/2023", "Wednesday", "Last due date for Test/AA<br>Senior Luncheon 12pm<br>Summer AP Assignments Due<br>Faculty Indvidual PD"],
-        ["05/25/2023", "Thursday", "No School - Baccalaureate and Graduation 9am and 2pm"],
-        ["05/26/2023", "Friday", "Turning the Page - All School Assembly"],
-        ["05/29/2023", "Monday", "No School - Memorial Day Holiday"],
         ["05/30/2023", "Tuesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>Faculty Walking Together - Teal A 1pm"],
         ["05/31/2023", "Wednesday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["06/01/2023", "Thursday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 8: 10:00am - 11:30am"],
@@ -151,6 +140,12 @@ var data = {
         ["05/17/2023", "Wednesday", "Senior Yearbook Distribution in Dome during lunch periods<br>Faculty Meeting Student Center"],
         ["05/18/2023", "Thursday", "Underclassmen Yearbook Distribution in Dome during religion class<br>Junior Class Presentation 7th & 8th Periods<br>Spring Football Game 7pm<br>Spring Choir Concert 7pm"],
         ["05/19/2023", "Friday", "Senior Grades Due"],
+        ["05/22/2023", "Monday", "Senior Mass and Yearbook Signing 9am"],
+        ["05/23/2023", "Tuesday", "Senior Parade 8:30am<br>Seniors dismissed at 2pm"],
+        ["05/24/2023", "Wednesday", "Last due date for Test/AA<br>Senior Luncheon 12pm<br>Summer AP Assignments Due<br>Faculty Indvidual PD"],
+        ["05/25/2023", "Thursday", "No School - Baccalaureate and Graduation 9am and 2pm"],
+        ["05/26/2023", "Friday", "Turning the Page - All School Assembly"],
+        ["05/29/2023", "Monday", "No School - Memorial Day Holiday"],
     ],                            
 }
 
@@ -275,11 +270,13 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "5/24/2023")
-    document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "5/26/2023")
-    document.getElementById("btn-d002").click();
-else if (day.toLocaleDateString('en-Us') == "5/22/2023")
+if (day.toLocaleDateString('en-Us') == "5/30/2023")
+    document.getElementById("btn-d003").click();
+else if (day.toLocaleDateString('en-Us') == "5/31/2023")
+    document.getElementById("btn-d003").click();
+else if (day.toLocaleDateString('en-Us') == "6/1/2023")
+    document.getElementById("btn-d003").click();
+else if (day.toLocaleDateString('en-Us') == "6/2/2023")
     document.getElementById("btn-d003").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();

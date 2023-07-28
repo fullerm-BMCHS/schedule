@@ -77,7 +77,7 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["07/31/2023", "Monday", "Classrooms open<br>Optional Mass 9a St. Joseph's Chapel"],
-        ["08/01/2023", "Tuesday", "Student Center 7:30am continental breakfast<br>AED and CPR training 8a<br>Moore Center lunch 11:30a"],
+        ["08/01/2023", "Tuesday", "Student Center 7:30 am continental breakfast<br>AED and CPR training 8a (Rotating groups)<br>Moore Center lunch 11:30a"],
         ["08/02/2023", "Wednesday", "Faculty / Staff Yearbook Portraits 6a - 9a Pines<br>New Student Orientation 7:30a - 2p"],
         ["08/03/2023", "Thursday", "Faculty retreat 8a at San Pedro"],
         ["08/04/2023", "Friday", "Transfer Student Orientation"],
@@ -85,12 +85,12 @@ var data = {
         ["08/09/2023", "Wednesday", "First Day of School"],
         ["08/17/2023", "Thursday", "Underclassman Picture Day"],
         ["09/04/2023", "Monday", "No School - Labor Day"],
-        ["09/19/2023", "Tuesday", "Back to School Night 6pm - 7:30pm"],
-        ["09/21/2023", "Thursday", "STEM Night 6:30pm - 7:30pm"],
-        ["10/05/2023", "Thursday","Faculty / Staff Portraits Retake 6a - 9a Pines"],
+        ["09/19/2023", "Tuesday", "Back to School Night 6 pm - 7:30 pm"],
+        ["09/21/2023", "Thursday", "STEM Night 6:30 pm - 7:30 pm"],
+        ["10/05/2023", "Thursday", "Faculty / Staff Portraits Retake 6a - 9a Pines"],
         ["10/06/2023", "Friday",  "No School<br>Teacher PD<br>End of 1st Quarter"],
         ["10/09/2023", "Monday", "Homecoming Week Starts"],
-        ["10/14/2023", "Saturday", "Homecoming Dance 7:00pm - 11:15pm"],
+        ["10/14/2023", "Saturday", "Homecoming Dance 7:00 pm - 11:15 pm"],
         ["10/20/2023", "Friday", "No School (Regional PD)"],
         ["11/05/2023", "Sunday", "Open House"],
         ["11/11/2023", "Saturday", "The Legacy Gala"],
@@ -133,14 +133,14 @@ var data = {
         ["05/11/2023", "Thursday", "AP Testing:<br>8am-French Language and Culture (Dome C)<br>8am-World History: Modern (Dome)<br>12pm-Physics 1: Algebra-Based (Dome)"],
         ["05/12/2023", "Friday", "AP Testing:<br>8am-Music Theory (Dome)<br>12pm-Latin<br>12pm-Physics 2: Algebra-Based"],
         ["05/13/2023", "Saturday", "Hornet Expo (previously known as Freshmen Fair) 7:45am - 11:45am in Dome"],
-        ["05/15/2023", "Monday", "Baccalaurate Practice/Teaching Mass for Seniors 9:45am<br>Awards Ceremony 6:30pm - 8pm"],
+        ["05/15/2023", "Monday", "Baccalaureate Practice/Teaching Mass for Seniors 9:45am<br>Awards Ceremony 6:30pm - 8pm"],
         ["05/16/2023", "Tuesday", "Fire Drill:<br>Period 1: Bishop Borders/Bishop Grady/Cafeteria<br>Period 2:Dorsey/Dome/Moore Center<br>Period 3: Loretta/MM/Gym<br>Lockdown drill in afternoon<br>Spring Band Concert 7:05pm"],
         ["05/17/2023", "Wednesday", "Senior Yearbook Distribution in Dome during lunch periods<br>Faculty Meeting Student Center"],
         ["05/18/2023", "Thursday", "Underclassmen Yearbook Distribution in Dome during religion class<br>Junior Class Presentation 7th & 8th Periods<br>Spring Football Game 7pm<br>Spring Choir Concert 7pm"],
         ["05/19/2023", "Friday", "Senior Grades Due"],
         ["05/22/2023", "Monday", "Senior Mass and Yearbook Signing 9am"],
         ["05/23/2023", "Tuesday", "Senior Parade 8:30am<br>Seniors dismissed at 2pm"],
-        ["05/24/2023", "Wednesday", "Last due date for Test/AA<br>Senior Luncheon 12pm<br>Summer AP Assignments Due<br>Faculty Indvidual PD"],
+        ["05/24/2023", "Wednesday", "Last due date for Test/AA<br>Senior Luncheon 12pm<br>Summer AP Assignments Due<br>Faculty Individual PD"],
         ["05/25/2023", "Thursday", "No School - Baccalaureate and Graduation 9am and 2pm"],
         ["05/26/2023", "Friday", "Turning the Page - All School Assembly"],
         ["05/29/2023", "Monday", "No School - Memorial Day Holiday"],
@@ -281,10 +281,6 @@ let day = new Date();
 if (day.toLocaleDateString('en-Us') == "5/30/2023")
     document.getElementById("btn-d003").click();
 else if (day.toLocaleDateString('en-Us') == "5/31/2023")
-    document.getElementById("btn-d003").click();
-else if (day.toLocaleDateString('en-Us') == "6/1/2023")
-    document.getElementById("btn-d003").click();
-else if (day.toLocaleDateString('en-Us') == "6/2/2023")
     document.getElementById("btn-d003").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();

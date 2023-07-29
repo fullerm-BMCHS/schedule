@@ -90,6 +90,7 @@ var data = {
         ["10/05/2023", "Thursday", "Faculty / Staff Portraits Retake 6a - 9a Pines"],
         ["10/06/2023", "Friday",  "No School<br>Teacher PD<br>End of 1st Quarter"],
         ["10/09/2023", "Monday", "Homecoming Week Starts"],
+        ["10/13/2023", "Friday", "Pep Rally 7:45a - 8:45a"],
         ["10/14/2023", "Saturday", "Homecoming Dance 7:00 pm - 11:15 pm"],
         ["10/20/2023", "Friday", "No School (Regional PD)"],
         ["11/05/2023", "Sunday", "Open House"],

@@ -21,7 +21,7 @@ var data = {
         ["6th", "11:55 am", "12:40 pm", "0:45", "0:06"],
         ["7th", "12:46 pm", " 1:31 pm", "0:45", "0:06"],
         ["8th", " 1:37 pm", " 2:22 pm", "0:45", "0:06"]],
-    "btn-cMass" : [
+    "btn-classMass" : [
         ["Period","Start","End","Duration","Passing"],        
         ["1st", " 7:40 am", " 8:30 am", "0:50", "0:06"],
         ["2nd", " 8:36 am", " 9:25 am", "0:49", "0:06"],
@@ -32,7 +32,7 @@ var data = {
         ["6th", " 1:11 pm", " 2:00 pm", "0:49", "0:06"],
         ["8th", " 2:06 pm", " 2:55 pm", "0:49", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
-    "btn-aMass" : [
+    "btn-allMass" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:15 am", "0:35", "0:06"],
         ["2nd", " 8:21 am", " 8:56 am", "0:35", "0:06"],
@@ -45,41 +45,45 @@ var data = {
         ["7th", " 1:45 pm", " 2:17 pm", "0:32", "0:06"],
         ["8th", " 2;23 pm", " 2:55 pm", "0:32", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:32", " "]],
-    "btn-1pm" : [
+    "btn-campMass" : [
         ["Period","Start","End","Duration","Passing"],
-        [" HR", " 7:40 am", " 7:48 am", "0:08", "0:06"],
-        ["1st", " 7:54 am", " 8:27 am", "0:33", "0:06"],
-        ["2nd", " 8:33 am", " 9:06 am", "0:33", "0:06"],
-        ["3rd", " 9:12 am", " 9:45 am", "0:33", "0:06"],
-        ["4th", " 9:51 am", "10:24 am", "0:33", "0:06"],
-        ["5th", "10:30 am", "11:03 am", "0:33", "0:06"],
-        ["6th", "11:09 am", "11:42 am", "0:33", "0:06"],
-        ["7th", "11:48 am", "12:21 pm", "0:33", "0:06"],
-        ["8th", "12:27 pm", " 1:00 pm", "0:33", "0:06"]],
-    "btn-d001" : [
+        ["1st", " 7:40 am", " 8:15 am", "0:35", "0:06"],
+        ["2nd", " 8:21 am", " 8:56 am", "0:35", "0:06"],
+        ["3rd", " 9:02 am", " 9:37 am", "0:35", "0:06"],
+        ["HR ", " 9:43 am", " 9:45 am", "0:02", "0:15"],
+        ["MASS","10:00 am", "11:45 am", "1:45", "0:16"],
+        ["4th", "12:01 pm", "12:31 pm", "0:30", "0:06"],
+        ["5th", "12:37 pm", " 1:07 pm", "0:30", "0:06"],
+        ["6th", " 1:13 pm", " 1:43 pm", "0:30", "0:06"],
+        ["7th", " 1:49 pm", " 2:19 pm", "0:30", "0:06"],
+        ["8th", " 2:25 pm", " 2:55 pm", "0:30", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
+    "btn-wBless" : [
         ["Period","Start","End","Duration","Passing"],
-        [" HR", " 7:40 am", " 7:44 am", "0:04", "0:06"],
-        ["1st", " 7:50 am", " 8:16 am", "0:26", "0:06"],
-        ["2nd", " 8:22 am", " 8:48 am", "0:26", "0:06"],
-        ["3rd", " 8:54 am", " 9:20 am", "0:26", "0:06"],
-        ["4th", " 9:26 am", " 9:52 am", "0:26", "0:06"],
-        ["5th", " 9:58 am", "10:24 am", "0:26", "0:06"],
-        ["6th", "10:30 am", "10:56 am", "0:26", "0:06"],
-        ["7th", "11:02 am", "11:28 am", "0:26", "0:06"],
-        ["8th", "11:34 am", "12:00 pm", "0:26", "0:06"]],
-    "btn-d002" : [
+        ["1st", " 7:40 am", " 8:10 am", "0:30", "0:06"],
+        [" HR", " 8:16 am", " 8:20 am", "0:04", "0:15"],
+        ["Bless", " 8:35 am", " 9:10 am", "0:35", "0:15"],
+        ["2nd", " 9:25 am", "10:02 am", "0:37", "0:06"],
+        ["3rd", "10:08 am", "10:45 am", "0:37", "0:06"],
+        ["4th", "10:51 am", "11:29 am", "0:38", "0:06"],
+        ["5th", "11:35 am", "12:13 pm", "0:38", "0:06"],
+        ["6th", "12:19 pm", "12:57 pm", "0:38", "0:06"],
+        ["7th", " 1:03 pm", " 1:40 pm", "0:37", "0:06"],
+        ["8th", " 1:46 pm", " 2:22 pm", "0:37", "0:06"]],
+    "btn-mtthfBless" : [
         ["Period","Start","End","Duration","Passing"],
-        [" HR", " 7:40 am", " 7:45 am", "0:05", "0:06"],
-        ["1st", " 7:51 am", " 8:30 am", "0:39", "0:15"],
-        ["Pep Rally", " 8:45 am", " 9:30 am", "0:45", "0:10"],
-        ["2nd", " 9:40 am", "10:19 am", "0:39", "0:06"],
-        ["3rd", "10:25 am", "11:04 am", "0:39", "0:06"],
-        ["4th", "11:10 am", "11:49 am", "0:39", "0:06"],
-        ["5th", "11:55 am", "12:34 pm", "0:39", "0:06"],
-        ["6th", "12:40 pm", " 1:19 pm", "0:39", "0:06"],
-        ["7th", " 1:25 pm", " 2:04 pm", "0:39", "0:06"],
-        ["8th", " 2:10 pm", " 2:50 pm", "0:39", "0:06"]],
-    "btn-d003" : [
+        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
+        [" HR", " 8:26 am", " 8:30 am", "0:04", "0:15"],
+        ["Bless", " 8:45 am", " 9:15 am", "0:30", "0:15"],
+        ["2nd", " 9:30 am", "10:10 am", "0:40", "0:06"],
+        ["3rd", "10:16 am", "10:56 am", "0:40", "0:06"],
+        ["4th", "11:02 am", "11:45 am", "0:43", "0:06"],
+        ["5th", "11:51 am", "12:34 pm", "0:43", "0:06"],
+        ["6th", "12:40 pm", " 1:23 pm", "0:43", "0:06"],
+        ["7th", " 1:29 pm", " 2:09 pm", "0:40", "0:06"],
+        ["8th", " 2:15 pm", " 2:55 pm", "0:40", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
+    "btn-Exams" : [
         ["Period","Start","End","Duration","Passing"],        
         ["Arrive", " 7:30 am", " 7:55 am", "0:15", "0:05"],
         ["Exam 1", " 8:00 am", " 9:30 am", "1:30", "0:30"],
@@ -88,19 +92,33 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["08/09/2023", "Wednesday", "First Day of School"],
-        ["08/17/2023", "Thursday", "Underclassman Picture Day"],
+        ["08/11/2023", "Friday", "Fire Drill<br>Senior CAP day 1st - 3rd"],
+        ["08/14/2023", "Monday", "Lockout Drill"],
+        ["08/15/2023", "Tuesday", "All Campus Mass with Bishop<br>The Assumption of Mary"],
+        ["08/17/2023", "Thursday", "Underclassman Picture Day - 9th, 10th, 11th during English Class"],
+        ["08/22/2023", "Tuesday", "Lockdown Drill"],
+        ["08/24/2023", "Thursday", "Shelter Drill"],
+        ["08/28/2023", "Monday", "Freshman Retreat - Girls"],
+        ["08/29/2023", "Tuesday", "Freshman Retreat - Boys<br>Transfer Breakfast"],
+        ["08/30/2023", "Wednesday", "Honor Roll Breakfast"],
         ["09/04/2023", "Monday", "No School - Labor Day"],
+        ["09/14/2023", "Thursday", "Senior Class Mass"],
         ["09/19/2023", "Tuesday", "Back to School Night 6 pm - 7:30 pm"],
         ["09/21/2023", "Thursday", "STEM Night 6:30 pm - 7:30 pm"],
+        ["09/28/2023", "Thursday", "Junior Class Mass"],
         ["10/05/2023", "Thursday", "Faculty / Staff Portraits Retake 6a - 9a Pines"],
         ["10/06/2023", "Friday",  "No School<br>Teacher PD<br>End of 1st Quarter"],
         ["10/09/2023", "Monday", "Homecoming Week Starts"],
         ["10/13/2023", "Friday", "Pep Rally 7:45a - 8:45a"],
         ["10/14/2023", "Saturday", "Homecoming Dance 7:00 pm - 11:15 pm"],
+        ["10/19/2023", "Thursday", "Sophomore Class Mass"],
         ["10/20/2023", "Friday", "No School (Regional PD)"],
+        ["10/26/2023", "Thursday", "Freshman Class Mass"],
+        ["11/01/2023", "Wednesday", "BMC All School Mass<br>All Saints Day"],
         ["11/05/2023", "Sunday", "Open House"],
         ["11/11/2023", "Saturday", "The Legacy Gala"],
         ["11/20/2023 - 11/24/2023", "Monday – Friday", "No School - Thanksgiving Break<br>Monday and Tuesday are Hurricane Makeup Days"],
+        ["12/08/2023", "Friday", "BMC All School Mass<br>The Immaculate Conception"],
         ["12/12/2023", "Tuesday", "Semester Exams:<br>Period ?: 8:00am - 9:30am<br>Period ?: 10:00am - 11:30am"],
         ["12/13/2023", "Wednesday", "Semester Exams:<br>Period ?: 8:00am - 9:30am<br>Period ?: 10:00am - 11:30am"],
         ["12/14/2023", "Thursday", "Semester Exams:<br>Period ?: 8:00am - 9:30am<br>Period ?: 10:00am - 11:30am"],
@@ -109,10 +127,11 @@ var data = {
         ["01/01/2024 - 01/02/2024", "Monday – Tuesday", "No School"],
         ["01/03/2024", "Wednesday", "2nd Semester Begins"],
         ["01/15/2024", "Monday", "No School (Martin Luther King Jr.)"],
+        ["01/29/2024", "Monday", "All Campus Mass with Bishop<br>Catholic Schools Week"],
         ["02/04/2024", "Sunday", "Grandparents Day Celebration"],
+        ["02/14/2024", "Wednesday", "BMC All School Mass<br>Ash Wednesday"],
         ["02/16/2024", "Friday", "No School (Regional PD)"],
         ["02/19/2024", "Monday", "No School (Presidents’ Day)"],
-        ["03/08/2024", "Friday", "End of 3rd Quarter"],
         ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"],
         ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
         ["05/13/2024", "Monday", "Awards Ceremony"],
@@ -290,10 +309,10 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "5/30/2023")
-    document.getElementById("btn-d003").click();
-else if (day.toLocaleDateString('en-Us') == "5/31/2023")
-    document.getElementById("btn-d003").click();
+if (day.toLocaleDateString('en-Us') == "8/9/2023")
+    document.getElementById("btn-wBless").click();
+else if (day.toLocaleDateString('en-Us') == "8/15/2023")
+    document.getElementById("btn-campMass").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

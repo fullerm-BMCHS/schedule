@@ -87,12 +87,6 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["07/31/2023", "Monday", "Classrooms open<br>Optional Mass 9a St. Joseph's Chapel"],
-        ["08/01/2023", "Tuesday", "Student Center 7:30 am continental breakfast<br>AED and CPR training 8a (Rotating groups)<br>Moore Center lunch 11:30a"],
-        ["08/02/2023", "Wednesday", "Faculty / Staff Yearbook Portraits 6a - 9a Pines<br>New Student Orientation 7:30a - 2p"],
-        ["08/03/2023", "Thursday", "Faculty retreat 8a at San Pedro"],
-        ["08/04/2023", "Friday", "Transfer Student Orientation"],
-        ["08/07/2023", "Monday", "Diocesan Kick-Off 8a at Holy Family Catholic Church 5125 S Apopka Vineland Rd"],
         ["08/09/2023", "Wednesday", "First Day of School"],
         ["08/17/2023", "Thursday", "Underclassman Picture Day"],
         ["09/04/2023", "Monday", "No School - Labor Day"],
@@ -166,6 +160,12 @@ var data = {
         ["06/19/2023", "Monday", "No School - Juneteenth - Office Closed"],
         ["06/30/2023", "Friday", "Summer School Ends"],
         ["07/04/2023", "Tuesday", "Independence Day - Office Closed"],
+        ["07/31/2023", "Monday", "Classrooms open<br>Optional Mass 9a St. Joseph's Chapel"],
+        ["08/01/2023", "Tuesday", "Student Center 7:30 am continental breakfast<br>AED and CPR training 8a (Rotating groups)<br>Moore Center lunch 11:30a"],
+        ["08/02/2023", "Wednesday", "Faculty / Staff Yearbook Portraits 6a - 9a Pines<br>New Student Orientation 7:30a - 2p"],
+        ["08/03/2023", "Thursday", "Faculty retreat 8a at San Pedro"],
+        ["08/04/2023", "Friday", "Transfer Student Orientation"],
+        ["08/07/2023", "Monday", "Diocesan Kick-Off 8a at Holy Family Catholic Church 5125 S Apopka Vineland Rd"],
     ],                            
 }
 

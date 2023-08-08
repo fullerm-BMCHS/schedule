@@ -132,8 +132,15 @@ var data = {
         ["02/14/2024", "Wednesday", "BMC All School Mass<br>Ash Wednesday"],
         ["02/16/2024", "Friday", "No School (Regional PD)"],
         ["02/19/2024", "Monday", "No School (Presidents’ Day)"],
+        ["02/23/2024", "Friday", "Noon Dismissal"],
+        ["03/06/2024", "Wednesday", "Noon Dismissal"],
+        ["03/07/2024", "Thursday", "Senior Class Mass"],
+        ["03/08/2024", "Friday", "End of 3rd Quarter"],
+        ["03/14/2024", "Thursday", "Junior Class Mass"],
         ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"],
         ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
+        ["04/11/2024", "Thursday", "Sophomore Class Mass"],
+        ["04/25/2024", "Thursday", "Freshman Class Mass"],
         ["05/13/2024", "Monday", "Awards Ceremony"],
         ["05/23/2024", "Thursday", "No School - Baccalaureate Mass & Graduation"],
         ["05/27/2024", "Monday", "No School (Memorial Day)"],
@@ -313,6 +320,30 @@ if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
 else if (day.toLocaleDateString('en-Us') == "8/15/2023")
     document.getElementById("btn-campMass").click();
+else if (day.toLocaleDateString('en-Us') == "9/14/2023")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "9/28/2023")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "10/19/2023")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "10/26/2023")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "11/1/2023")
+    document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "12/8/2023")
+    document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "1/29/2024")
+    document.getElementById("btn-campMass").click();
+else if (day.toLocaleDateString('en-Us') == "2/14/2024")
+    document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "3/7/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "3/14/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "4/11/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "4/25/2024")
+    document.getElementById("btn-classMass").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

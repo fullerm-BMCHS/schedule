@@ -83,6 +83,19 @@ var data = {
         ["7th", " 1:29 pm", " 2:09 pm", "0:40", "0:06"],
         ["8th", " 2:15 pm", " 2:55 pm", "0:40", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
+    "btn-d001" : [
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:10 am", "0:30", "0:06"],
+        ["2nd", " 8:16 am", " 8:51 am", "0:30", "0:06"],
+        ["3rd", " 8:57 am", " 9:32 am", "0:30", "0:06"],
+        ["HR ", " 9:38 am", " 9:40 am", "0:02", "0:15"],
+        ["MASS","10:00 am", "11:45 am", "1:45", "0:16"],
+        ["4th", "12:01 pm", "12:31 pm", "0:30", "0:06"],
+        ["5th", "12:37 pm", " 1:07 pm", "0:30", "0:06"],
+        ["6th", " 1:13 pm", " 1:43 pm", "0:30", "0:06"],
+        ["7th", " 1:49 pm", " 2:19 pm", "0:30", "0:06"],
+        ["8th", " 2:25 pm", " 2:55 pm", "0:30", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
     "btn-Exams" : [
         ["Period","Start","End","Duration","Passing"],        
         ["Arrive", " 7:30 am", " 7:55 am", "0:15", "0:05"],
@@ -319,7 +332,7 @@ let day = new Date();
 if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
 else if (day.toLocaleDateString('en-Us') == "8/15/2023")
-    document.getElementById("btn-campMass").click();
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "9/14/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "9/28/2023")

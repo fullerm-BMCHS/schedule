@@ -96,6 +96,19 @@ var data = {
         ["7th", " 1:34 pm", " 2:09 pm", "0:35", "0:06"],
         ["8th", " 2:15 pm", " 2:55 pm", "0:40", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
+    "btn-pep" : [
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
+        ["2nd", " 8:26 am", " 9:06 am", "0:40", "0:06"],
+        ["3rd", " 9:12 am", " 9:52 am", "0:40", "0:06"],
+        ["7th", " 9:58 am", "10:38 am", "0:40", "0:06"],
+        ["4th", "10:44 am", "11:26 am", "0:42", "0:06"],
+        ["5th", "11:32 am", "12:14 pm", "0:42", "0:06"],
+        ["6th", "12:20 pm", " 1:02 pm", "0:42", "0:06"],
+        ["8th", " 1:08 pm", " 1:48 pm", "0:40", "0:06"],
+        [" HR", " 1:54 pm", " 1:58 pm", "0:04", "0:12"],
+        ["Pep", " 2:10 pm", " 2:55 pm", "0:45", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
     "btn-Exams" : [
         ["Period","Start","End","Duration","Passing"],        
         ["Arrive", " 7:30 am", " 7:55 am", "0:15", "0:05"],
@@ -104,17 +117,15 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["08/09/2023", "Wednesday", "First Day of School"],
-        ["08/11/2023", "Friday", "Fire Drill"],
-        ["08/14/2023", "Monday", "Lockout Drill"],
-        ["08/15/2023", "Tuesday", "All Campus Mass with Bishop<br>The Assumption of Mary"],
-        ["08/17/2023", "Thursday", "Underclassman Picture Day - 9th, 10th, 11th during English Class"],
         ["08/22/2023", "Tuesday", "Lockdown Drill"],
+        ["08/23/2023", "Wednesday", "Freshman Parent Night 6pm"],
         ["08/24/2023", "Thursday", "Shelter Drill<br>Senior CAP day 1st - 3rd"],
+        ["08/25/2023", "Friday", "Pep Rally<br>Spirit Day Dress-Down"],
         ["08/28/2023", "Monday", "Freshman Retreat - Girls"],
         ["08/29/2023", "Tuesday", "Freshman Retreat - Boys<br>Transfer Breakfast"],
-        ["08/30/2023", "Wednesday", "Honor Roll Breakfast"],
+        ["08/30/2023", "Wednesday", "Honor Roll Breakfast<br>Walking Together 2:30pm Student Success Center"],
         ["09/04/2023", "Monday", "No School - Labor Day"],
+        ["09/06/2023", "Wednesday", "Faculty Meeting 2:30pm"],
         ["09/14/2023", "Thursday", "Senior Class Mass"],
         ["09/19/2023", "Tuesday", "Back to School Night 6 pm - 7:30 pm"],
         ["09/21/2023", "Thursday", "STEM Night 6:30 pm - 7:30 pm"],
@@ -205,6 +216,11 @@ var data = {
         ["08/03/2023", "Thursday", "Faculty retreat 8a at San Pedro"],
         ["08/04/2023", "Friday", "Transfer Student Orientation"],
         ["08/07/2023", "Monday", "Diocesan Kick-Off 8a at Holy Family Catholic Church 5125 S Apopka Vineland Rd"],
+        ["08/09/2023", "Wednesday", "First Day of School"],
+        ["08/11/2023", "Friday", "Fire Drill"],
+        ["08/14/2023", "Monday", "Lockout Drill"],
+        ["08/15/2023", "Tuesday", "All Campus Mass with Bishop<br>The Assumption of Mary"],
+        ["08/17/2023", "Thursday", "Underclassman Picture Day - 9th, 10th, 11th during English Class"],
     ],                            
 }
 
@@ -333,6 +349,8 @@ if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
 else if (day.toLocaleDateString('en-Us') == "8/15/2023")
     document.getElementById("btn-d001").click();
+else if (day.toLocaleDateString('en-Us') == "8/25/2023")
+    document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "9/14/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "9/28/2023")

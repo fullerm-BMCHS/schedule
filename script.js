@@ -117,8 +117,6 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["08/22/2023", "Tuesday", "Lockdown Drill"],
-        ["08/23/2023", "Wednesday", "Freshman Parent Night 6pm"],
         ["08/24/2023", "Thursday", "Shelter Drill<br>Senior CAP day 1st - 3rd"],
         ["08/25/2023", "Friday", "Pep Rally<br>Spirit Day Dress-Down"],
         ["08/28/2023", "Monday", "Freshman Retreat - Girls"],
@@ -221,6 +219,8 @@ var data = {
         ["08/14/2023", "Monday", "Lockout Drill"],
         ["08/15/2023", "Tuesday", "All Campus Mass with Bishop<br>The Assumption of Mary"],
         ["08/17/2023", "Thursday", "Underclassman Picture Day - 9th, 10th, 11th during English Class"],
+        ["08/22/2023", "Tuesday", "Lockdown Drill"],
+        ["08/23/2023", "Wednesday", "Freshman Parent Night 6pm"],
     ],                            
 }
 

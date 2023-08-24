@@ -122,6 +122,7 @@ var data = {
         ["08/28/2023", "Monday", "Freshman Retreat - Girls"],
         ["08/29/2023", "Tuesday", "Freshman Retreat - Boys<br>Transfer Breakfast"],
         ["08/30/2023", "Wednesday", "Honor Roll Breakfast<br>Walking Together 2:30pm Student Success Center"],
+        ["09/01/2023", "Friday", "Fire Drill<br>Period 1 - Loretta/MM/Gym<br>Period 2 - Bishop Borders/Bishop Grady, Cafeteria<br>Period 3 - Dorsey, Dome, Moore Center"],
         ["09/04/2023", "Monday", "No School - Labor Day"],
         ["09/06/2023", "Wednesday", "Faculty Meeting 2:30pm"],
         ["09/14/2023", "Thursday", "Senior Class Mass"],

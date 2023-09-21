@@ -234,8 +234,6 @@ var data = {
     ],                            
 }
 
-console.log("My Program Started Here");
-
 // Global State Variable to know if Calendar is being shown
 //     Need to disable period highlighting
 currentButton = "";

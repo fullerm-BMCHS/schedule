@@ -43,7 +43,7 @@ var data = {
         ["5th", "12:25 pm", "12:59 pm", "0:34", "0:06"],
         ["6th", " 1:05 pm", " 1:39 pm", "0:34", "0:06"],
         ["7th", " 1:45 pm", " 2:17 pm", "0:32", "0:06"],
-        ["8th", " 2;23 pm", " 2:55 pm", "0:32", "0:05"],
+        ["8th", " 2:23 pm", " 2:55 pm", "0:32", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:32", " "]],
     "btn-campMass" : [
         ["Period","Start","End","Duration","Passing"],
@@ -233,7 +233,6 @@ var data = {
         ["09/20/2023", "Wednesday", "Common Course PLC Apply HSPT, PACT, and ACT data analysis and 2023-24"],
     ],                            
 }
-console.log("Hello 7th period");
 
 // Global State Variable to know if Calendar is being shown
 //     Need to disable period highlighting

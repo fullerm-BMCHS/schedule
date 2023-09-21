@@ -233,7 +233,7 @@ var data = {
         ["09/20/2023", "Wednesday", "Common Course PLC Apply HSPT, PACT, and ACT data analysis and 2023-24"],
     ],                            
 }
-console.log("Hello 5th period");
+console.log("Hello 7th period");
 
 // Global State Variable to know if Calendar is being shown
 //     Need to disable period highlighting

@@ -369,6 +369,8 @@ else if (day.toLocaleDateString('en-Us') == "9/14/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "9/28/2023")
     document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "10/13/2023")
+    document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "10/19/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/26/2023")

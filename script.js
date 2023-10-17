@@ -117,8 +117,6 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["10/13/2023", "Friday", "Pep Rally"],
-        ["10/14/2023", "Saturday", "Homecoming Dance 7:00 pm - 11:15 pm"],
         ["10/17/2023", "Tuesdayday", "Freshman Class Mass<br>Junior PSAT Testing"],
         ["10/18/2023", "Wednesday", "Unity Day - Wear orange top<br>Common Course PLC - Use UDL to plan Quarter 2 lessons"],
         ["10/19/2023", "Thursday", "Sophomore Class Mass<br>Junior PSAT Testing<br>Fall Choir Concert 7pm"],
@@ -238,6 +236,8 @@ var data = {
         ["10/09/2023", "Monday", "Homecoming Week Starts"],
         ["10/11/2023", "Wednesday", "Department PLC - Use UDL to plan Quarter 2 lessons"],
         ["10/12/2023", "Wednesday", "Freshman Class Mass"],
+        ["10/13/2023", "Friday", "Pep Rally"],
+        ["10/14/2023", "Saturday", "Homecoming Dance 7:00 pm - 11:15 pm"],
     ],                            
 }
 
@@ -376,6 +376,8 @@ else if (day.toLocaleDateString('en-Us') == "9/28/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/13/2023")
     document.getElementById("btn-pep").click();
+else if (day.toLocaleDateString('en-Us') == "10/17/2023")
+    document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/19/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/26/2023")

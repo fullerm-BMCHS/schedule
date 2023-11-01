@@ -86,16 +86,17 @@ var data = {
         ["8th", " 2:15 pm", " 2:55 pm", "0:40", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
     "btn-d001" : [
-        ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 7:40 am", " 8:30 am", "0:50", "0:06"],
-        ["2nd", " 8:36 am", " 9:25 am", "0:49", "0:06"],
-        ["3rd", " 9:31 am", "10:55 am", "1:24", "0:06"],
-        ["4th", "11:01 am", "11:43 am", "0:42", "0:06"],
-        ["5th", "11:49 am", "12:31 pm", "0:42", "0:06"],
-        ["6th", "12:37 pm", " 1:19 pm", "0:42", "0:06"],
-        ["7th", " 1:25 pm", " 2:07 pm", "0:42", "0:06"],
-        ["8th", " 2:13 pm", " 2:55 pm", "0:42", "0:05"],
-        ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:05 am", "0:25", "0:06"],
+        ["2nd", " 8:11 am", " 8:36 am", "0:25", "0:06"],
+        ["3rd", " 8:42 am", " 9:07 am", "0:25", "0:06"],
+        ["7th", " 9:13 am", " 9:38 am", "0:25", "0:06"],
+        ["HR ", " 9:44 am", " 9:46 am", "0:02", "0:14"],
+        ["MASS","10:00 am", "11:30 am", "1:30", "0:16"],
+        ["4th", "11:46 am", "12:22 pm", "0:36", "0:06"],
+        ["5th", "12:28 pm", " 1:04 pm", "0:36", "0:06"],
+        ["6th", " 1:10 pm", " 1:46 pm", "0:36", "0:06"],
+        ["8th", " 1:52 pm", " 2:22 pm", "0:30", "0:06"]],
     "btn-pep" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
@@ -385,7 +386,7 @@ else if (day.toLocaleDateString('en-Us') == "10/19/2023")
 else if (day.toLocaleDateString('en-Us') == "10/26/2023")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "11/1/2023")
-    document.getElementById("btn-allMass").click();
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "12/8/2023")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "1/29/2024")

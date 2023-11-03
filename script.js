@@ -118,17 +118,19 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["10/30/2023", "Monday", "Herff Jones assembly with juniors and seniors"],
-        ["11/01/2023", "Wednesday", "BMC All School Mass<br>All Saints Day"],
-        ["11/03/2023", "Friday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym"],
         ["11/05/2023", "Sunday", "Open House 1 pm"],
         ["11/08/2023", "Wednesday", "Department PLC Developing Collaborative Common-Course Exams"],
+        ["11/10/2023", "Friday", "Progress Reports 3:00 pm"],
         ["11/11/2023", "Saturday", "The Legacy Gala 5:30 pm"],
         ["11/15/2023", "Wednesday", "Common Course PLC Developing Collaborative Common-Course Exams"],
-        ["11/17/2023", "Friday", "Semester Exams due to department chairs"],
-        ["11/20/2023 - 11/24/2023", "Monday – Friday", "No School - Thanksgiving Break<br>Monday and Tuesday are Hurricane Makeup Days"],
+        ["11/17/2023", "Friday", "Semester Exams due to department chairs<br>Toy Drive Begins"],
+        ["11/20/2023 - 11/24/2023", "Monday – Friday", "No School - Thanksgiving Break"],
+        ["11/27/2023", "Monday", "Sophomore Girls Retreat"],
+        ["11/28/2023", "Tuesday", "Sophomore Boys Retreat"],
         ["11/29/2023", "Wednesday", "Individual PD"],
+        ["12/04/2023", "Monday", "Advent Wreath Blessing (Gym)"],
         ["12/06/2023", "Wednesday", "Faculty Meeting Student Center"],
+        ["12/07/2023", "Thursday", "Advent Penance Service (Outdoor Chapel)<br>Crazy for Christmas Dress Down"],
         ["12/08/2023", "Friday", "BMC All School Mass<br>The Immaculate Conception"],
         ["12/12/2023", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
         ["12/13/2023", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
@@ -241,6 +243,9 @@ var data = {
         ["10/25/2023", "Wednesday", "Individual PD"],
         ["10/26/2023", "Thursday", "Freshman Class Mass"],
         ["10/28/2023", "Saturday", "Mission Trip Ends"],
+        ["10/30/2023", "Monday", "Herff Jones assembly with juniors and seniors"],
+        ["11/01/2023", "Wednesday", "BMC All School Mass<br>All Saints Day"],
+        ["11/03/2023", "Friday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym"],
     ],                            
 }
 
@@ -367,28 +372,16 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
-else if (day.toLocaleDateString('en-Us') == "8/15/2023")
-    document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "8/25/2023")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "9/8/2023")
-    document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "9/14/2023")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "9/28/2023")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/13/2023")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "10/17/2023")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/19/2023")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/26/2023")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "11/1/2023")
-    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "12/8/2023")
     document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "12/12/2023")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "12/13/2023")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "12/14/2023")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "12/15/2023")
+    document.getElementById("btn-Exams").click();
 else if (day.toLocaleDateString('en-Us') == "1/29/2024")
     document.getElementById("btn-campMass").click();
 else if (day.toLocaleDateString('en-Us') == "2/14/2024")

@@ -1,5 +1,3 @@
-console.log("Hello Hollis!");
-
 // Data for Bell Schedules and Calendar
 var data = { 
     "btn-MF" : [

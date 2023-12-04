@@ -87,16 +87,17 @@ var data = {
         ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
     "btn-d001" : [
         ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:05 am", "0:25", "0:06"],
-        ["2nd", " 8:11 am", " 8:36 am", "0:25", "0:06"],
-        ["3rd", " 8:42 am", " 9:07 am", "0:25", "0:06"],
-        ["7th", " 9:13 am", " 9:38 am", "0:25", "0:06"],
-        ["HR ", " 9:44 am", " 9:46 am", "0:02", "0:14"],
-        ["MASS","10:00 am", "11:30 am", "1:30", "0:16"],
-        ["4th", "11:46 am", "12:22 pm", "0:36", "0:06"],
-        ["5th", "12:28 pm", " 1:04 pm", "0:36", "0:06"],
-        ["6th", " 1:10 pm", " 1:46 pm", "0:36", "0:06"],
-        ["8th", " 1:52 pm", " 2:22 pm", "0:30", "0:06"]],
+        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
+        ["HR ", " 8:26 am", " 8:29 am", "0:03", "0:15"],
+        ["GYM", " 8:44 am", " 9:49 am", "1:05", "0:15"],
+        ["2nd", "10:04 am", "10:40 am", "0:36", "0:06"],
+        ["3rd", "10:46 am", "11:22 am", "0:36", "0:06"],
+        ["4th", "11:28 am", "12:05 pm", "0:37", "0:06"],
+        ["5th", "12:11 pm", "12:48 pm", "0:37", "0:06"],
+        ["6th", "12:54 pm", " 1:31 pm", "0:37", "0:06"],
+        ["7th", " 1:37 pm", " 2:13 pm", "0:36", "0:06"],
+        ["8th", " 2:19 pm", " 2:55 pm", "0:36", "0:06"]
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", "0:06"]],
     "btn-pep" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
@@ -118,11 +119,6 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["11/17/2023", "Friday", "Semester Exams due to department chairs<br>Toy Drive Begins"],
-        ["11/20/2023 - 11/24/2023", "Monday – Friday", "No School - Thanksgiving Break"],
-        ["11/27/2023", "Monday", "Sophomore Girls Retreat"],
-        ["11/28/2023", "Tuesday", "Sophomore Boys Retreat"],
-        ["11/29/2023", "Wednesday", "Individual PD"],
         ["12/04/2023", "Monday", "Advent Wreath Blessing (Gym)"],
         ["12/06/2023", "Wednesday", "Faculty Meeting Student Center"],
         ["12/07/2023", "Thursday", "Advent Penance Service (Outdoor Chapel)<br>Crazy for Christmas Dress Down"],
@@ -246,6 +242,11 @@ var data = {
         ["11/10/2023", "Friday", "Progress Reports 3:00 pm"],
         ["11/11/2023", "Saturday", "The Legacy Gala 5:30 pm"],
         ["11/15/2023", "Wednesday", "Common Course PLC Developing Collaborative Common-Course Exams"],
+        ["11/17/2023", "Friday", "Semester Exams due to department chairs<br>Toy Drive Begins"],
+        ["11/20/2023 - 11/24/2023", "Monday – Friday", "No School - Thanksgiving Break"],
+        ["11/27/2023", "Monday", "Sophomore Girls Retreat"],
+        ["11/28/2023", "Tuesday", "Sophomore Boys Retreat"],
+        ["11/29/2023", "Wednesday", "Individual PD"],
     ],                            
 }
 
@@ -372,6 +373,8 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
+else if (day.toLocaleDateString('en-Us') == "12/4/2023")
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "12/8/2023")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "12/12/2023")

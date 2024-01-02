@@ -421,6 +421,8 @@ else if (day.toLocaleDateString('en-Us') == "12/14/2023")
     document.getElementById("btn-Exams").click();
 else if (day.toLocaleDateString('en-Us') == "12/15/2023")
     document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "1/2/2024")
+    document.getElementById("btn-wBless").click();
 else if (day.toLocaleDateString('en-Us') == "1/29/2024")
     document.getElementById("btn-campMass").click();
 else if (day.toLocaleDateString('en-Us') == "2/14/2024")

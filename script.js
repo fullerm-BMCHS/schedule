@@ -411,8 +411,8 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
-else if (day.toLocaleDateString('en-Us') == "1/3/2024")
-    document.getElementById("btn-wBless").click();
+else if (day.toLocaleDateString('en-Us') == "1/9/2024")
+    document.getElementById("btn-Wed").click();
 else if (day.toLocaleDateString('en-Us') == "1/29/2024")
     document.getElementById("btn-campMass").click();
 else if (day.toLocaleDateString('en-Us') == "2/14/2024")

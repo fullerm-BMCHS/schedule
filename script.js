@@ -117,11 +117,7 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["01/03/2024", "Wednesday", "2nd Semester Begins<br>Back to school blessing<br>Faculty Meeting 2:30pm"],
-        ["01/11/2024", "Thursday", "Senior Retreat"],
-        ["01/12/2024", "Friday", "Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
-        ["01/15/2024", "Monday", "No School (Martin Luther King Jr.)"],
-        ["01/17/2024", "Wednesday", "Department Meeting"],
+        ["01/17/2024", "Wednesday", "Lockdown Drill<br>Department Meeting"],
         ["01/19/2024", "Friday", "Incomplete grades to be completed"],
         ["01/20/2024 - 01/27/2023", "Saturday – Saturday", "D.R. Mission Trip"],
         ["01/29/2024", "Monday", "All Campus Mass with Bishop<br>Catholic Schools Week"],
@@ -285,6 +281,10 @@ var data = {
         ["12/15/2023", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Quarter 2 - End of Semester 1"],
         ["12/18/2023 - 12/29/2023", "Monday – Friday", "No School - Christmas Break"],
         ["01/01/2024 - 01/02/2024", "Monday – Tuesday", "No School"],
+        ["01/03/2024", "Wednesday", "2nd Semester Begins<br>Back to school blessing<br>Faculty Meeting 2:30pm"],
+        ["01/11/2024", "Thursday", "Senior Retreat"],
+        ["01/12/2024", "Friday", "Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
+        ["01/15/2024", "Monday", "No School (Martin Luther King Jr.)"],
     ],                            
 }
 

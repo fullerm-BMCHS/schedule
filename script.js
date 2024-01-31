@@ -85,17 +85,16 @@ var data = {
         ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
     "btn-d001" : [
         ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
-        [" HR", " 8:26 am", " 8:29 am", "0:03", "0:15"],
-        ["Bless", " 8:44 am", " 9:49 am", "1:05", "0:15"],
-        ["2nd", "10:04 am", "10:40 am", "0:36", "0:06"],
-        ["3rd", "10:46 am", "11:22 am", "0:36", "0:06"],
-        ["4th", "11:28 am", "12:05 pm", "0:37", "0:06"],
-        ["5th", "12:11 pm", "12:48 pm", "0:37", "0:06"],
-        ["6th", "12:54 pm", " 1:31 pm", "0:37", "0:06"],
-        ["7th", " 1:37 pm", " 2:13 pm", "0:36", "0:06"],
-        ["8th", " 2:19 pm", " 2:55 pm", "0:36", "0:06"],
-        ["9th", " 3:00 pm", " 3:30 pm", "0:36", "0:06"]],
+        ["1st", " 7:40 am", " 8:07 am", "0:27", "0:06"],
+        ["2nd", " 8:13 am", " 8:40 am", "0:27", "0:06"],
+        ["HR ", " 8:46 am", " 8:48 am", "0:02", "0:12"],
+        ["Speaker", " 9:00 am", "10:00 am", "1:00", "0:10"],
+        ["3rd", "10:10 am", "10:46 am", "0:36", "0:06"],
+        ["4th", "10:52 am", "11:30 am", "0:38", "0:06"],
+        ["5th", "11:36 am", "12:14 pm", "0:38", "0:06"],
+        ["6th", "12:20 pm", "12:58 pm", "0:38", "0:06"],
+        ["7th", " 1:04 pm", " 1:40 pm", "0:36", "0:06"],
+        ["8th", " 1:46 pm", " 2:22 pm", "0:36", "0:06"]],
     "btn-pep" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
@@ -416,8 +415,8 @@ if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
 else if (day.toLocaleDateString('en-Us') == "1/9/2024")
     document.getElementById("btn-Wed").click();
-else if (day.toLocaleDateString('en-Us') == "1/30/2024")
-    document.getElementById("btn-pep").click();
+else if (day.toLocaleDateString('en-Us') == "1/31/2024")
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "2/14/2024")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "3/7/2024")

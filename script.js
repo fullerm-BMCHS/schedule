@@ -45,6 +45,18 @@ var data = {
         ["7th", " 1:45 pm", " 2:17 pm", "0:32", "0:06"],
         ["8th", " 2:23 pm", " 2:55 pm", "0:32", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:32", " "]],
+    "btn-allMassWed" : [
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:05 am", "0:25", "0:06"],
+        ["2nd", " 8:11 am", " 8:36 am", "0:25", "0:06"],
+        ["3rd", " 8:42 am", " 9:07 am", "0:25", "0:06"],
+        ["7th", " 9:13 am", " 9:38 am", "0:25", "0:06"],
+        ["HR ", " 9:44 am", " 9:46 am", "0:02", "0:14"],
+        ["MASS", "10:00 am", "11:30 am", "1:30", "0:16"],
+        ["4th", "11:46 am", "12:22 pm", "0:36", "0:06"],
+        ["5th", "12:28 pm", " 1:04 pm", "0:36", "0:06"],
+        ["6th", " 1:10 pm", " 1:46 pm", "0:36", "0:06"],
+        ["8th", " 1:52 pm", " 2:22 pm", "0:36", " "]],
     "btn-campMass" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:15 am", "0:35", "0:06"],
@@ -116,14 +128,6 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["01/29/2024", "Monday", "All Campus Mass with Bishop<br>Catholic Schools Week"],
-        ["02/02/2024", "Friday", "Winter Pep Rally<br> New England Snow day"],
-        ["02/04/2024", "Sunday", "Grandparents Day Celebration"],
-        ["02/06/2024", "Tuesday", "School Counselors Day"],
-        ["02/07/2024", "Wednesday", "Faculty Meeting"],
-        ["02/08/2024", "Thursday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym"],
-        ["02/09/2024", "Friday", "Progress Reports<br>Morning Star Fashion Show"],
-        ["02/12/2024", "Monday", "Junior Retreat Girls"],
         ["02/13/2024", "Tuesday", "Junior Retreat Boys"],
         ["02/14/2024", "Wednesday", "BMC All School Mass<br>Ash Wednesday"],
         ["02/16/2024", "Friday", "No School (Regional PD)"],
@@ -287,6 +291,14 @@ var data = {
         ["01/17/2024", "Wednesday", "Lockdown Drill<br>Department Meeting"],
         ["01/19/2024", "Friday", "Incomplete grades to be completed"],
         ["01/20/2024 - 01/27/2023", "Saturday – Saturday", "D.R. Mission Trip"],
+        ["01/29/2024", "Monday", "All Campus Mass with Bishop<br>Catholic Schools Week"],
+        ["02/02/2024", "Friday", "Winter Pep Rally<br> New England Snow day"],
+        ["02/04/2024", "Sunday", "Grandparents Day Celebration"],
+        ["02/06/2024", "Tuesday", "School Counselors Day"],
+        ["02/07/2024", "Wednesday", "Faculty Meeting"],
+        ["02/08/2024", "Thursday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym"],
+        ["02/09/2024", "Friday", "Progress Reports<br>Morning Star Fashion Show"],
+        ["02/12/2024", "Monday", "Junior Retreat Girls"],
     ],                            
 }
 
@@ -418,7 +430,7 @@ else if (day.toLocaleDateString('en-Us') == "1/9/2024")
 else if (day.toLocaleDateString('en-Us') == "1/31/2024")
     document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "2/14/2024")
-    document.getElementById("btn-allMass").click();
+    document.getElementById("btn-allMassWed").click();
 else if (day.toLocaleDateString('en-Us') == "3/7/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "3/14/2024")

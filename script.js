@@ -97,16 +97,14 @@ var data = {
         ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
     "btn-d001" : [
         ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:07 am", "0:27", "0:06"],
-        ["2nd", " 8:13 am", " 8:40 am", "0:27", "0:06"],
-        ["HR ", " 8:46 am", " 8:48 am", "0:02", "0:12"],
-        ["Speaker", " 9:00 am", "10:00 am", "1:00", "0:10"],
-        ["3rd", "10:10 am", "10:46 am", "0:36", "0:06"],
-        ["4th", "10:52 am", "11:30 am", "0:38", "0:06"],
-        ["5th", "11:36 am", "12:14 pm", "0:38", "0:06"],
-        ["6th", "12:20 pm", "12:58 pm", "0:38", "0:06"],
-        ["7th", " 1:04 pm", " 1:40 pm", "0:36", "0:06"],
-        ["8th", " 1:46 pm", " 2:22 pm", "0:36", "0:06"]],
+        ["1st", " 7:40 am", " 8:09 am", "0:29", "0:06"],
+        ["2nd", " 8:15 am", " 8:42 am", "0:27", "0:06"],
+        ["3rd", " 8:48 am", " 9:15 am", "0:27", "0:06"],
+        ["4th", " 9:21 am", " 9:48 am", "0:27", "0:06"],
+        ["5th", " 9:54 am", "10:21 am", "0:27", "0:06"],
+        ["6th", "10:27 am", "10:54 am", "0:27", "0:06"],
+        ["7th", "11:00 am", "11:27 am", "0:27", "0:06"],
+        ["8th", "11:33 am", "12:00 pm", "0:27", "0:06"]],
     "btn-pep" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
@@ -128,10 +126,6 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["02/13/2024", "Tuesday", "Junior Retreat Boys"],
-        ["02/14/2024", "Wednesday", "BMC All School Mass<br>Ash Wednesday"],
-        ["02/16/2024", "Friday", "No School (Regional PD)"],
-        ["02/19/2024", "Monday", "No School (Presidents’ Day)"],
         ["02/20/2024", "Tuesday", "College Info Night"],
         ["02/21/2024", "Wednesday", "Common Course PLC"],
         ["02/23/2024", "Friday", "Noon Dismissal"],
@@ -299,6 +293,10 @@ var data = {
         ["02/08/2024", "Thursday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym"],
         ["02/09/2024", "Friday", "Progress Reports<br>Morning Star Fashion Show"],
         ["02/12/2024", "Monday", "Junior Retreat Girls"],
+        ["02/13/2024", "Tuesday", "Junior Retreat Boys"],
+        ["02/14/2024", "Wednesday", "BMC All School Mass<br>Ash Wednesday"],
+        ["02/16/2024", "Friday", "No School (Regional PD)"],
+        ["02/19/2024", "Monday", "No School (Presidents’ Day)"],
     ],                            
 }
 
@@ -431,6 +429,8 @@ else if (day.toLocaleDateString('en-Us') == "1/31/2024")
     document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "2/14/2024")
     document.getElementById("btn-allMassWed").click();
+else if (day.toLocaleDateString('en-Us') == "2/23/2024")
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "3/7/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "3/14/2024")

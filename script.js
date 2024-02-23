@@ -126,11 +126,9 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["02/20/2024", "Tuesday", "College Info Night"],
-        ["02/21/2024", "Wednesday", "Common Course PLC"],
         ["02/23/2024", "Friday", "Noon Dismissal"],
         ["02/28/2024", "Wednesday", "Individual PD"],
-        ["02/29/2024", "Thursday", "Lenten Penance Service"],
+        ["02/29/2024", "Thursday", "Lenten Penance Service (During Lunches)"],
         ["03/01/2024", "Friday", "Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
         ["03/04/2024", "Monday", "Distribution of Letters of Intent"],
         ["03/06/2024", "Wednesday", "Noon Dismissal"],
@@ -297,6 +295,8 @@ var data = {
         ["02/14/2024", "Wednesday", "BMC All School Mass<br>Ash Wednesday"],
         ["02/16/2024", "Friday", "No School (Regional PD)"],
         ["02/19/2024", "Monday", "No School (Presidents’ Day)"],
+        ["02/20/2024", "Tuesday", "College Info Night"],
+        ["02/21/2024", "Wednesday", "Common Course PLC"],
     ],                            
 }
 
@@ -423,13 +423,9 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
-else if (day.toLocaleDateString('en-Us') == "1/9/2024")
-    document.getElementById("btn-Wed").click();
-else if (day.toLocaleDateString('en-Us') == "1/31/2024")
-    document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "2/14/2024")
-    document.getElementById("btn-allMassWed").click();
 else if (day.toLocaleDateString('en-Us') == "2/23/2024")
+    document.getElementById("btn-d001").click();
+else if (day.toLocaleDateString('en-Us') == "3/7/2024")
     document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "3/7/2024")
     document.getElementById("btn-classMass").click();

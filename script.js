@@ -95,7 +95,7 @@ var data = {
         ["7th", " 1:29 pm", " 2:09 pm", "0:40", "0:06"],
         ["8th", " 2:15 pm", " 2:55 pm", "0:40", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:40", "0:06"]],
-    "btn-d001" : [
+    "btn-noon" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:09 am", "0:29", "0:06"],
         ["2nd", " 8:15 am", " 8:42 am", "0:27", "0:06"],
@@ -118,18 +118,39 @@ var data = {
         [" HR", " 1:54 pm", " 1:58 pm", "0:04", "0:12"],
         ["Pep", " 2:10 pm", " 2:55 pm", "0:45", "0:05"],
         ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
+    "btn-pepAM" : [
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
+        [" HR", " 8:26 am", " 8:30 am", "0:04", "0:15"],
+        ["Pep", " 8:45 am", " 9:15 am", "0:30", "0:15"],
+        ["2nd", " 9:30 am", "10:10 am", "0:40", "0:06"],
+        ["3rd", "10:16 am", "10:56 am", "0:40", "0:06"],
+        ["4th", "11:02 am", "11:45 am", "0:43", "0:06"],
+        ["5th", "11:51 am", "12:34 pm", "0:43", "0:06"],
+        ["6th", "12:40 pm", " 1:23 pm", "0:43", "0:06"],
+        ["7th", " 1:29 pm", " 2:09 pm", "0:40", "0:06"],
+        ["8th", " 2:15 pm", " 2:55 pm", "0:40", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
     "btn-Exams" : [
         ["Period","Start","End","Duration","Passing"],        
         ["Arrive", " 7:30 am", " 7:55 am", "0:15", "0:05"],
         ["Exam 1", " 8:00 am", " 9:30 am", "1:30", "0:30"],
         ["Exam 2", "10:00 am", "11:30 am", "1:30", "0:01"],
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
+    "btn-d001" : [
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:09 am", "0:29", "0:06"],
+        ["2nd", " 8:15 am", " 8:42 am", "0:27", "0:06"],
+        ["3rd", " 8:48 am", " 9:15 am", "0:27", "0:06"],
+        ["4th", " 9:21 am", " 9:48 am", "0:27", "0:06"],
+        ["5th", " 9:54 am", "10:21 am", "0:27", "0:06"],
+        ["6th", "10:27 am", "10:54 am", "0:27", "0:06"],
+        ["7th", "11:00 am", "11:27 am", "0:27", "0:06"],
+        ["8th", "11:33 am", "12:00 pm", "0:27", "0:06"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["02/23/2024", "Friday", "Noon Dismissal"],
-        ["02/28/2024", "Wednesday", "Individual PD"],
         ["02/29/2024", "Thursday", "Lenten Penance Service (During Lunches)"],
-        ["03/01/2024", "Friday", "Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
+        ["03/01/2024", "Friday", "Pep Rally<br>Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
         ["03/01/2024", "Friday", "Letters of Intent Due"],
         ["03/06/2024", "Wednesday", "Noon Dismissal"],
         ["03/07/2024", "Thursday", "Senior Class Mass"],
@@ -296,6 +317,8 @@ var data = {
         ["02/19/2024", "Monday", "No School (Presidents’ Day)"],
         ["02/20/2024", "Tuesday", "College Info Night"],
         ["02/21/2024", "Wednesday", "Common Course PLC"],
+        ["02/23/2024", "Friday", "Noon Dismissal"],
+        ["02/28/2024", "Wednesday", "Individual PD"],
     ],                            
 }
 
@@ -424,8 +447,8 @@ if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
 else if (day.toLocaleDateString('en-Us') == "2/23/2024")
     document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "3/7/2024")
-    document.getElementById("btn-d001").click();
+else if (day.toLocaleDateString('en-Us') == "3/1/2024")
+    document.getElementById("btn-pepAM").click();
 else if (day.toLocaleDateString('en-Us') == "3/7/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "3/14/2024")

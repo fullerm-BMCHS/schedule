@@ -150,9 +150,9 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["02/29/2024", "Thursday", "Lenten Penance Service (During Lunches)"],
-        ["03/01/2024", "Friday", "Pep Rally<br>Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
+        ["03/01/2024", "Friday", "Pep Rally"],
         ["03/01/2024", "Friday", "Letters of Intent Due"],
-        ["03/06/2024", "Wednesday", "Noon Dismissal"],
+        ["03/06/2024", "Wednesday", "Noon Dismissal<br>Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
         ["03/07/2024", "Thursday", "Senior Class Mass"],
         ["03/08/2024", "Friday", "No School for Students<br>End of 3rd Quarter"],
         ["03/12/2024", "Tuesday", "ACT (Juniors)"],

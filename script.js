@@ -138,34 +138,30 @@ var data = {
         ["Exam 2", "10:00 am", "11:30 am", "1:30", "0:01"],
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-d001" : [
-        ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:09 am", "0:29", "0:06"],
-        ["2nd", " 8:15 am", " 8:42 am", "0:27", "0:06"],
-        ["3rd", " 8:48 am", " 9:15 am", "0:27", "0:06"],
-        ["4th", " 9:21 am", " 9:48 am", "0:27", "0:06"],
-        ["5th", " 9:54 am", "10:21 am", "0:27", "0:06"],
-        ["6th", "10:27 am", "10:54 am", "0:27", "0:06"],
-        ["7th", "11:00 am", "11:27 am", "0:27", "0:06"],
-        ["8th", "11:33 am", "12:00 pm", "0:27", "0:06"]],
+        ["Period","Start","End","Duration","Passing"],        
+        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:06"],
+        ["2nd", " 8:26 am", " 9:06 am", "0:40", "0:06"],
+        ["3rd", " 9:12 am", " 9:54 am", "0:42", "0:06"],
+        ["7th", "10:00 am", "10:45 am", "0:45", "0:06"],
+        ["4th", "10:51 am", "11:33 am", "0:42", "0:06"],
+        ["5th", "11:39 am", "12:21 pm", "0:42", "0:06"],
+        ["6th", "12:27 pm", " 1:09 pm", "0:42", "0:06"],
+        ["8th", " 1:15 pm", " 1:55 pm", "0:49", "0:15"],
+        ["Pep", " 2:10 pm", " 2:55 pm", "0:45", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["02/29/2024", "Thursday", "Lenten Penance Service (During Lunches)"],
-        ["03/01/2024", "Friday", "Soccer Celebration Postponed<br>Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
-        ["03/01/2024", "Friday", "Letters of Intent Due"],
-        ["03/06/2024", "Wednesday", "Noon Dismissal"],
-        ["03/07/2024", "Thursday", "Senior Class Mass"],
-        ["03/08/2024", "Friday", "No School for Students<br>End of 3rd Quarter"],
         ["03/12/2024", "Tuesday", "ACT (Juniors)"],
         ["03/13/2024", "Wednesday", "ACT (Juniors)"],
-        ["03/14/2024", "Thursday", "ACT (Juniors)<br>Junior Class Mass"],
+        ["03/14/2024", "Thursday", "ACT (Juniors)<br>Sophomore Class Mass @9:50am<br>Pep Rally"],
         ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"],
         ["03/27/2024", "Wednesday", "Prayer Service"],
         ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
         ["04/05/2024", "Friday", "Fire Drill<br>Period 1-Loretta, MM, Gym<br>Period 2-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 3-Dorsey, Dome, Moore Center"],
-        ["04/08/2024", "Monday", "Pre-ACT 9th and 10th"],
-        ["04/09/2024", "Tuesday", "Pre-ACT 9th and 10th"],
-        ["04/11/2024", "Thursday", "Pre-ACT 9th and 10th<br>Sophomore Class Mass"],
-        ["04/12/2024", "Friday", "Pre-ACT 9th and 10th"],
+        ["04/08/2024", "Monday", "Pre-ACT 9th Divided by Alphabet"],
+        ["04/09/2024", "Tuesday", "Pre-ACT 9th Divided by Alphabet"],
+        ["04/11/2024", "Thursday", "Pre-ACT 10th Divided by Alphabet<br>Junior Class Mass"],
+        ["04/12/2024", "Friday", "Pre-ACT 10th Divided by Alphabet"],
         ["04/19/2024", "Friday", "Spring Pep Rally"],
         ["04/25/2024", "Thursday", "Freshman Class Mass"],
         ["04/30/2024", "Tuesday", "AP Computer Science Principles students to submit their Create performance task as final 11:59pm EST"],
@@ -319,6 +315,12 @@ var data = {
         ["02/21/2024", "Wednesday", "Common Course PLC"],
         ["02/23/2024", "Friday", "Noon Dismissal"],
         ["02/28/2024", "Wednesday", "Individual PD"],
+        ["02/29/2024", "Thursday", "Lenten Penance Service (During Lunches)"],
+        ["03/01/2024", "Friday", "Soccer Celebration Postponed<br>Fire Drill<br>Period 1-Dorsey, Dome, Moore Center<br>Period 2-Loretta, MM, Gym<br>Period 3-Bishop Borders/ Bishop Grady / Cafeteria"],
+        ["03/01/2024", "Friday", "Letters of Intent Due"],
+        ["03/06/2024", "Wednesday", "Noon Dismissal"],
+        ["03/07/2024", "Thursday", "Senior Class Mass"],
+        ["03/08/2024", "Friday", "No School for Students<br>End of 3rd Quarter"],
     ],                            
 }
 
@@ -452,7 +454,7 @@ else if (day.toLocaleDateString('en-Us') == "3/6/2024")
 else if (day.toLocaleDateString('en-Us') == "3/7/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "3/14/2024")
-    document.getElementById("btn-classMass").click();
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "4/11/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "4/25/2024")

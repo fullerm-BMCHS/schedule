@@ -1,0 +1,69 @@
+/* Define global font family */
+html * {
+  font-family: futura-pt, sans-serif; }
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #8c734b;
+  overflow: hidden; }
+
+/* Style the buttons inside the navigation bar */
+.topnav button {
+  background-color: #8c734b;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
+/* Change the color of buttons on hover */
+.topnav button:hover {
+  background-color: blue;
+  color: white; }
+
+/* Add an active class to highlight the current page */
+.topnav button.active {
+  background-color: #04AA6D;
+  color: white; }
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav button.split {
+  margin-left: 48px; }
+
+/* Switch to vertical menu for small screens */
+@media only screen and (max-width: 600px) {
+  .topnav button {
+    display: block;
+    width: 100%; }
+
+  .topnav button.split {
+    margin-left: 0px; } }
+/* Style schedule table */
+#schedule {
+  font-size: 1.5em; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black; }
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+  border: 1px solid black; }
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2; }
+
+th {
+  background-color: #04AA6D;
+  color: white; }
+
+td {
+  background-color: aqua;
+  color: black; }
+
+/*# sourceMappingURL=style.css.map */

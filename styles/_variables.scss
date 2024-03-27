@@ -1,0 +1,21 @@
+///////////////////////
+// Color Definitions //
+///////////////////////
+$accentColor: #8c734b;
+$accentSecondaryColor: #04AA6D;
+$textColorDarkBG: white;
+$textColorLightBG: black;
+
+// Componenents
+
+// Buttons
+$btnBackgroundColor: $accentColor;
+$btnTextColor: $textColorDarkBG;
+$btnActiveColor: $accentSecondaryColor;
+$btnActiveTextColor: $textColorDarkBG;
+$btnHoverBackgroundColor: blue;
+$btnHoverTextColor: $textColorDarkBG;
+
+// Table
+$tableBackgroundColor: aqua;
+$tableCellColor: black;

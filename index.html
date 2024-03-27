@@ -12,25 +12,34 @@
     <title>Bell Schedule</title>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <button type="button" onclick="navClick('btn-MF')" id="btn-MF" class="active">M/T/Th/F</button>
-        <button type="button" onclick="navClick('btn-Wed')" id="btn-Wed">Wed</button>
-        <button type="button" onclick="navClick('btn-classMass')" id="btn-classMass">Class Mass</button>
-        <button type="button" onclick="navClick('btn-allMass')" id="btn-allMass">BMC All School Mass</button>
-        <button type="button" onclick="navClick('btn-allMassWed')" id="btn-allMassWed">All School Mass(Wed)</button>
-        <button type="button" onclick="navClick('btn-campMass')" id="btn-campMass">All Campus Mass</button>
-        <button type="button" onclick="navClick('btn-wBless')" id="btn-wBless">Blessing-Wed</button>
-        <button type="button" onclick="navClick('btn-mtthfBless')" id="btn-mtthfBless">Blessing-M,T,Th,F</button>
-        <button type="button" onclick="navClick('btn-pepAM')" id="btn-pepAM">Pep Rally</button>
-        <button type="button" onclick="navClick('btn-Exams')" id="btn-Exams">Exams</button>
-        <button type="button" onclick="navClick('btn-d001')" id="btn-d001">3/27</button>
-        <button type="button" onclick="navClick('btn-Cal')" id="btn-Cal" class="split">Calendar</button>
+    <div class="topnav navbar navbar-expand-xl navbar-dark" id="myTopnav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Insert buttons below this line -->
+            <button type="button" onclick="navClick('btn-MF')" id="btn-MF" class="active">M/T/Th/F</button>
+            <button type="button" onclick="navClick('btn-Wed')" id="btn-Wed">Wed</button>
+            <button type="button" onclick="navClick('btn-classMass')" id="btn-classMass">Class Mass</button>
+            <button type="button" onclick="navClick('btn-allMass')" id="btn-allMass">BMC All School Mass</button>
+            <button type="button" onclick="navClick('btn-allMassWed')" id="btn-allMassWed">All School Mass(Wed)</button>
+            <button type="button" onclick="navClick('btn-campMass')" id="btn-campMass">All Campus Mass</button>
+            <button type="button" onclick="navClick('btn-wBless')" id="btn-wBless">Blessing-Wed</button>
+            <button type="button" onclick="navClick('btn-mtthfBless')" id="btn-mtthfBless">Blessing-M,T,Th,F</button>
+            <button type="button" onclick="navClick('btn-pepAM')" id="btn-pepAM">Pep Rally</button>
+            <button type="button" onclick="navClick('btn-Exams')" id="btn-Exams">Exams</button>
+            <button type="button" onclick="navClick('btn-d001')" id="btn-d001">3/27</button>
+            <button type="button" onclick="navClick('btn-Cal')" id="btn-Cal" class="split">Calendar</button>
+            <!-- Insert buttons above line -->
+        </div>
     </div>
+    
 
     <div id="schedule"></div>
 
     <div id="time"></div>    
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/stylings.js"></script>

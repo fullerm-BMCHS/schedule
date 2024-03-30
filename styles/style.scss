@@ -16,11 +16,9 @@ html * {
     background-color: $btnBackgroundColor; 
     border: none;
     color: $btnTextColor;
-    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
 }
   
 /* Change the color of buttons on hover */
@@ -39,7 +37,6 @@ table {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid $tableCellColor;
-    min-height: 92vh;
 }
   
 th, td {
@@ -54,6 +51,7 @@ tr:nth-child(odd){background-color: #f2f2f2}
 th {
     background-color: $accentSecondaryColor;
     color: $textColorDarkBG;
+    text-transform: uppercase;
 }
 
 td {
@@ -64,11 +62,28 @@ td {
 /* Media Queries */
 
 /* Desktop */
-@media screen and (min-width: $breakpoint-desktop) {
+@media screen and (min-width: $breakpoint-mobile) {
 
     // Clock
     #time {
         font-size: 1rem;
+        text-align: center;
+    }
+
+    .topnav {
+        height: 10vh;
+    }
+
+     // Selection buttons
+     button {
+        font-size: 1.25em;
+        min-height: 100px;
+        padding: 10px 10px;
+        width: 100%;
+    }
+
+    table {
+        min-height: 90vh;
     }
 
     // Table header
@@ -78,16 +93,32 @@ td {
 
     // Table contents
     tr, td {
-        font-size: 1.5rem;   
+        font-size: 2rem;   
     }
 }
 
 /* Mobile */
-@media screen and (max-width: $breakpoint-desktop) {
+@media screen and (max-width: $breakpoint-mobile) {
     
     // Clock
     #time {
         font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .topnav {
+        min-height: 5vh;
+    }
+
+    table {
+        min-height: 95vh;
+    }
+
+    // Selection buttons
+    button {
+        font-size: 1rem;
+        padding: 5px 10px;
+        width: 100%;
     }
 
      // Table header
@@ -97,6 +128,6 @@ td {
 
     // Table contents
     tr, td {
-        font-size: 0.9rem;   
+        font-size: 1rem;   
     }
 }

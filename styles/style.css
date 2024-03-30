@@ -12,11 +12,9 @@ html * {
   background-color: #8c734b;
   border: none;
   color: white;
-  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px; }
+  display: inline-block; }
 
 /* Change the color of buttons on hover */
 .topnav button:hover {
@@ -31,8 +29,7 @@ html * {
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid black;
-  min-height: 92vh; }
+  border: 1px solid black; }
 
 th, td {
   text-align: left;
@@ -45,7 +42,8 @@ tr:nth-child(odd) {
 
 th {
   background-color: #04AA6D;
-  color: white; }
+  color: white;
+  text-transform: uppercase; }
 
 td {
   background-color: aqua;
@@ -53,24 +51,49 @@ td {
 
 /* Media Queries */
 /* Desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 576px) {
   #time {
-    font-size: 1rem; }
+    font-size: 1rem;
+    text-align: center; }
+
+  .topnav {
+    height: 10vh; }
+
+  button {
+    font-size: 1.25em;
+    min-height: 100px;
+    padding: 10px 10px;
+    width: 100%; }
+
+  table {
+    min-height: 90vh; }
 
   th {
     font-size: 2rem; }
 
   tr, td {
-    font-size: 1.5rem; } }
+    font-size: 2rem; } }
 /* Mobile */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 576px) {
   #time {
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    text-align: center; }
+
+  .topnav {
+    min-height: 5vh; }
+
+  table {
+    min-height: 95vh; }
+
+  button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    width: 100%; }
 
   th {
     font-size: 1rem; }
 
   tr, td {
-    font-size: 0.9rem; } }
+    font-size: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */

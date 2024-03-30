@@ -7,7 +7,7 @@ $breakpoint-mobile: 576px;
 // Color Definitions //
 ///////////////////////
 $accentColor: #8c734b;
-$accentSecondaryColor: #04AA6D;
+$accentSecondaryColor: #baa37f;
 $textColorDarkBG: white;
 $textColorLightBG: black;
 
@@ -20,9 +20,12 @@ $btnBackgroundColor: $accentColor;
 $btnTextColor: $textColorDarkBG;
 $btnActiveColor: $accentSecondaryColor;
 $btnActiveTextColor: $textColorDarkBG;
-$btnHoverBackgroundColor: blue;
+$btnHoverBackgroundColor: #7f6944;
 $btnHoverTextColor: $textColorDarkBG;
 
 // Table
-$tableBackgroundColor: aqua;
+$tableBackgroundColor: white;
 $tableCellColor: black;
+$tableRowAlternatingColor: #f2f2f2;
+$tableRowHighlightedBackgroundColor: $accentColor;
+$tableRowHighlightedTextColor: $textColorDarkBG;

@@ -1,8 +1,4 @@
-////////////////////////////////////////////////////////////////////////
-// Overlayes stylings while minimally impacting original implementation/
-////////////////////////////////////////////////////////////////////////
-
-// Close navbar on click for collabed navbar
+// Close navbar on click for collapsed navbar
 $('button[id^=btn-]').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });

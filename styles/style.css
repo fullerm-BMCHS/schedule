@@ -2,6 +2,16 @@
 html * {
   font-family: futura-pt, sans-serif; }
 
+/* Clock styling */
+#time {
+  color: white; }
+
+/* Change color of currently highlighted table cells */
+.highlighted {
+  background-color: #8c734b !important;
+  color: white !important;
+  font-weight: 700; }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #8c734b;
@@ -12,42 +22,44 @@ html * {
   background-color: #8c734b;
   border: none;
   color: white;
+  font-weight: 200;
   text-align: center;
   text-decoration: none;
   display: inline-block; }
 
 /* Change the color of buttons on hover */
 .topnav button:hover {
-  background-color: blue;
+  background-color: #7f6944;
   color: white; }
 
 /* Add an active class to highlight the current page */
 .topnav button.active {
-  background-color: #04AA6D;
-  color: white; }
+  background-color: #baa37f;
+  color: white;
+  font-weight: 600; }
 
 table {
   border-collapse: collapse;
-  width: 100%;
-  border: 1px solid black; }
+  width: 100%; }
 
 th, td {
   text-align: left;
-  vertical-align: top;
-  padding: 8px;
-  border: 1px solid black; }
+  vertical-align: middle;
+  padding: 8px; }
 
-tr:nth-child(odd) {
+tbody > tr:nth-child(odd) > td {
   background-color: #f2f2f2; }
 
 th {
-  background-color: #04AA6D;
+  background-color: #baa37f;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-left: 1px solid black; }
 
 td {
-  background-color: aqua;
-  color: black; }
+  background-color: white;
+  color: black;
+  border: 1px solid black; }
 
 /* Media Queries */
 /* Desktop */
@@ -61,7 +73,7 @@ td {
 
   button {
     font-size: 1.25em;
-    min-height: 100px;
+    min-height: 150px;
     padding: 10px 10px;
     width: 100%; }
 

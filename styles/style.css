@@ -63,7 +63,7 @@ td {
 
 /* Media Queries */
 /* Desktop */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 1200px) {
   #time {
     font-size: 1rem;
     text-align: center; }
@@ -73,6 +73,7 @@ td {
 
   button {
     font-size: 1.25em;
+    line-height: 20px;
     min-height: 150px;
     padding: 10px 10px;
     width: 100%; }
@@ -85,8 +86,30 @@ td {
 
   tr, td {
     font-size: 2rem; } }
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  #time {
+    font-size: 1rem;
+    text-align: center; }
+
+  .topnav {
+    min-height: 5vh; }
+
+  button {
+    font-size: 1.25em;
+    padding: 5px 10px;
+    width: 100%; }
+
+  table {
+    min-height: 90vh; }
+
+  th {
+    font-size: 2rem; }
+
+  tr, td {
+    font-size: 2rem; } }
 /* Mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #time {
     font-size: 0.9rem;
     text-align: center; }

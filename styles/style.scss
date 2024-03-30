@@ -78,7 +78,7 @@ td {
 /* Media Queries */
 
 /* Desktop */
-@media screen and (min-width: $breakpoint-mobile) {
+@media screen and (min-width: $breakpoint-xl) {
 
     // Clock
     #time {
@@ -93,6 +93,7 @@ td {
      // Selection buttons
      button {
         font-size: 1.25em;
+        line-height: 20px;
         min-height: 150px;
         padding: 10px 10px;
         width: 100%;
@@ -113,8 +114,43 @@ td {
     }
 }
 
+/* Tablet */
+@media screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-xl) {
+
+    // Clock
+    #time {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .topnav {
+        min-height: 5vh;
+    }
+
+     // Selection buttons
+     button {
+        font-size: 1.25em;
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+    table {
+        min-height: 90vh;
+    }
+
+    // Table header
+    th {
+        font-size:  2rem;
+    }
+
+    // Table contents
+    tr, td {
+        font-size: 2rem;   
+    }
+}
+
 /* Mobile */
-@media screen and (max-width: $breakpoint-mobile) {
+@media screen and (max-width: $breakpoint-md) {
     
     // Clock
     #time {

@@ -324,8 +324,8 @@ var data = {
         ["03/12/2024", "Tuesday", "ACT (Juniors: Last Name A-L)"],
         ["03/13/2024", "Wednesday", "Individual PD<br>Walking Together"],
         ["03/14/2024", "Thursday", "ACT (Juniors: Last Name N-Z)<br>Sophomore Class Mass @9:50am<br>Pep Rally"],
-        ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"],
-    ],                            
+        ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"]
+    ]                
 }
 
 // Global State Variable to know if Calendar is being shown
@@ -390,7 +390,7 @@ function updateScreen() {
     // Update Clock
     const timeDiv = document.getElementById("time");
     const dateString = now.toLocaleString('en-US');
-    timeDiv.innerHTML = "<h2>CLOCK: " + dateString + "</h2>";
+    timeDiv.innerHTML = "<h2>" + dateString + "</h2>";
 
     if (currentButton == "btn-Cal")
         return;

@@ -35,16 +35,11 @@ html * {
     color: $btnActiveTextColor;
 }
 
- /* Style schedule table */ 
-
-#schedule {
-    font-size: 1.5em;   
-}
-
 table {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid $tableCellColor;
+    min-height: 92vh;
 }
   
 th, td {
@@ -64,4 +59,44 @@ th {
 td {
     background-color: $tableBackgroundColor;
     color: $textColorLightBG;
+}
+
+/* Media Queries */
+
+/* Desktop */
+@media screen and (min-width: $breakpoint-desktop) {
+
+    // Clock
+    #time {
+        font-size: 1rem;
+    }
+
+    // Table header
+    th {
+        font-size:  2rem;
+    }
+
+    // Table contents
+    tr, td {
+        font-size: 1.5rem;   
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: $breakpoint-desktop) {
+    
+    // Clock
+    #time {
+        font-size: 0.9rem;
+    }
+
+     // Table header
+     th {
+        font-size:  1rem;
+    }
+
+    // Table contents
+    tr, td {
+        font-size: 0.9rem;   
+    }
 }

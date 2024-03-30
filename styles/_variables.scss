@@ -1,3 +1,10 @@
+////////////////////
+// Media Queries //
+////////////////////
+$breakpoint-mobile: 576px;
+$breakpoint-desktop: 1200px;
+$breakpoint-nav: 1440px;
+
 ///////////////////////
 // Color Definitions //
 ///////////////////////
@@ -6,7 +13,9 @@ $accentSecondaryColor: #04AA6D;
 $textColorDarkBG: white;
 $textColorLightBG: black;
 
-// Componenents
+/////////////////
+// Components //
+////////////////
 
 // Buttons
 $btnBackgroundColor: $accentColor;

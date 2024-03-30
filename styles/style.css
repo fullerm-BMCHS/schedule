@@ -28,14 +28,11 @@ html * {
   background-color: #04AA6D;
   color: white; }
 
-/* Style schedule table */
-#schedule {
-  font-size: 1.5em; }
-
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid black; }
+  border: 1px solid black;
+  min-height: 92vh; }
 
 th, td {
   text-align: left;
@@ -53,5 +50,27 @@ th {
 td {
   background-color: aqua;
   color: black; }
+
+/* Media Queries */
+/* Desktop */
+@media screen and (min-width: 1200px) {
+  #time {
+    font-size: 1rem; }
+
+  th {
+    font-size: 2rem; }
+
+  tr, td {
+    font-size: 1.5rem; } }
+/* Mobile */
+@media screen and (max-width: 1200px) {
+  #time {
+    font-size: 0.9rem; }
+
+  th {
+    font-size: 1rem; }
+
+  tr, td {
+    font-size: 0.9rem; } }
 
 /*# sourceMappingURL=style.css.map */

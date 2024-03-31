@@ -1,0 +1,185 @@
+@import "_variables"; //Import global variables
+
+/* Define global font family */
+html * {
+    font-family: futura-pt, sans-serif;
+}
+
+/* Clock styling */
+#time {
+    color: $textColorDarkBG
+}
+
+/* Change color of currently highlighted table cells */
+.highlighted {
+    background-color: $tableRowHighlightedBackgroundColor !important;
+    color: $tableRowHighlightedTextColor !important;
+    font-weight: 700;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: $accentColor;
+    overflow: hidden;
+}
+
+/* Style the buttons inside the navigation bar */
+.topnav button {
+    background-color: $btnBackgroundColor; 
+    border: none;
+    color: $btnTextColor;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+/* Change the color of buttons on hover */
+.topnav button:hover {
+    background-color: $btnHoverBackgroundColor;
+    color: $btnHoverTextColor;
+}
+  
+/* Add an active class to highlight the current page */
+.topnav button.active {
+    background-color: $btnActiveColor;
+    color: $btnActiveTextColor;
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 8px;
+}
+  
+tbody > tr:nth-child(odd) > td {
+    background-color: $tableRowAlternatingColor;
+}
+  
+th {
+    background-color: $accentSecondaryColor;
+    color: $textColorDarkBG;
+    text-transform: uppercase;
+    border-left: 1px solid $tableCellColor;
+}
+
+td {
+    background-color: $tableBackgroundColor;
+    color: $textColorLightBG;
+    border: 1px solid $tableCellColor;
+}
+
+/* Media Queries */
+
+/* Desktop */
+@media screen and (min-width: $breakpoint-xl) {
+
+    // Clock
+    #time {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .topnav {
+        height: 10vh;
+    }
+
+     // Selection buttons
+     button {
+        font-size: 1.25em;
+        line-height: 20px;
+        min-height: 150px;
+        padding: 10px 10px;
+        width: 100%;
+    }
+
+    table {
+        min-height: 90vh;
+    }
+
+    // Table header
+    th {
+        font-size:  2rem;
+    }
+
+    // Table contents
+    tr, td {
+        font-size: 2rem;   
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-xl) {
+
+    // Clock
+    #time {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .topnav {
+        min-height: 5vh;
+    }
+
+     // Selection buttons
+     button {
+        font-size: 1.25em;
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+    table {
+        min-height: 90vh;
+    }
+
+    // Table header
+    th {
+        font-size:  2rem;
+    }
+
+    // Table contents
+    tr, td {
+        font-size: 2rem;   
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: $breakpoint-md) {
+    
+    // Clock
+    #time {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .topnav {
+        min-height: 5vh;
+    }
+
+    table {
+        min-height: 95vh;
+    }
+
+    // Selection buttons
+    button {
+        font-size: 1rem;
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+     // Table header
+     th {
+        font-size:  1rem;
+    }
+
+    // Table contents
+    tr, td {
+        font-size: 1rem;   
+    }
+}

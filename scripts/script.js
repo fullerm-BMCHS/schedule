@@ -324,8 +324,8 @@ var data = {
         ["03/12/2024", "Tuesday", "ACT (Juniors: Last Name A-L)"],
         ["03/13/2024", "Wednesday", "Individual PD<br>Walking Together"],
         ["03/14/2024", "Thursday", "ACT (Juniors: Last Name N-Z)<br>Sophomore Class Mass @9:50am<br>Pep Rally"],
-        ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"],
-    ],                            
+        ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"]
+    ]                
 }
 
 // Global State Variable to know if Calendar is being shown
@@ -390,13 +390,19 @@ function updateScreen() {
     // Update Clock
     const timeDiv = document.getElementById("time");
     const dateString = now.toLocaleString('en-US');
-    timeDiv.innerHTML = "<h2>CLOCK: " + dateString + "</h2>";
+    timeDiv.innerHTML = "<h2>" + dateString + "</h2>";
 
     if (currentButton == "btn-Cal")
         return;
         
     // Get table to highlight current period
     let table = document.getElementById("schedTable");
+
+
+    // Clear prior highlighted period
+    for (const e of document.getElementsByClassName("highlighted")) {
+        e.classList.remove('highlighted');
+     }
 
     // Highlight Current Period
     for (var r = 1, n = table.rows.length; r < n; r++) {
@@ -407,20 +413,12 @@ function updateScreen() {
         // console.log(startTime, now, endTime);
         if (startTime <= now && now <= endTime) {
             // console.log("Row:", r);
-            table.rows[r].cells[0].style.color = 'red';
-            table.rows[r].cells[0].style.backgroundColor = 'Cornsilk';
-            table.rows[r].cells[1].style.color = 'red';
-            table.rows[r].cells[1].style.backgroundColor = 'Cornsilk';
-            table.rows[r].cells[2].style.color = 'red';
-            table.rows[r].cells[2].style.backgroundColor = 'Cornsilk';
-            table.rows[r].cells[3].style.color = 'red';
-            table.rows[r].cells[3].style.backgroundColor = 'Cornsilk';
-            table.rows[r].cells[4].style.color = 'black';
-            table.rows[r].cells[4].style.backgroundColor = 'aqua';
-            if (r > 1) {
-                table.rows[r-1].cells[4].style.color = 'black';
-                table.rows[r-1].cells[4].style.backgroundColor = 'aqua'; 
-            }
+            console.log("yes")
+            table.rows[r].cells[0].classList.add('highlighted');
+            table.rows[r].cells[1].classList.add('highlighted');
+            table.rows[r].cells[2].classList.add('highlighted');
+            table.rows[r].cells[3].classList.add('highlighted');
+            table.rows[r].cells[4].classList.remove('highlighted');
         }
     }
     // Highlight if in passing between periods
@@ -432,16 +430,11 @@ function updateScreen() {
         // console.log(startTime, now, endTime);
         if (startTime <= now && now <= endTime) {
             // console.log("Row:", r);
-            table.rows[r].cells[4].style.color = 'red';
-            table.rows[r].cells[4].style.backgroundColor = 'Cornsilk';
-            table.rows[r].cells[3].style.color = 'black';
-            table.rows[r].cells[3].style.backgroundColor = 'aqua';
-            table.rows[r].cells[2].style.color = 'black';
-            table.rows[r].cells[2].style.backgroundColor = 'aqua';
-            table.rows[r].cells[1].style.color = 'black';
-            table.rows[r].cells[1].style.backgroundColor = 'aqua';
-            table.rows[r].cells[0].style.color = 'black';
-            table.rows[r].cells[0].style.backgroundColor = 'aqua';
+            table.rows[r].cells[0].classList.remove('highlighted');
+            table.rows[r].cells[1].classList.remove('highlighted');
+            table.rows[r].cells[2].classList.remove('highlighted');
+            table.rows[r].cells[3].classList.remove('highlighted');
+            table.rows[r].cells[4].classList.add('highlighted');
         }
     }
 }

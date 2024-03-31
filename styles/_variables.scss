@@ -1,0 +1,33 @@
+////////////////////
+// Media Queries //
+////////////////////
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-xl: 1200px;
+
+///////////////////////
+// Color Definitions //
+///////////////////////
+$accentColor: #8c734b;
+$accentSecondaryColor: #baa37f;
+$textColorDarkBG: white;
+$textColorLightBG: black;
+
+/////////////////
+// Components //
+////////////////
+
+// Buttons
+$btnBackgroundColor: $accentColor;
+$btnTextColor: $textColorDarkBG;
+$btnActiveColor: $accentSecondaryColor;
+$btnActiveTextColor: $textColorDarkBG;
+$btnHoverBackgroundColor: #7f6944;
+$btnHoverTextColor: $textColorDarkBG;
+
+// Table
+$tableBackgroundColor: white;
+$tableCellColor: black;
+$tableRowAlternatingColor: #f2f2f2;
+$tableRowHighlightedBackgroundColor: $accentColor;
+$tableRowHighlightedTextColor: $textColorDarkBG;

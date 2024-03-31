@@ -425,16 +425,10 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/9/2023")
     document.getElementById("btn-wBless").click();
-else if (day.toLocaleDateString('en-Us') == "2/23/2024")
-    document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "3/6/2024")
-    document.getElementById("btn-noon").click();
-else if (day.toLocaleDateString('en-Us') == "3/7/2024")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "3/27/2024")
-    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "4/11/2024")
     document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "4/19/2024")
+    document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "4/25/2024")
     document.getElementById("btn-classMass").click();
 else if (day.getDay() == 3)

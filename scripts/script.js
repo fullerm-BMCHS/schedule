@@ -380,7 +380,6 @@ function updateScreen() {
     // Get table to highlight current period
     let table = document.getElementById("schedTable");
 
-
     // Clear prior highlighted period
     for (const e of document.getElementsByClassName("highlighted")) {
         e.classList.remove('highlighted');
@@ -395,7 +394,6 @@ function updateScreen() {
         // console.log(startTime, now, endTime);
         if (startTime <= now && now <= endTime) {
             // console.log("Row:", r);
-            console.log("yes")
             table.rows[r].cells[0].classList.add('highlighted');
             table.rows[r].cells[1].classList.add('highlighted');
             table.rows[r].cells[2].classList.add('highlighted');
@@ -436,4 +434,3 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
-

@@ -202,7 +202,7 @@ var data = {
         ["04/17/2025 - 04/18/2025", "Thursday - Friday", "NO SCHOOL (Easter Break)"],
         ["04/21/2025 - 04/25/2025", "Monday - Friday", "NO SCHOOL (NCEA Conference)"],
         ["05/26/2025", "Monday", "NO SCHOOL (Memorial Day)"],
-        ["05/30/2025", "Friday", Last Day of School"],
+        ["05/30/2025", "Friday", "Last Day of School"],
         ["**********", "*****", "*********************************"],
         ["***OLDER**", "*OLD*", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],

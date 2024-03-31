@@ -150,7 +150,7 @@ var data = {
         ["8th", " 2:00 pm", " 2:24 pm", "0:30", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2024", "BMCHS", "<a href="https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087">Official Calendar</a>"],
+        ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087'>Official Calendar</a>"],
         ["03/27/2024", "Wednesday", "Prayer Service"],
         ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
         ["04/03/2024", "Wednesday", "Pre-Act (Freshman English Classes)<br>Individual PD Day"],

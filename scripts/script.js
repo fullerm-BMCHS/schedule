@@ -324,6 +324,7 @@ function navClick(btnClicked) {
     // Build table corresponding to button id clicked
     currentButton = btnClicked;
     buildTable(data[btnClicked]);
+    updateScreen();
     setInterval(updateScreen, 1000);
 }
 

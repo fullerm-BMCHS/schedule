@@ -151,12 +151,7 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["03/27/2024", "Wednesday", "Prayer Service"],
-        ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
-        ["04/03/2024", "Wednesday", "Pre-Act (Freshman English Classes)<br>Individual PD Day"],
-        ["04/04/2024", "Thursday", "Pre-Act (Sophomore English Classes)"],
-        ["04/05/2024", "Friday", "Fire Drill<br>Period 1-Loretta, MM, Gym<br>Period 2-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 3-Dorsey, Dome, Moore Center<br>Senior Dress Down Day"],
-        ["04/08/2024", "Monday", "Pre-ACT 9th Divided by Alphabet<br>Department Chair Meeting"],
+        ["04/08/2024", "Monday", "Pre-ACT 9th Divided by Alphabet<br>Department Chair Meeting<br>Senior Skip Day"],
         ["04/09/2024", "Tuesday", "Pre-ACT 9th Divided by Alphabet<br>New Teacher PLC"],
         ["04/10/2024", "Wednesday", "Faculty Meeting SC"],
         ["04/11/2024", "Thursday", "Pre-ACT 10th Divided by Alphabet<br>Junior Class Mass<br>Peace Pole Blessing 3pm"],
@@ -307,6 +302,11 @@ var data = {
         ["03/13/2024", "Wednesday", "Individual PD<br>Walking Together"],
         ["03/14/2024", "Thursday", "ACT (Juniors: Last Name N-Z)<br>Sophomore Class Mass @9:50am<br>Pep Rally"],
         ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"]
+        ["03/27/2024", "Wednesday", "Prayer Service"],
+        ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
+        ["04/03/2024", "Wednesday", "Pre-Act (Freshman English Classes)<br>Individual PD Day"],
+        ["04/04/2024", "Thursday", "Pre-Act (Sophomore English Classes)"],
+        ["04/05/2024", "Friday", "Fire Drill<br>Period 1-Loretta, MM, Gym<br>Period 2-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 3-Dorsey, Dome, Moore Center<br>Senior Dress Down Day"],
     ]                
 }
 

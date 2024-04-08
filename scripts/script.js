@@ -301,7 +301,7 @@ var data = {
         ["03/12/2024", "Tuesday", "ACT (Juniors: Last Name A-L)"],
         ["03/13/2024", "Wednesday", "Individual PD<br>Walking Together"],
         ["03/14/2024", "Thursday", "ACT (Juniors: Last Name N-Z)<br>Sophomore Class Mass @9:50am<br>Pep Rally"],
-        ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"]
+        ["03/18/2024 - 03/22/2024", "Monday – Friday", "No School - Spring Break"],
         ["03/27/2024", "Wednesday", "Prayer Service"],
         ["03/28/2024 - 04/01/2024", "Thursday – Monday", "No School - Easter Break"],
         ["04/03/2024", "Wednesday", "Pre-Act (Freshman English Classes)<br>Individual PD Day"],

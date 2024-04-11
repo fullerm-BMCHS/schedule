@@ -157,7 +157,7 @@ var data = {
         ["04/11/2024", "Thursday", "Pre-ACT 10th Divided by Alphabet<br>Junior Class Mass<br>Peace Pole Blessing 3pm"],
         ["04/12/2024", "Friday", "Pre-ACT 10th Divided by Alphabet"],
         ["04/17/2024", "Wednesday", "Department PLC"],
-        ["04/19/2024", "Friday", "Spring Pep Rally"],
+        ["04/19/2024", "Friday", "Spring Pep Rally<br>Progress Reports Sent"],
         ["04/23/2024", "Tuesday", "Spring Art Show"],
         ["04/24/2024", "Wednesday", "Common Course PLC"],
         ["04/25/2024", "Thursday", "Senior Class Mass"],

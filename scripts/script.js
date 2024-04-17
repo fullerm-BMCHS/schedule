@@ -151,12 +151,7 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["04/08/2024", "Monday", "Pre-ACT 9th Divided by Alphabet<br>Department Chair Meeting<br>Senior Skip Day"],
-        ["04/09/2024", "Tuesday", "Pre-ACT 9th Divided by Alphabet<br>New Teacher PLC"],
-        ["04/10/2024", "Wednesday", "Faculty Meeting SC"],
-        ["04/11/2024", "Thursday", "Pre-ACT 10th Divided by Alphabet<br>Junior Class Mass<br>Peace Pole Blessing 3pm"],
-        ["04/12/2024", "Friday", "Pre-ACT 10th Divided by Alphabet"],
-        ["04/17/2024", "Wednesday", "Department PLC"],
+        ["04/17/2024", "Wednesday", "Individual PD"],
         ["04/19/2024", "Friday", "Spring Pep Rally<br>Progress Reports Sent"],
         ["04/23/2024", "Tuesday", "Spring Art Show"],
         ["04/24/2024", "Wednesday", "Common Course PLC"],
@@ -194,6 +189,8 @@ var data = {
         ["12/23/2024 - 01/03/2025", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
         ["01/06/2025", "Monday", "Start of 2nd Semester"],
         ["01/20/2025", "Monday", "NO SCHOOL (Martin Luther King Jr. Day)"],
+        ["02/17/2025", "Monday", "President's Day"],
+        ["03/05/2025", "Wednesday", "Ash Wednesday"],
         ["03/17/2025 - 03/21/2025", "Monday - Friday", "NO SCHOOL (Spring Break)"],
         ["04/17/2025 - 04/18/2025", "Thursday - Friday", "NO SCHOOL (Easter Break)"],
         ["04/21/2025 - 04/25/2025", "Monday - Friday", "NO SCHOOL (NCEA Conference)"],
@@ -307,6 +304,11 @@ var data = {
         ["04/03/2024", "Wednesday", "Pre-Act (Freshman English Classes)<br>Individual PD Day"],
         ["04/04/2024", "Thursday", "Pre-Act (Sophomore English Classes)"],
         ["04/05/2024", "Friday", "Fire Drill<br>Period 1-Loretta, MM, Gym<br>Period 2-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 3-Dorsey, Dome, Moore Center<br>Senior Dress Down Day"],
+        ["04/08/2024", "Monday", "Pre-ACT 9th Divided by Alphabet<br>Department Chair Meeting<br>Senior Skip Day"],
+        ["04/09/2024", "Tuesday", "Pre-ACT 9th Divided by Alphabet<br>New Teacher PLC"],
+        ["04/10/2024", "Wednesday", "Faculty Meeting SC"],
+        ["04/11/2024", "Thursday", "Pre-ACT 10th Divided by Alphabet<br>Junior Class Mass<br>Peace Pole Blessing 3pm"],
+        ["04/12/2024", "Friday", "Pre-ACT 10th Divided by Alphabet"],
     ]                
 }
 

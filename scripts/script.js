@@ -151,14 +151,9 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["04/17/2024", "Wednesday", "Individual PD"],
-        ["04/19/2024", "Friday", "Spring Pep Rally<br>Progress Reports Sent"],
-        ["04/23/2024", "Tuesday", "Spring Art Show"],
-        ["04/24/2024", "Wednesday", "Common Course PLC"],
-        ["04/25/2024", "Thursday", "Senior Class Mass"],
-        ["04/26/2024", "Friday", "Semester Exams Due to Department Chair"],
-        ["04/30/2024", "Tuesday", "AP Computer Science Principles students to submit their Create performance task as final 11:59pm EST"],
-        ["05/01/2024", "Wednesday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym"],
+        ["04/29/2024", "Monday", "String Orchestra Concert"],
+        ["04/30/2024", "Tuesday", "BMC Spring Choir Concert<br>AP Computer Science Principles students to submit their Create performance task as final 11:59pm EST"],
+        ["05/01/2024", "Wednesday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym<br>Faculty Meeting Student Center"],
         ["05/03/2024", "Friday", "Grad Night"],
         ["05/06/2024", "Monday", "AP Testing<br>8am - United States Government<br>12pm - Art History / Chemistry"],
         ["05/07/2024", "Tuesday", "AP Testing<br>8am - Human Geography / Microeconomics<br>12pm - Statistics"],
@@ -309,6 +304,12 @@ var data = {
         ["04/10/2024", "Wednesday", "Faculty Meeting SC"],
         ["04/11/2024", "Thursday", "Pre-ACT 10th Divided by Alphabet<br>Junior Class Mass<br>Peace Pole Blessing 3pm"],
         ["04/12/2024", "Friday", "Pre-ACT 10th Divided by Alphabet"],
+        ["04/17/2024", "Wednesday", "Individual PD"],
+        ["04/19/2024", "Friday", "Spring Pep Rally<br>Progress Reports Sent"],
+        ["04/23/2024", "Tuesday", "Spring Art Show"],
+        ["04/24/2024", "Wednesday", "Common Course PLC"],
+        ["04/25/2024", "Thursday", "Senior Class Mass"],
+        ["04/26/2024", "Friday", "Semester Exams Due to Department Chair"],
     ]                
 }
 

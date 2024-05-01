@@ -151,8 +151,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["04/29/2024", "Monday", "String Orchestra Concert"],
-        ["04/30/2024", "Tuesday", "BMC Spring Choir Concert<br>AP Computer Science Principles students to submit their Create performance task as final 11:59pm EST"],
         ["05/01/2024", "Wednesday", "Fire Drill<br>Period 1-Bishop Borders/ Bishop Grady / Cafeteria<br>Period 2-Dorsey, Dome, Moore Center<br>Period 3-Loretta, MM, Gym<br>Faculty Meeting Student Center"],
         ["05/03/2024", "Friday", "Grad Night"],
         ["05/06/2024", "Monday", "AP Testing<br>8am - United States Government<br>12pm - Art History / Chemistry"],
@@ -168,7 +166,7 @@ var data = {
         ["05/17/2024", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based<br>12pm - Physics 2 Algebra-Based / Latin<br>Senior Grades Due at 3:30pm<br>ASP Exams due to Testing Center"],
         ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night"],
         ["05/21/2024", "Tuesday", "Senior Parade<br>Graduation Practice<br>Senior Grades"],
-        ["05/22/2024", "Wednesday", "Noon Dismisal<br>Senior Luncheon"],
+        ["05/22/2024", "Wednesday", "Noon Dismisal<br>Senior Luncheon<br>AP Exam Make-Up Day<br>Chemistry, Computer Science A, Physics C: Electricity and Magnetism, Psychology, Statistics,United States History, English Literature and Composition, Environmental Science, Latin, Macroeconomics, Physics C: Mechanics "],
         ["05/23/2024", "Thursday", "No School - Baccalaureate Mass & Graduation"],
         ["05/24/2024", "Friday", "Turn the Page Assembly"],
         ["05/27/2024", "Monday", "No School (Memorial Day)"],
@@ -310,6 +308,8 @@ var data = {
         ["04/24/2024", "Wednesday", "Common Course PLC"],
         ["04/25/2024", "Thursday", "Senior Class Mass"],
         ["04/26/2024", "Friday", "Semester Exams Due to Department Chair"],
+        ["04/29/2024", "Monday", "String Orchestra Concert"],
+        ["04/30/2024", "Tuesday", "BMC Spring Choir Concert<br>AP Computer Science Principles students to submit their Create performance task as final 11:59pm EST"],
     ]                
 }
 

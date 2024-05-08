@@ -155,7 +155,7 @@ var data = {
         ["05/09/2024", "Thursday", "AP Testing<br>8am - Environmental Science<br>12pm - Psychology"],
         ["05/10/2024", "Friday", "AP Testing<br>8am - United States History<br>12pm - Macroeconomics / Spanish Literature and Culture"],
         ["05/10/2024", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
-        ["05/13/2024", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Precalculus<br>May crowing mass in Pines 3pm"],
+        ["05/13/2024", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Precalculus<br>May crowning mass in Pines 3pm"],
         ["05/14/2024", "Tuesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C Mechanics<br>2pm - Physics C Electricity and Magnetism"],
         ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory"],
         ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution"],

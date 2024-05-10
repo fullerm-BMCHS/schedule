@@ -151,16 +151,12 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["05/08/2024", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Computer Science A"],
-        ["05/09/2024", "Thursday", "AP Testing<br>8am - Environmental Science<br>12pm - Psychology"],
-        ["05/10/2024", "Friday", "AP Testing<br>8am - United States History<br>12pm - Macroeconomics / Spanish Literature and Culture"],
-        ["05/10/2024", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
         ["05/13/2024", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Precalculus<br>May crowning mass in Pines 3pm"],
         ["05/14/2024", "Tuesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C Mechanics<br>2pm - Physics C Electricity and Magnetism"],
-        ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory"],
-        ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution"],
+        ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory<br>Individual PD 9th hour"],
+        ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution<br>Spring Football Game 7pm"],
         ["05/17/2024", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based<br>12pm - Physics 2 Algebra-Based / Latin<br>Senior Grades Due at 3:30pm<br>ASP Exams due to Testing Center<br>Yearbook distribution"],
-        ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night"],
+        ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night 6pm"],
         ["05/21/2024", "Tuesday", "Senior Parade 8am<br>Graduation Practice<br>Senior Grades"],
         ["05/22/2024", "Wednesday", "Noon Dismisal<br>Senior Luncheon<br>AP Exam Make-Up Day<br>Chemistry, Computer Science A, Physics C: Electricity and Magnetism, Psychology, Statistics,United States History, English Literature and Composition, Environmental Science, Latin, Macroeconomics, Physics C: Mechanics "],
         ["05/23/2024", "Thursday", "No School - Baccalaureate Mass & Graduation<br>AP Exam Make-Up Day<br>Computer Science Principles, English Language and Composition, Human Geography, Precalculus, Spanish Literature and Culture, Art History, Biology, European History, French Language and Culture, Physics 1: Algebra-Based, Seminar"],
@@ -310,6 +306,10 @@ var data = {
         ["05/03/2024", "Friday", "Grad Night"],
         ["05/06/2024", "Monday", "AP Testing<br>8am - United States Government<br>12pm - Art History / Chemistry"],
         ["05/07/2024", "Tuesday", "AP Testing<br>8am - Human Geography / Microeconomics<br>12pm - Statistics"],
+        ["05/08/2024", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Computer Science A"],
+        ["05/09/2024", "Thursday", "AP Testing<br>8am - Environmental Science<br>12pm - Psychology"],
+        ["05/10/2024", "Friday", "AP Testing<br>8am - United States History<br>12pm - Macroeconomics / Spanish Literature and Culture"],
+        ["05/10/2024", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
     ]                
 }
 

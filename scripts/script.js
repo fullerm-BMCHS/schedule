@@ -151,10 +151,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["05/13/2024", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Precalculus<br>May crowning mass in Pines 3pm"],
-        ["05/14/2024", "Tuesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C Mechanics<br>2pm - Physics C Electricity and Magnetism"],
-        ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory<br>Individual PD 9th hour"],
-        ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution<br>Spring Football Game 7pm"],
         ["05/17/2024", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based<br>12pm - Physics 2 Algebra-Based / Latin<br>Senior Grades Due at 3:30pm<br>ASP Exams due to Testing Center<br>Yearbook distribution"],
         ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night 6pm"],
         ["05/21/2024", "Tuesday", "Senior Parade 8am<br>Graduation Practice<br>Senior Grades"],
@@ -310,6 +306,10 @@ var data = {
         ["05/09/2024", "Thursday", "AP Testing<br>8am - Environmental Science<br>12pm - Psychology"],
         ["05/10/2024", "Friday", "AP Testing<br>8am - United States History<br>12pm - Macroeconomics / Spanish Literature and Culture"],
         ["05/10/2024", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
+        ["05/13/2024", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Precalculus<br>May crowning mass in Pines 3pm"],
+        ["05/14/2024", "Tuesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C Mechanics<br>2pm - Physics C Electricity and Magnetism"],
+        ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory<br>Individual PD 9th hour"],
+        ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution<br>Spring Football Game 7pm"],
     ]                
 }
 

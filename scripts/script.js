@@ -139,19 +139,19 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-d001" : [
         ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 7:40 am", " 8:14 am", "0:34", "0:06"],
-        ["Assembly 2a", " 8:20 am", " 9:50 am", "1:30", "0:00"],
-        ["Assembly 2b", " 9:50 am", "11:05 am", "1:15", "0:06"],
-        ["3rd", "11:11 am", "11:35 am", "0:24", "0:06"],
-        ["4th", "11:41 am", "12:11 pm", "0:30", "0:06"],
-        ["5th", "12:17 pm", "12:47 pm", "0:30", "0:06"],
-        ["6th", "12:53 pm", " 1:23 pm", "0:30", "0:06"],
-        ["7th", " 1:29 pm", " 1:54 pm", "0:25", "0:06"],
-        ["8th", " 2:00 pm", " 2:24 pm", "0:30", "0:00"]],
+        ["1st", " 7:40 am", " 8:25 am", "0:45", "0:05"],
+        ["Parade", " 8:30 am", " 8:55 am", "0:25", "0:06"],
+        ["2nd", " 9:01 am", "09:46 am", "0:45", "0:06"],
+        ["3rd", "09:52 am", "10:37 am", "0:45", "0:06"],
+        ["4th", "10:43 am", "11:29 am", "0:46", "0:06"],
+        ["5th", "11:35 am", "12:21 pm", "0:46", "0:06"],
+        ["6th", "12:27 pm", " 1:13 pm", "0:46", "0:06"],
+        ["7th", " 1:19 pm", " 2:04 pm", "0:45", "0:06"],
+        ["8th", " 2:10 pm", " 2:55 pm", "0:45", "0:05"],
+        ["9th", " 3:00 pm", " 3:30 pm", "0:30", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["05/17/2024", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based<br>12pm - Physics 2 Algebra-Based / Latin<br>Senior Grades Due at 3:30pm<br>ASP Exams due to Testing Center<br>Yearbook distribution"],
         ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night 6pm"],
         ["05/21/2024", "Tuesday", "Senior Parade 8am<br>Graduation Practice<br>Senior Grades"],
         ["05/22/2024", "Wednesday", "Noon Dismisal<br>Senior Luncheon<br>AP Exam Make-Up Day<br>Chemistry, Computer Science A, Physics C: Electricity and Magnetism, Psychology, Statistics,United States History, English Literature and Composition, Environmental Science, Latin, Macroeconomics, Physics C: Mechanics "],
@@ -310,6 +310,7 @@ var data = {
         ["05/14/2024", "Tuesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C Mechanics<br>2pm - Physics C Electricity and Magnetism"],
         ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory<br>Individual PD 9th hour"],
         ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution<br>Spring Football Game 7pm"],
+        ["05/17/2024", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based<br>12pm - Physics 2 Algebra-Based / Latin<br>Senior Grades Due at 3:30pm<br>ASP Exams due to Testing Center<br>Yearbook distribution"],
     ]                
 }
 
@@ -426,8 +427,8 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "8/9/2023")
-    document.getElementById("btn-wBless").click();
+if (day.toLocaleDateString('en-Us') == "5/21/2024")
+    document.getElementById("btn-d001").click();
 else if (day.toLocaleDateString('en-Us') == "4/11/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "4/19/2024")

@@ -429,12 +429,8 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "5/21/2024")
     document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "4/11/2024")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "4/19/2024")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "4/25/2024")
-    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "5/22/2024")
+    document.getElementById("btn-noon").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

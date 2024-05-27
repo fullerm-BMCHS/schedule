@@ -152,12 +152,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night 6pm"],
-        ["05/21/2024", "Tuesday", "Senior Parade 8am<br>Graduation Practice<br>Senior Grades"],
-        ["05/22/2024", "Wednesday", "Noon Dismisal<br>Senior Luncheon<br>AP Exam Make-Up Day<br>Chemistry, Computer Science A, Physics C: Electricity and Magnetism, Psychology, Statistics,United States History, English Literature and Composition, Environmental Science, Latin, Macroeconomics, Physics C: Mechanics "],
-        ["05/23/2024", "Thursday", "No School - Baccalaureate Mass & Graduation<br>AP Exam Make-Up Day<br>Computer Science Principles, English Language and Composition, Human Geography, Precalculus, Spanish Literature and Culture, Art History, Biology, European History, French Language and Culture, Physics 1: Algebra-Based, Seminar"],
-        ["05/24/2024", "Friday", "Turn the Page Assembly<br>AP Exam Make-Up Day<br>Calculus AB, Calculus BC, German Language and Culture, Microeconomics, Music Theory, Spanish Language and Culture, African American Studies, Comparative Government and Politics, Italian Language and Culture, Physics 2: Algebra-Based, United States Government and Politics, World History: Modern"],
-        ["05/27/2024", "Monday", "No School (Memorial Day)"],
         ["05/28/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
         ["05/29/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["05/30/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
@@ -311,6 +305,12 @@ var data = {
         ["05/15/2024", "Wednesday", "AP Testing<br>8am - French Language and Culture / World History Modern<br>12pm - Computer Science Principles / Music Theory<br>Individual PD 9th hour"],
         ["05/16/2024", "Thursday", "AP Testing<br>8am - Spanish Language and Culture<br>12pm - Biology<br>Yearbook distribution<br>Spring Football Game 7pm"],
         ["05/17/2024", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based<br>12pm - Physics 2 Algebra-Based / Latin<br>Senior Grades Due at 3:30pm<br>ASP Exams due to Testing Center<br>Yearbook distribution"],
+        ["05/20/2024", "Monday", "Senior Mass in Pines @ 9am<br>Awards Night 6pm"],
+        ["05/21/2024", "Tuesday", "Senior Parade 8am<br>Graduation Practice<br>Senior Grades"],
+        ["05/22/2024", "Wednesday", "Noon Dismisal<br>Senior Luncheon<br>AP Exam Make-Up Day<br>Chemistry, Computer Science A, Physics C: Electricity and Magnetism, Psychology, Statistics,United States History, English Literature and Composition, Environmental Science, Latin, Macroeconomics, Physics C: Mechanics "],
+        ["05/23/2024", "Thursday", "No School - Baccalaureate Mass & Graduation<br>AP Exam Make-Up Day<br>Computer Science Principles, English Language and Composition, Human Geography, Precalculus, Spanish Literature and Culture, Art History, Biology, European History, French Language and Culture, Physics 1: Algebra-Based, Seminar"],
+        ["05/24/2024", "Friday", "Turn the Page Assembly<br>AP Exam Make-Up Day<br>Calculus AB, Calculus BC, German Language and Culture, Microeconomics, Music Theory, Spanish Language and Culture, African American Studies, Comparative Government and Politics, Italian Language and Culture, Physics 2: Algebra-Based, United States Government and Politics, World History: Modern"],
+        ["05/27/2024", "Monday", "No School (Memorial Day)"],
     ]                
 }
 
@@ -427,10 +427,14 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "5/21/2024")
-    document.getElementById("btn-d001").click();
-else if (day.toLocaleDateString('en-Us') == "5/22/2024")
-    document.getElementById("btn-noon").click();
+if (day.toLocaleDateString('en-Us') == "5/28/2024")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "5/29/2024")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "5/30/2024")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "5/31/2024")
+    document.getElementById("btn-Exams").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

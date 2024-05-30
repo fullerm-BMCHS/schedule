@@ -152,10 +152,9 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["05/28/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
-        ["05/29/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
-        ["05/30/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
         ["05/31/2024", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester<br>Grades Due"],
+        ["06/02/2024", "Tuesday", "First Day of Summer School"],
+        ["08/09/2024", "Friday", "Faculty/Staff Portraits"],
         ["08/12/2024", "Monday", "First Day of School"],
         ["09/02/2024", "Monday", "NO SCHOOL (Labor Day)"],
         ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
@@ -311,6 +310,9 @@ var data = {
         ["05/23/2024", "Thursday", "No School - Baccalaureate Mass & Graduation<br>AP Exam Make-Up Day<br>Computer Science Principles, English Language and Composition, Human Geography, Precalculus, Spanish Literature and Culture, Art History, Biology, European History, French Language and Culture, Physics 1: Algebra-Based, Seminar"],
         ["05/24/2024", "Friday", "Turn the Page Assembly<br>AP Exam Make-Up Day<br>Calculus AB, Calculus BC, German Language and Culture, Microeconomics, Music Theory, Spanish Language and Culture, African American Studies, Comparative Government and Politics, Italian Language and Culture, Physics 2: Algebra-Based, United States Government and Politics, World History: Modern"],
         ["05/27/2024", "Monday", "No School (Memorial Day)"],
+        ["05/28/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
+        ["05/29/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
+        ["05/30/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
     ]                
 }
 

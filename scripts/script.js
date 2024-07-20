@@ -152,11 +152,15 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
-        ["05/31/2024", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester<br>Grades Due"],
-        ["06/02/2024", "Tuesday", "First Day of Summer School"],
         ["08/09/2024", "Friday", "Faculty/Staff Portraits"],
-        ["08/12/2024", "Monday", "First Day of School"],
+        ["08/12/2024", "Monday", "First Day of School<br>Back to School Blessing 8:45am-9:30am Gym<br>Senior Assembly 1:45pm-2:45pm Gym"],
+        ["08/13/2024", "Tuesday", "Freshmen, Sophomore, and Junior 2024-2025 Yearbook Picture Day - English Class"],
+        ["08/15/2024", "Thursday", "Feast of The Assumption Bishop Mass 10a-11a Gym<br>Senior Parent Night 6pm-8pm Gym"],
+        ["08/16/2024", "Friday", "Fall Pep Rally 1:45pm-2:45pm Gym"],
+        ["08/22/2024", "Thursday", "Back to School Night 5:30pm-7:45pm"],
+        ["08/29/2024", "Thursday", "Senior Mass 9:45am-10:45am"],
         ["09/02/2024", "Monday", "NO SCHOOL (Labor Day)"],
+        ["09/05/2024", "Thursday", "Freshman Parent Night 6pm-8pm"],
         ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
         ["11/25/2024", "Monday", "Hurricane Makeup Day"],
         ["11/26/2024", "Tuesday", "Hurricane Makeup Day"],
@@ -313,6 +317,8 @@ var data = {
         ["05/28/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
         ["05/29/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["05/30/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
+        ["05/31/2024", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester<br>Grades Due"],
+        ["06/02/2024", "Tuesday", "First Day of Summer School"],
     ]                
 }
 

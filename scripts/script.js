@@ -459,14 +459,26 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "5/28/2024")
-    document.getElementById("btn-Exams").click();
-else if (day.toLocaleDateString('en-Us') == "5/29/2024")
-    document.getElementById("btn-Exams").click();
-else if (day.toLocaleDateString('en-Us') == "5/30/2024")
-    document.getElementById("btn-Exams").click();
-else if (day.toLocaleDateString('en-Us') == "5/31/2024")
-    document.getElementById("btn-Exams").click();
+if (day.toLocaleDateString('en-Us') == "8/12/2024")
+    document.getElementById("btn-bless").click();
+else if (day.toLocaleDateString('en-Us') == "8/15/2024")
+    document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "8/16/2024")
+    document.getElementById("btn-pep").click();
+else if (day.toLocaleDateString('en-Us') == "8/29/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "9/12/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "9/19/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "10/03/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "10/18/2024")
+    document.getElementById("btn-pep").click();
+else if (day.toLocaleDateString('en-Us') == "10/24/2024")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "11/01/2024")
+    document.getElementById("btn-allMass").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

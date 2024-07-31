@@ -220,6 +220,7 @@ var data = {
         ["04/11/2025", "Friday", "Pep Rally"],
         ["04/17/2025 - 04/18/2025", "Thursday - Friday", "NO SCHOOL (Easter Break)"],
         ["04/21/2025 - 04/25/2025", "Monday - Friday", "NO SCHOOL (NCEA Conference)"],
+        ["04/30/2025", "Wednesday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
         ["05/05/2025", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
         ["05/06/2025", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
         ["05/07/2025", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Computer Science A"],

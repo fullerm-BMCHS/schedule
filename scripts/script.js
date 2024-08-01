@@ -155,7 +155,7 @@ var data = {
         ["9th", " 3:00 pm", " 3:30 pm", "0:30", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1wnD-EQ9pS1y0NuwZrw6uopl7J-mQiP2whfj8db9GytM/edit#gid=1978689087' target='_blank'>Official Calendar</a>"],
+        ["2024", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1NV8Dblu2I-MDjE43q7dV16Uc0ep6rGfBMLq22xQG5qg/edit?gid=0#gid=0' target='_blank'>Official Calendar</a>"],
         ["08/02/2024", "Friday", "Transfer Orientation"],
         ["08/06/2024", "Tuesday", "Faculty Retreat"],
         ["08/07/2024", "Wednesday", "Freshman Orientation"],

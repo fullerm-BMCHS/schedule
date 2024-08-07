@@ -155,7 +155,7 @@ var data = {
         ["9th", " 3:00 pm", " 3:30 pm", "0:30", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2024-2025", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1NV8Dblu2I-MDjE43q7dV16Uc0ep6rGfBMLq22xQG5qg/edit?gid=0#gid=0' target='_blank'>Official Academic Calendar</a><br><a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
+        ["2024-2025", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1kxcjwc3pUHe3uY3Uj5df_yz7G811nQJHD-3mlLneuY0/edit?gid=0#gid=0' target='_blank'>Official Academic Calendar</a><br><a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["08/02/2024", "Friday", "Transfer Orientation"],
         ["08/06/2024", "Tuesday", "Faculty Retreat"],
         ["08/07/2024", "Wednesday", "Freshman Orientation"],

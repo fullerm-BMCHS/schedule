@@ -155,12 +155,7 @@ var data = {
         ["9th", " 3:00 pm", " 3:30 pm", "0:30", "0:00"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2024-2025", "BMCHS", "<a href='https://docs.google.com/spreadsheets/d/1kxcjwc3pUHe3uY3Uj5df_yz7G811nQJHD-3mlLneuY0/edit?gid=0#gid=0' target='_blank'>Official Academic Calendar</a><br><a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["08/02/2024", "Friday", "Transfer Orientation"],
-        ["08/06/2024", "Tuesday", "Faculty Retreat"],
-        ["08/07/2024", "Wednesday", "Freshman Orientation"],
-        ["08/08/2024", "Thursday", "Diocesan Kick-Off at Holy Family"],
-        ["08/09/2024", "Friday", "Faculty/Staff Portraits"],
+        ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["08/12/2024", "Monday", "First Day of School<br>Back to School Blessing 8:45am-9:30am Gym<br>Senior Assembly 1:45pm-2:45pm Gym"],
         ["08/13/2024", "Tuesday", "Freshmen, Sophomore, and Junior 2024-2025 Yearbook Picture Day - English Class"],
         ["08/15/2024", "Thursday", "Feast of The Assumption Bishop Mass 10am-11am Gym<br>Senior Parent Night 6pm-8pm Gym"],
@@ -245,6 +240,11 @@ var data = {
         ["**********", "*****", "*********************************"],
         ["***OLDER**", "*OLD*", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],
+        ["08/02/2024", "Friday", "Transfer Orientation"],
+        ["08/06/2024", "Tuesday", "Faculty Retreat"],
+        ["08/07/2024", "Wednesday", "Freshman Orientation"],
+        ["08/08/2024", "Thursday", "Diocesan Kick-Off at Holy Family"],
+        ["08/09/2024", "Friday", "Faculty/Staff Portraits"],
     ]                
 }
 

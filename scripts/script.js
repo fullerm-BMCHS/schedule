@@ -155,14 +155,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["08/29/2024", "Thursday", "Senior Class Mass 9:45am-10:45am"],
-        ["08/30/2024", "Friday", "Dress down day"],
-        ["09/02/2024", "Monday", "NO SCHOOL (Labor Day)"],
-        ["09/05/2024", "Thursday", "Freshman Parent Night 6pm-8pm<br>Mission Trip Parent Night"],
-        ["09/12/2024", "Wednesday", "Walking Together - Student Success"],
-        ["09/12/2024", "Thursday", "Freshman Class Mass 9:45am-10:45am (in FMX)<br>Junior Parent Night 6pm-8pm"],
-        ["09/13/2024", "Friday", "Progress Reports Out"],
-        ["09/16/2024", "Monday", "Fire Drills<br>1st Period: BB, BG, Cafe<br>2nd Period: LO, MM, Gym<br>3rd Period: BD, Dome, MC<br>7th Period: Lockdown and Lockout"],
         ["09/19/2024", "Thursday", "Sophomore Class Mass 9:45am-10:45am<br>Sophomore Parent Night 6pm-8pm"],
         ["09/27/2024", "Friday", "Freshman Retreat Day"],
         ["10/01/2024", "Tuesday", "STEM Night Openhouse 6pm-8pm"],
@@ -246,6 +238,14 @@ var data = {
         ["08/15/2024", "Thursday", "Feast of The Assumption Bishop Mass 10am-11am Gym<br>Senior Parent Night 6pm-8pm Gym"],
         ["08/16/2024", "Friday", "Fire Drills<br>1st Period: BD, Dome, MC<br>2nd Period: BB, BG, Cafe<br>3rd Period: LO, MM, Gym<br>Fall Pep Rally 1:45pm-2:45pm Gym"],
         ["08/22/2024", "Thursday", "Back to School Night 5:30pm-7:45pm"],
+        ["08/29/2024", "Thursday", "Senior Class Mass 9:45am-10:45am"],
+        ["08/30/2024", "Friday", "Dress down day"],
+        ["09/02/2024", "Monday", "NO SCHOOL (Labor Day)"],
+        ["09/05/2024", "Thursday", "Freshman Parent Night 6pm-8pm<br>Mission Trip Parent Night"],
+        ["09/12/2024", "Wednesday", "Walking Together - Student Success"],
+        ["09/12/2024", "Thursday", "Freshman Class Mass 9:45am-10:45am (in FMX)<br>Junior Parent Night 6pm-8pm"],
+        ["09/13/2024", "Friday", "Progress Reports Out"],
+        ["09/16/2024", "Monday", "Fire Drills<br>1st Period: BB, BG, Cafe<br>2nd Period: LO, MM, Gym<br>3rd Period: BD, Dome, MC<br>7th Period: Lockdown and Lockout"],
     ]                
 }
 

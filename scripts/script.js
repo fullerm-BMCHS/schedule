@@ -155,9 +155,7 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["09/19/2024", "Thursday", "Sophomore Class Mass 9:45am-10:45am<br>Sophomore Parent Night 6pm-8pm"],
-        ["09/26/2024", "Thursday", "Freshman Retreat Day (Girls)"],
-        ["09/27/2024", "Friday", "Freshman Retreat Day (Boys)"],
+        ["09/26/2024", "Thursday", "NO SCHOOL - Hurricane Helene"],
         ["10/01/2024", "Tuesday", "STEM Night Openhouse 6pm-8pm"],
         ["10/02/2024", "Wednesday", "Lockout Drill<br>Faculty Meeting 2:30pm"],
         ["10/03/2024", "Thursday", "Sophomore PSAT Testing<br>Junior Class Mass 9:45am-10:45am"],
@@ -255,6 +253,7 @@ var data = {
         ["09/12/2024", "Thursday", "Freshman Class Mass 9:45am-10:45am (in FMX)<br>Junior Parent Night 6pm-8pm"],
         ["09/13/2024", "Friday", "Progress Reports Out"],
         ["09/16/2024", "Monday", "Fire Drills<br>1st Period: BB, BG, Cafe<br>2nd Period: LO, MM, Gym<br>3rd Period: BD, Dome, MC<br>7th Period: Lockdown and Lockout"],
+        ["09/19/2024", "Thursday", "Sophomore Class Mass 9:45am-10:45am<br>Sophomore Parent Night 6pm-8pm"],
     ]                
 }
 

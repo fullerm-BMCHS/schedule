@@ -155,7 +155,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["09/26/2024", "Thursday", "NO SCHOOL - Hurricane Helene"],
         ["10/01/2024", "Tuesday", "STEM Night Openhouse 6pm-8pm"],
         ["10/02/2024", "Wednesday", "Lockout Drill<br>Faculty Meeting 2:30pm"],
         ["10/03/2024", "Thursday", "Sophomore PSAT Testing<br>Junior Class Mass 9:45am-10:45am"],
@@ -171,7 +170,9 @@ var data = {
         ["10/22/2024", "Tuesday", "Partner School Visits"],
         ["10/23/2024", "Wednesday", "Teacher Common-Course PLC"],
         ["10/24/2024", "Thursday", "Partner School Visits"],
+        ["10/25/2024", "Friday", "Freshman Retreat (Girls)"],
         ["10/27/2024", "Sunday", "Open House 1pm-3pm"],
+        ["10/28/2024", "Monday", "Freshman Retreat (Boys)"],
         ["10/30/2024", "Wednesday", "Teacher Individual PD<br>Walking Together"],
         ["11/01/2024", "Friday", "All Saints Day Mass 10am-11am"],
         ["11/06/2024", "Wednesday", "National Signing Day<br>Faculty Meeting 2:30pm"],
@@ -255,6 +256,7 @@ var data = {
         ["09/13/2024", "Friday", "Progress Reports Out"],
         ["09/16/2024", "Monday", "Fire Drills<br>1st Period: BB, BG, Cafe<br>2nd Period: LO, MM, Gym<br>3rd Period: BD, Dome, MC<br>7th Period: Lockdown and Lockout"],
         ["09/19/2024", "Thursday", "Sophomore Class Mass 9:45am-10:45am<br>Sophomore Parent Night 6pm-8pm"],
+        ["09/26/2024", "Thursday", "NO SCHOOL - Hurricane Helene"],
     ]                
 }
 

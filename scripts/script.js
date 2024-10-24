@@ -391,8 +391,6 @@ else if (day.toLocaleDateString('en-Us') == "10/3/2024")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/18/2024")
     document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "10/24/2024")
-    document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "11/01/2024")
     document.getElementById("btn-allMass").click();
 else if (day.getDay() == 3)

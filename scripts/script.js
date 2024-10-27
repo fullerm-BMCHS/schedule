@@ -155,16 +155,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["10/14/2024", "Monday", "Freshman PSAT A-L"],
-        ["10/15/2024", "Tuesday", "Freshman PSAT M-Z<br>Report Cards Due"],
-        ["10/16/2024", "Wednesday", "PSAT MakeUp Day<br>Department PLC"],
-        ["10/18/2024", "Friday", "Pep Rally"],
-        ["10/19/2024", "Saturday", "Homecoming Dance 7pm-11pm"],
-        ["10/22/2024", "Tuesday", "Partner School Visits"],
-        ["10/23/2024", "Wednesday", "Teacher Common-Course PLC"],
-        ["10/24/2024", "Thursday", "Partner School Visits"],
-        ["10/25/2024", "Friday", "Freshman Retreat (Girls)"],
-        ["10/27/2024", "Sunday", "Open House 1pm-3pm"],
         ["10/28/2024", "Monday", "Freshman Retreat (Boys)"],
         ["10/30/2024", "Wednesday", "Teacher Individual PD<br>Walking Together"],
         ["11/01/2024", "Friday", "All Saints Day Mass 10am-11am"],
@@ -259,6 +249,16 @@ var data = {
         ["10/09/2024", "Wednesday", "No School - Hurricane Milton"],
         ["10/10/2024", "Thursday", "No School - Hurricane Milton"],
         ["10/11/2024", "Friday", "NO School - Teacher PD Day"],
+        ["10/14/2024", "Monday", "Freshman PSAT A-L"],
+        ["10/15/2024", "Tuesday", "Freshman PSAT M-Z<br>Report Cards Due"],
+        ["10/16/2024", "Wednesday", "PSAT MakeUp Day<br>Department PLC"],
+        ["10/18/2024", "Friday", "Pep Rally"],
+        ["10/19/2024", "Saturday", "Homecoming Dance 7pm-11pm"],
+        ["10/22/2024", "Tuesday", "Partner School Visits"],
+        ["10/23/2024", "Wednesday", "Teacher Common-Course PLC"],
+        ["10/24/2024", "Thursday", "Partner School Visits"],
+        ["10/25/2024", "Friday", "Freshman Retreat (Girls)"],
+        ["10/27/2024", "Sunday", "Open House 1pm-3pm"],
     ]                
 }
 

@@ -157,7 +157,8 @@ var data = {
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["10/28/2024", "Monday", "Freshman Retreat (Boys)"],
         ["10/30/2024", "Wednesday", "Teacher Individual PD<br>Walking Together"],
-        ["11/01/2024", "Friday", "All Saints Day Mass 10am-11am"],
+        ["10/31/2024", "Thursday", "Seniors attending MacBeth Performance"],
+        ["11/01/2024", "Friday", "All Saints Day Mass 10am-11:15am"],
         ["11/06/2024", "Wednesday", "National Signing Day<br>Faculty Meeting 2:30pm"],
         ["11/07/2024", "Thursday", "Junior Retreat Day (Girls)"],
         ["11/08/2024", "Friday", "Junior Retreat Day (Boys)"],
@@ -167,10 +168,10 @@ var data = {
         ["11/16/2024 - 11/23/2024", "Saturday - Friday", "Mission Trip to the Dominican Republic"],
         ["11/20/2024", "Wednesday", "Department PLC<br>Faculty Lunch<br>Midterm Exams Due to Department Chair"],
         ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
-        ["11/25/2024", "Monday", "Hurricane Makeup Day"],
-        ["11/26/2024", "Tuesday", "Hurricane Makeup Day"],
-        ["12/12/2024", "Thursday", "Our Lady of Guadalupe All School Mass"],
-        ["12/13/2024", "Friday", "Fire Drills<br>1st Period: BB, BG, Cafe<br>2nd Period: LO, MM, Gym<br>3rd Period: BD, Dome, MC"],
+        ["12/02/2024", "Monday", "Advent Wreath Blessing and Christmass Concert"],
+        ["12/04/2024", "Wednesday", "Faculty Meeting"],
+        ["12/09/2024", "Thursday", "Our Lady of Guadalupe All School Mass"],
+        ["12/11/2024", "Wednesday", "Teacher Individual PD<br>Last day for Assessments"],
         ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
         ["12/18/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["12/19/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
@@ -377,22 +378,20 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/12/2024")
     document.getElementById("btn-bless").click();
-else if (day.toLocaleDateString('en-Us') == "8/15/2024")
+else if (day.toLocaleDateString('en-Us') == "11/1/2024")
     document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "8/16/2024")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "8/29/2024")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "9/12/2024")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "9/19/2024")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/3/2024")
-    document.getElementById("btn-classMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/18/2024")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "11/01/2024")
+else if (day.toLocaleDateString('en-Us') == "12/2/2024")
+    document.getElementById("btn-bless").click();
+else if (day.toLocaleDateString('en-Us') == "12/9/2024")
     document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "12/17/2024")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "12/18/2024")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "12/19/2024")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "12/20/2024")
+    document.getElementById("btn-Exams").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

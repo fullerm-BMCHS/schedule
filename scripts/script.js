@@ -165,7 +165,7 @@ var data = {
         ["11/16/2024 - 11/23/2024", "Saturday - Friday", "Mission Trip to the Dominican Republic"],
         ["11/20/2024", "Wednesday", "Department PLC<br>Faculty Lunch<br>Midterm Exams Due to Department Chair"],
         ["11/21/2024", "Thursday", "Lunch n Learn (Mailroom)"],
-        ["11/22/2024", "Friday", "BMC Fan Driday"],
+        ["11/22/2024", "Friday", "BMC Fan Friday"],
         ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
         ["12/02/2024", "Monday", "Advent Wreath Blessing and Christmass Concert"],
         ["12/04/2024", "Wednesday", "Faculty Meeting"],

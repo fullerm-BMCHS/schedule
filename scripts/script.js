@@ -153,16 +153,6 @@ var data = {
         ["8th", " 2:01 pm", " 2:28 pm", "0:27", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["11/14/2024", "Thursday", "TYPA Accreditation Visit"],
-        ["11/15/2024", "Friday", "Progress Reports Out<br>Dress down day - Fall Champions"],
-        ["11/16/2024 - 11/23/2024", "Saturday - Friday", "Mission Trip to the Dominican Republic"],
-        ["11/20/2024", "Wednesday", "Department PLC<br>Faculty Lunch<br>Midterm Exams Due to Department Chair"],
-        ["11/21/2024", "Thursday", "Lunch n Learn (Mailroom)"],
-        ["11/22/2024", "Friday", "BMC Fan Friday"],
-        ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
-        ["12/02/2024", "Monday", "Advent Wreath Blessing and Christmass Concert"],
-        ["12/04/2024", "Wednesday", "Faculty Meeting"],
         ["12/09/2024", "Thursday", "Our Lady of Guadalupe All School Mass"],
         ["12/11/2024", "Wednesday", "Teacher Individual PD<br>Last day for Assessments"],
         ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
@@ -262,6 +252,16 @@ var data = {
         ["11/08/2024", "Friday", "Junior Retreat Day (by Religion Class)"],
         ["11/11/2024", "Monday", "Junior Retreat Day (by Religion Class)"],
         ["11/13/2024", "Wednesday", "National Signing Day 1st and 2nd Periods<br>Teacher Individual PD"],
+        ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
+        ["11/14/2024", "Thursday", "TYPA Accreditation Visit"],
+        ["11/15/2024", "Friday", "Progress Reports Out<br>Dress down day - Fall Champions"],
+        ["11/16/2024 - 11/23/2024", "Saturday - Friday", "Mission Trip to the Dominican Republic"],
+        ["11/20/2024", "Wednesday", "Department PLC<br>Faculty Lunch<br>Midterm Exams Due to Department Chair"],
+        ["11/21/2024", "Thursday", "Lunch n Learn (Mailroom)"],
+        ["11/22/2024", "Friday", "BMC Fan Friday"],
+        ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
+        ["12/02/2024", "Monday", "Advent Wreath Blessing and Christmass Concert"],
+        ["12/04/2024", "Wednesday", "Faculty Meeting"],
     ]                
 }
 

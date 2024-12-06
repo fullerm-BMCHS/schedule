@@ -153,7 +153,7 @@ var data = {
         ["8th", " 2:01 pm", " 2:28 pm", "0:27", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["12/09/2024", "Monday", "Our Lady of Guadalupe All School Mass <a href="https://docs.google.com/spreadsheets/d/19DS5B5MZ-BYDnZYNsn8el7NeV_tqt_aedEoEKkIjR5g/edit?gid=0#gid=0">Seating Chart</a>"],
+        ["12/09/2024", "Monday", "Our Lady of Guadalupe All School Mass <a href='https://docs.google.com/spreadsheets/d/19DS5B5MZ-BYDnZYNsn8el7NeV_tqt_aedEoEKkIjR5g/edit?gid=0#gid=0'>Seating Chart</a>"],
         ["12/11/2024", "Wednesday", "Teacher Individual PD<br>Last day for Assessments"],
         ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>Faculty: Walking Together"],
         ["12/18/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],

@@ -37,7 +37,7 @@ var data = {
         ["1st", " 7:40 am", " 8:16 am", "0:36", "0:08"],
         ["2nd", " 8:24 am", " 9:00 am", "0:36", "0:08"],
         ["3rd", " 9:08 am", " 9:45 am", "0:37", "0:15"],
-        ["MASS","10:00 am", "11:15 am", "1:30", "1:15"],
+        ["MASS","10:00 am", "11:15 am", "1:15", "0:15"],
         ["4th", "11:30 am", "12:06 pm", "0:36", "0:08"],
         ["5th", "12:14 pm", "12:50 pm", "0:36", "0:08"],
         ["6th", "12:58 pm", " 1:34 pm", "0:36", "0:08"],
@@ -98,20 +98,20 @@ var data = {
         ["5th", "11:56 am", "12:34 pm", "0:38", "0:08"],
         ["6th", "12:42 pm", " 1:20 pm", "0:38", "0:08"],
         ["7th", " 1:28 pm", " 2:06 pm", "0:38", "0:08"],
-        ["8th", " 2:14 pm", " 2:52 pm", "0:38", " "],
-        ["9th", " 2:52 pm", " 3:30 pm", "0:38", " "]],
+        ["8th", " 2:14 pm", " 2:52 pm", "0:38", "0:01"],
+        ["9th", " 2:53 pm", " 3:30 pm", "0:38", " "]],
     "btn-pep" : [
         ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:20 am", "0:40", "0:08"],
-        ["2nd", " 8:28 am", " 9:08 am", "0:40", "0:08"],
-        ["3rd", " 9:16 am", " 9:56 am", "0:40", "0:08"],
-        ["7th", "10:04 am", "10:44 am", "0:40", "0:08"],
-        ["4th", "10:52 am", "11:32 am", "0:40", "0:08"],
-        ["5th", "11:40 am", "12:20 pm", "0:40", "0:08"],
-        ["6th", "12:28 pm", " 1:08 pm", "0:40", "0:08"],
-        ["8th", " 1:16 pm", " 1:56 pm", "0:40", "0:14"],
-        ["Pep", " 2:10 pm", " 2:52 pm", "0:42", " "],
-        ["9th", " 2:52 pm", " 3:30 pm", "0:38", " "]],
+        ["1st", " 7:40 am", " 8:21 am", "0:41", "0:08"],
+        ["2nd", " 8:29 am", " 9:10 am", "0:41", "0:08"],
+        ["3rd", " 9:18 am", " 9:59 am", "0:41", "0:08"],
+        ["7th", "10:07 am", "10:48 am", "0:41", "0:08"],
+        ["4th", "10:56 am", "11:37 am", "0:41", "0:08"],
+        ["5th", "11:45 am", "12:26 pm", "0:41", "0:08"],
+        ["6th", "12:34 pm", " 1:15 pm", "0:41", "0:08"],
+        ["8th", " 1:23 pm", " 2:04 pm", "0:41", "0:14"],
+        ["Pep", " 2:18 pm", " 3:00 pm", "0:42", "0:01"],
+        ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
     "btn-speaker" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:10 am", "0:30", "0:08"],
@@ -153,9 +153,9 @@ var data = {
         ["8th", " 2:01 pm", " 2:28 pm", "0:27", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["12/09/2024", "Thursday", "Our Lady of Guadalupe All School Mass"],
+        ["12/09/2024", "Monday", "Our Lady of Guadalupe All School Mass <a href="https://docs.google.com/spreadsheets/d/19DS5B5MZ-BYDnZYNsn8el7NeV_tqt_aedEoEKkIjR5g/edit?gid=0#gid=0">Seating Chart</a>"],
         ["12/11/2024", "Wednesday", "Teacher Individual PD<br>Last day for Assessments"],
-        ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
+        ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>Faculty: Walking Together"],
         ["12/18/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["12/19/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
         ["12/20/2024", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Quarter 2 - End of Semester 1"],
@@ -388,6 +388,8 @@ else if (day.toLocaleDateString('en-Us') == "12/2/2024")
     document.getElementById("btn-bless").click();
 else if (day.toLocaleDateString('en-Us') == "12/9/2024")
     document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "12/13/2024")
+    document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "12/17/2024")
     document.getElementById("btn-Exams").click();
 else if (day.toLocaleDateString('en-Us') == "12/18/2024")

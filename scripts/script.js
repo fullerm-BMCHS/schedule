@@ -58,15 +58,15 @@ var data = {
     "btn-bless" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:27 am", "0:47", "0:18"],
-        ["Bless", " 8:45 am", " 9:45 am", "1:00", "0:15"],
-        ["2nd", "10:00 am", "10:36 am", "0:36", "0:08"],
-        ["3rd", "10:44 am", "11:20 am", "0:36", "0:08"],
-        ["4th", "11:28 am", "12:04 pm", "0:36", "0:08"],
-        ["5th", "12:12 pm", "12:48 pm", "0:36", "0:08"],
-        ["6th", "12:56 pm", " 1:32 pm", "0:36", "0:08"],
-        ["7th", " 1:40 pm", " 2:16 pm", "0:36", "0:08"],
-        ["8th", " 2:24 pm", " 3:00 pm", "0:36", "0:01"],
-        ["9th", " 3:01 pm", " 3:38 pm", "0:38", " "]],
+        ["Bless", " 8:45 am", " 9:15 am", "0:30", "0:15"],
+        ["2nd", "09:30 am", "10:11 am", "0:41", "0:08"],
+        ["3rd", "10:19 am", "11:00 am", "0:40", "0:08"],
+        ["4th", "11:08 am", "11:48 am", "0:40", "0:08"],
+        ["5th", "11:56 am", "12:36 pm", "0:40", "0:08"],
+        ["6th", "12:44 pm", " 1:24 pm", "0:40", "0:08"],
+        ["7th", " 1:32 pm", " 2:12 pm", "0:40", "0:08"],
+        ["8th", " 2:20 pm", " 3:00 pm", "0:40", "0:01"],
+        ["9th", " 3:01 pm", " 3:38 pm", "0:40", " "]],
     "btn-blessWed" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:15 am", "0:35", "0:15"],
@@ -380,24 +380,8 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/12/2024")
     document.getElementById("btn-bless").click();
-else if (day.toLocaleDateString('en-Us') == "11/1/2024")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "11/6/2024")
-    document.getElementById("btn-custom1").click();
-else if (day.toLocaleDateString('en-Us') == "12/2/2024")
+else if (day.toLocaleDateString('en-Us') == "1/6/2025")
     document.getElementById("btn-bless").click();
-else if (day.toLocaleDateString('en-Us') == "12/9/2024")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "12/13/2024")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "12/17/2024")
-    document.getElementById("btn-Exams").click();
-else if (day.toLocaleDateString('en-Us') == "12/18/2024")
-    document.getElementById("btn-Exams").click();
-else if (day.toLocaleDateString('en-Us') == "12/19/2024")
-    document.getElementById("btn-Exams").click();
-else if (day.toLocaleDateString('en-Us') == "12/20/2024")
-    document.getElementById("btn-Exams").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

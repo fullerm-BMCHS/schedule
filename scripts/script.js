@@ -153,14 +153,9 @@ var data = {
         ["8th", " 2:01 pm", " 2:28 pm", "0:27", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["12/09/2024", "Monday", "Our Lady of Guadalupe All School Mass <a href='https://docs.google.com/spreadsheets/d/19DS5B5MZ-BYDnZYNsn8el7NeV_tqt_aedEoEKkIjR5g/edit?gid=0#gid=0'>Seating Chart</a>"],
-        ["12/11/2024", "Wednesday", "Teacher Individual PD<br>Last day for Assessments"],
-        ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>Faculty: Walking Together"],
-        ["12/18/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
-        ["12/19/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
-        ["12/20/2024", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Quarter 2 - End of Semester 1"],
-        ["12/23/2024 - 01/03/2025", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
         ["01/06/2025", "Monday", "Start of 2nd Semester"],
+        ["01/07/2025", "Tuesday", "Yearbook Group Pictures"],
+        ["01/08/2025", "Wednesday", "Faculty Meeting"],
         ["01/18/2025", "Saturday", "Ave Maria Trip"],
         ["01/20/2025", "Monday", "NO SCHOOL (Martin Luther King Jr. Day)"],
         ["01/27/2025 - 01/31/2025", "Monday - Friday", "Catholic Schools Week"],
@@ -262,6 +257,13 @@ var data = {
         ["11/25/2024 - 11/29/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
         ["12/02/2024", "Monday", "Advent Wreath Blessing and Christmass Concert"],
         ["12/04/2024", "Wednesday", "Faculty Meeting"],
+        ["12/09/2024", "Monday", "Our Lady of Guadalupe All School Mass <a href='https://docs.google.com/spreadsheets/d/19DS5B5MZ-BYDnZYNsn8el7NeV_tqt_aedEoEKkIjR5g/edit?gid=0#gid=0'>Seating Chart</a>"],
+        ["12/11/2024", "Wednesday", "Teacher Individual PD<br>Last day for Assessments"],
+        ["12/17/2024", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>Faculty: Walking Together"],
+        ["12/18/2024", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
+        ["12/19/2024", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
+        ["12/20/2024", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Quarter 2 - End of Semester 1"],
+        ["12/23/2024 - 01/03/2025", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
     ]                
 }
 

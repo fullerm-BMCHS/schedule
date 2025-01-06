@@ -153,6 +153,7 @@ var data = {
         ["8th", " 2:01 pm", " 2:28 pm", "0:27", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
+        ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["01/06/2025", "Monday", "Start of 2nd Semester<br>New Year Blessing"],
         ["01/07/2025", "Tuesday", "Yearbook Group Pictures"],
         ["01/08/2025", "Wednesday", "Faculty Meeting"],
@@ -194,15 +195,18 @@ var data = {
         ["03/28/2025", "Friday", "10th Grade Act Digital Readiness"],
         ["03/31/2025", "Monday", "9th Grade Act (Beginning of Alphabet)"],
         ["04/01/2025", "Tuesday", "9th Grade Act (End of Alphabet)"],
-        ["04/02/2025", "Wednesday", "10th Grade Act (Beginning of Alphabet)"],
+        ["04/02/2025", "Wednesday", "10th Grade Act (Beginning of Alphabet)<br>Faculty Meeting"],
         ["04/03/2025", "Thursday", "10th Grade Act (End of Alphabet)"],
         ["04/04/2025", "Friday", "Senior Retreat"],
         ["04/05/2025", "Saturday", "Prom"],
+        ["04/09/2025", "Wednesday", "Department PLC"],
         ["04/10/2025", "Thursday", "Junior Class Mass"],
-        ["04/11/2025", "Friday", "Pep Rally"],
+        ["04/11/2025", "Friday", "BMC Fan Friday"],
+        ["04/16/2025", "Wednesday", "Holy Week Prayer Service<br>National Signing Day<br>Individual PD"],
         ["04/17/2025 - 04/18/2025", "Thursday - Friday", "NO SCHOOL (Easter Break)"],
         ["04/21/2025 - 04/25/2025", "Monday - Friday", "NO SCHOOL (NCEA Conference)"],
-        ["04/30/2025", "Wednesday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
+        ["04/30/2025", "Wednesday", "Faculty Meeting (Graduation Info)<br>AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
+        ["05/02/2025", "Friday", "Progress Reports"],
         ["05/05/2025", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
         ["05/06/2025", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
         ["05/07/2025", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Computer Science A"],
@@ -271,7 +275,6 @@ var data = {
         ["11/08/2024", "Friday", "Junior Retreat Day (by Religion Class)"],
         ["11/11/2024", "Monday", "Junior Retreat Day (by Religion Class)"],
         ["11/13/2024", "Wednesday", "National Signing Day 1st and 2nd Periods<br>Teacher Individual PD"],
-        ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["11/14/2024", "Thursday", "TYPA Accreditation Visit"],
         ["11/15/2024", "Friday", "Progress Reports Out<br>Dress down day - Fall Champions"],
         ["11/16/2024 - 11/23/2024", "Saturday - Friday", "Mission Trip to the Dominican Republic"],
@@ -422,6 +425,8 @@ else if (day.toLocaleDateString('en-Us') == "3/14/2025")
     document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "3/26/2025")
     document.getElementById("btn-noon").click();
+else if (day.toLocaleDateString('en-Us') == "4/16/2025")
+    document.getElementById("btn-allMassWed").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

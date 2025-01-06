@@ -392,6 +392,20 @@ if (day.toLocaleDateString('en-Us') == "8/12/2024")
     document.getElementById("btn-bless").click();
 else if (day.toLocaleDateString('en-Us') == "1/6/2025")
     document.getElementById("btn-bless").click();
+else if (day.toLocaleDateString('en-Us') == "1/27/2025")
+    document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "2/13/2025")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "2/20/2025")
+    document.getElementById("btn-classMass").click();
+else if (day.toLocaleDateString('en-Us') == "2/28/2025")
+    document.getElementById("btn-noon").click();
+else if (day.toLocaleDateString('en-Us') == "3/5/2025")
+    document.getElementById("btn-allMassWed").click();
+else if (day.toLocaleDateString('en-Us') == "3/14/2025")
+    document.getElementById("btn-pep").click();
+else if (day.toLocaleDateString('en-Us') == "3/26/2025")
+    document.getElementById("btn-noon").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

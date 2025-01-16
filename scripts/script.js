@@ -154,9 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["01/13/2025", "Monday", "Fire Drills<br>1st Period: LO, MM, Gym<br>2nd Period: BD, Dome, MC<br>3rd Period: BB, BG, Cafe"],
-        ["01/14/2025", "Tuesday", "Senior Men's Retreat"],
-        ["01/15/2025", "Wednesday", "Senior Women's Retreat<br>Department PLC"],
         ["01/17/2025", "Friday", "Semester 1 Final Grades Due"],
         ["01/18/2025", "Saturday", "Ave Maria Trip"],
         ["01/20/2025", "Monday", "NO SCHOOL (Martin Luther King Jr. Day)"],
@@ -294,6 +291,9 @@ var data = {
         ["01/06/2025", "Monday", "Start of 2nd Semester<br>New Year Blessing"],
         ["01/07/2025", "Tuesday", "Yearbook Group Pictures"],
         ["01/08/2025", "Wednesday", "Faculty Meeting"],
+        ["01/13/2025", "Monday", "Fire Drills<br>1st Period: LO, MM, Gym<br>2nd Period: BD, Dome, MC<br>3rd Period: BB, BG, Cafe"],
+        ["01/14/2025", "Tuesday", "Senior Men's Retreat"],
+        ["01/15/2025", "Wednesday", "Senior Women's Retreat<br>Department PLC"],
     ]                
 }
 

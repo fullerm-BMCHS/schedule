@@ -154,12 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["01/27/2025 - 01/31/2025", "Monday - Friday", "Catholic Schools Week"],
-        ["01/27/2025", "Monday", "Bishop's Mass"],
-        ["01/28/2025", "Tuesday", "Spirit dress down day"],
-        ["01/29/2025", "Wednesday", "Individual PD<br>Walking Together"],
-        ["01/31/2025", "Friday", "BMC Fan Friday<br>Faculty/Staff Lunch in Cafeteria<br>Neptune Navigate Due for Staff and Students"],
-        ["02/03/2025", "Monday", "Shelter Drill"],
         ["02/05/2025", "Wednesday", "National Signing Day<br>Faculty Meeting"],
         ["02/07/2025", "Friday", "Progress Reports"],
         ["02/08/2025 - 02/15/2025", "Saturday - Saturday", "Mission Trip to the Dominican Republic"],
@@ -295,6 +289,12 @@ var data = {
         ["01/18/2025", "Saturday", "Ave Maria Trip"],
         ["01/20/2025", "Monday", "NO SCHOOL (Martin Luther King Jr. Day)"],
         ["01/22/2025", "Wednesday", "Lockdown Drill (3rd Period)<br>Common Course PLC"],
+        ["01/27/2025 - 01/31/2025", "Monday - Friday", "Catholic Schools Week"],
+        ["01/27/2025", "Monday", "Bishop's Mass"],
+        ["01/28/2025", "Tuesday", "Spirit dress down day"],
+        ["01/29/2025", "Wednesday", "Individual PD<br>Walking Together"],
+        ["01/31/2025", "Friday", "BMC Fan Friday<br>Faculty/Staff Lunch in Cafeteria<br>Neptune Navigate Due for Staff and Students"],
+        ["02/03/2025", "Monday", "Shelter Drill"],
     ]                
 }
 

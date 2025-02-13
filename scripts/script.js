@@ -154,10 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["02/05/2025", "Wednesday", "National Signing Day<br>Faculty Meeting"],
-        ["02/07/2025", "Friday", "Progress Reports"],
-        ["02/08/2025 - 02/15/2025", "Saturday - Saturday", "Mission Trip to the Dominican Republic"],
-        ["02/12/2025", "Wednesday", "Individual PD<br>Walking Together"],
         ["02/13/2025", "Thursday", "Sophomore Class Mass"],
         ["02/19/2025", "Wednesday", "Department PLC"],
         ["02/20/2025", "Thursday", "Freshman Class Mass"],
@@ -295,6 +291,10 @@ var data = {
         ["01/29/2025", "Wednesday", "Individual PD<br>Walking Together"],
         ["01/31/2025", "Friday", "BMC Fan Friday<br>Faculty/Staff Lunch in Cafeteria<br>Neptune Navigate Due for Staff and Students"],
         ["02/03/2025", "Monday", "Shelter Drill"],
+        ["02/05/2025", "Wednesday", "National Signing Day<br>Faculty Meeting"],
+        ["02/07/2025", "Friday", "Progress Reports"],
+        ["02/08/2025 - 02/15/2025", "Saturday - Saturday", "Mission Trip to the Dominican Republic"],
+        ["02/12/2025", "Wednesday", "Individual PD<br>Walking Together"],
     ]                
 }
 

@@ -154,13 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["02/13/2025", "Thursday", "Sophomore Class Mass"],
-        ["02/19/2025", "Wednesday", "Department PLC"],
-        ["02/20/2025", "Thursday", "Freshman Class Mass"],
-        ["02/21/2025", "Friday", "Sophomore Retreat (Half of Students)"],
-        ["02/24/2025", "Monday", "Sophomore Retreat (Half of Students)"],
-        ["02/26/2025", "Wednesday", "Common Course PLC"],
-        ["02/28/2025", "Friday", "Noon Dismissal<br>BMC Fan Friday"],
         ["03/03/2025", "Monday", "Pre-Act Freshman Testing"],
         ["03/04/2025", "Tuesday", "Pre-Act Freshman Testing"],
         ["03/05/2025", "Wednesday", "Ash Wednesday Mass<br>Faculty Meeting"],
@@ -295,6 +288,13 @@ var data = {
         ["02/07/2025", "Friday", "Progress Reports"],
         ["02/08/2025 - 02/15/2025", "Saturday - Saturday", "Mission Trip to the Dominican Republic"],
         ["02/12/2025", "Wednesday", "Individual PD<br>Walking Together"],
+        ["02/13/2025", "Thursday", "Sophomore Class Mass"],
+        ["02/19/2025", "Wednesday", "Department PLC"],
+        ["02/20/2025", "Thursday", "Freshman Class Mass"],
+        ["02/21/2025", "Friday", "Sophomore Retreat (Half of Students)"],
+        ["02/24/2025", "Monday", "Sophomore Retreat (Half of Students)"],
+        ["02/26/2025", "Wednesday", "Common Course PLC"],
+        ["02/28/2025", "Friday", "Noon Dismissal<br>BMC Fan Friday"],
     ]                
 }
 

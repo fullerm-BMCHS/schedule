@@ -144,13 +144,13 @@ var data = {
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],        
         ["1st", " 7:40 am", " 8:28 am", "0:48", "0:08"],
-        ["2nd", " 8:36 am", " 9:24 am", "0:48", "0:08"],
-        ["3rd", " 9:32 am", "10:20 am", "0:48", "0:08"],
-        ["4th", "10:28 am", "11:16 am", "0:48", "0:08"],
-        ["5th", "11:24 am", "12:12 pm", "0:48", "0:08"],
-        ["6th", "12:20 pm", " 1:08 pm", "0:48", "0:08"],
-        ["7th", " 1:16 pm", " 2:04 pm", "0:48", "0:08"],
-        ["8th", " 2:12 pm", " 3:00 pm", "0:48", "0:01"],
+        ["2nd", " 8:36 am", "10:10 am", "1:34", "0:08"],
+        ["3rd", "10:11 am", "11:10 am", "0:59", "0:08"],
+        ["4th", "11:10 am", "11:50 am", "0:40", "0:08"],
+        ["5th", "11:58 am", "12:38 pm", "0:40", "0:08"],
+        ["6th", "12:46 pm", " 1:26 pm", "0:40", "0:08"],
+        ["7th", " 1:34 pm", " 2:13 pm", "0:39", "0:08"],
+        ["8th", " 2:21 pm", " 3:00 pm", "0:39", "0:01"],
         ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
@@ -424,6 +424,8 @@ else if (day.toLocaleDateString('en-Us') == "2/28/2025")
     document.getElementById("btn-noon").click();
 else if (day.toLocaleDateString('en-Us') == "3/5/2025")
     document.getElementById("btn-allMassWed").click();
+else if (day.toLocaleDateString('en-Us') == "3/10/2025")
+    document.getElementById("btn-custom1").click();
 else if (day.toLocaleDateString('en-Us') == "3/14/2025")
     document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "3/26/2025")

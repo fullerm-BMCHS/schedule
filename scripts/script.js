@@ -424,8 +424,6 @@ else if (day.toLocaleDateString('en-Us') == "2/28/2025")
     document.getElementById("btn-noon").click();
 else if (day.toLocaleDateString('en-Us') == "3/5/2025")
     document.getElementById("btn-allMassWed").click();
-else if (day.toLocaleDateString('en-Us') == "3/10/2025")
-    document.getElementById("btn-custom1").click();
 else if (day.toLocaleDateString('en-Us') == "3/14/2025")
     document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "3/26/2025")

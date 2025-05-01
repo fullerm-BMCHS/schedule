@@ -143,19 +143,19 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
-        [" 2A", " 8:30 am", "09:15 am", "0:45", "0:10"],
-        [" 2B", " 9:25 am", "10:10 am", "0:45", "0:10"],
-        ["3rd", "10:20 am", "10:54 am", "0:34", "0:08"],
-        ["4th", "11:02 am", "11:37 am", "0:35", "0:08"],
-        ["5th", "11:45 am", "12:20 pm", "0:35", "0:08"],
-        ["6th", "12:28 pm", " 1:03 pm", "0:35", "0:08"],
-        ["7th", " 1:11 pm", " 1:45 pm", "0:34", "0:08"],
-        ["8th", " 1:53 pm", " 2:28 pm", "0:35", "0:01"]],
+        ["1st", " 7:40 am", " 8:23 am", "0:43", "0:08"],
+        ["2nd", " 8:31 am", " 9:14 am", "0:43", "0:10"],
+        ["3rd", " 9:22 am", "10:05 am", "0:43", "0:10"],
+        ["7th", "10:13 am", "10:56 am", "0:43", "0:08"],
+        ["4th", "11:04 am", "11:47 am", "0:43", "0:08"],
+        ["5th", "11:55 am", "12:38 pm", "0:43", "0:08"],
+        ["6th", "12:46 pm", " 1:29 pm", "0:43", "0:15"],
+        ["8th/Pep", " 1:44 pm", " 2:04 pm", "0:20", "0:10"],
+        ["8th", " 2:14 pm", " 3:00 pm", "0:46", "0:01"],
+        ["9th", " 3:01 pm", " 3:30 pm", "0:29", "0:01"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["04/30/2025", "Wednesday", "Faculty Meeting (Graduation Info)<br>AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
         ["05/02/2025", "Friday", "Progress Reports"],
         ["05/05/2025", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
         ["05/06/2025", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
@@ -294,6 +294,7 @@ var data = {
         ["04/16/2025", "Wednesday", "Holy Week Prayer Service<br>National Signing Day<br>Individual PD"],
         ["04/17/2025 - 04/18/2025", "Thursday - Friday", "NO SCHOOL (Easter Break)"],
         ["04/21/2025 - 04/25/2025", "Monday - Friday", "NO SCHOOL (NCEA Conference)"],
+        ["04/30/2025", "Wednesday", "Faculty Meeting (Graduation Info)<br>AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
     ]                
 }
 
@@ -431,6 +432,8 @@ else if (day.toLocaleDateString('en-Us') == "3/26/2025")
 else if (day.toLocaleDateString('en-Us') == "4/10/2025")
     document.getElementById("btn-classMass").click();
 else if (day.toLocaleDateString('en-Us') == "4/16/2025")
+    document.getElementById("btn-custom1").click();
+else if (day.toLocaleDateString('en-Us') == "5/1/2025")
     document.getElementById("btn-custom1").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();

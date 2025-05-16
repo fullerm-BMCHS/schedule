@@ -157,19 +157,8 @@ var data = {
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["05/02/2025", "Friday", "Progress Reports"],
-        ["05/05/2025", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
-        ["05/06/2025", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
-        ["05/07/2025", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Computer Science A"],
-        ["05/08/2025", "Thursday", "AP Testing<br>8am - Statistics<br>12pm - World History: Modern"],
-        ["05/09/2025", "Friday", "AP Testing<br>8am - United States History<br>12pm - Macroeconomics"],
-        ["05/09/2025", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
-        ["05/12/2025", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Music Theory"],
-        ["05/13/2025", "Tuesday", "AP Testing<br>8am - French Language and Culture / Precalculus<br>12pm - Environmental Science / Physics 2: Algebra-Based"],
-        ["05/14/2025", "Wednesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C: Mechanics"],
-        ["05/15/2025", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
-        ["05/16/2025", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based / Spanish Literature and Culture<br>12pm - Psychology / Latin<br>Senior Grades Due<br>Senior's Last Day"],
-        ["05/19/2025", "Monday", "Noon Dismissal"],
-        ["05/20/2025", "Tuesday", "Last Day for Assessment<br>Awards Night"],
+        ["05/19/2025", "Monday", "NOON Dismissal<br>Yearbook distribution"],
+        ["05/20/2025", "Tuesday", "Last Day for Assessment<br>Awards Night 7pm<br>Senior Parade"],
         ["05/22/2025", "Thursday", "NO SCHOOL (Graduation)"],
         ["05/26/2025", "Monday", "NO SCHOOL (Memorial Day)"],
         ["05/27/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
@@ -177,6 +166,7 @@ var data = {
         ["05/29/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
         ["05/30/2025", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester<br>Grades Due"],
         ["05/30/2025", "Friday", "Last Day of School<br>End of 4th Quarter"],
+        ["08/11/2025", "Monday", "FIRST DAY OF SCHOOL 2025-2026"],
         ["**********", "*****", "*********************************"],
         ["***OLDER**", "*OLD*", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],
@@ -295,6 +285,18 @@ var data = {
         ["04/17/2025 - 04/18/2025", "Thursday - Friday", "NO SCHOOL (Easter Break)"],
         ["04/21/2025 - 04/25/2025", "Monday - Friday", "NO SCHOOL (NCEA Conference)"],
         ["04/30/2025", "Wednesday", "Faculty Meeting (Graduation Info)<br>AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
+        ["05/05/2025", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
+        ["05/06/2025", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
+        ["05/07/2025", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Computer Science A"],
+        ["05/08/2025", "Thursday", "AP Testing<br>8am - Statistics<br>12pm - World History: Modern"],
+        ["05/09/2025", "Friday", "AP Testing<br>8am - United States History<br>12pm - Macroeconomics"],
+        ["05/09/2025", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
+        ["05/12/2025", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Music Theory"],
+        ["05/13/2025", "Tuesday", "AP Testing<br>8am - French Language and Culture / Precalculus<br>12pm - Environmental Science / Physics 2: Algebra-Based"],
+        ["05/14/2025", "Wednesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C: Mechanics"],
+        ["05/15/2025", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
+        ["05/16/2025", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based / Spanish Literature and Culture<br>12pm - Psychology / Latin<br>Senior Grades Due<br>Senior's Last Day"],
+        ["05/19/2025", "Monday", "Noon Dismissal"],
     ]                
 }
 
@@ -435,6 +437,8 @@ else if (day.toLocaleDateString('en-Us') == "4/16/2025")
     document.getElementById("btn-custom1").click();
 else if (day.toLocaleDateString('en-Us') == "5/1/2025")
     document.getElementById("btn-custom1").click();
+else if (day.toLocaleDateString('en-Us') == "5/19/2025")
+    document.getElementById("btn-noon").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

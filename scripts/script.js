@@ -143,14 +143,14 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 7:40 am", " 8:23 am", "0:43", "0:08"],
-        ["2nd", " 8:31 am", " 9:14 am", "0:43", "0:10"],
-        ["3rd", " 9:22 am", "10:05 am", "0:43", "0:10"],
-        ["7th", "10:13 am", "10:56 am", "0:43", "0:08"],
-        ["4th", "11:04 am", "11:47 am", "0:43", "0:08"],
-        ["5th", "11:55 am", "12:38 pm", "0:43", "0:08"],
-        ["6th", "12:46 pm", " 1:29 pm", "0:43", "0:15"],
-        ["8th/Pep", " 1:44 pm", " 2:04 pm", "0:20", "0:10"],
+        ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
+        ["Parade", " 8:30 am", " 9:45 am", "0:15", "0:06"],
+        ["2nd", " 8:51 am", " 9:37 am", "0:46", "0:08"],
+        ["3rd", " 9:45 am", "10:30 am", "0:45", "0:08"],
+        ["4th", "10:38 am", "11:24 am", "0:46", "0:08"],
+        ["5th", "11:32 am", "12:18 pm", "0:46", "0:08"],
+        ["6th", "12:26 pm", " 1:12 pm", "0:46", "0:08"],
+        ["7th", " 1:20 pm", " 2:06 pm", "0:46", "0:08"],
         ["8th", " 2:14 pm", " 3:00 pm", "0:46", "0:01"],
         ["9th", " 3:01 pm", " 3:30 pm", "0:29", "0:01"]],
     "btn-Cal" : [
@@ -439,6 +439,8 @@ else if (day.toLocaleDateString('en-Us') == "5/1/2025")
     document.getElementById("btn-custom1").click();
 else if (day.toLocaleDateString('en-Us') == "5/19/2025")
     document.getElementById("btn-noon").click();
+else if (day.toLocaleDateString('en-Us') == "5/20/2025")
+    document.getElementById("btn-custom1").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

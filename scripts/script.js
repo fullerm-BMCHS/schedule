@@ -143,22 +143,17 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
-        ["Parade", " 8:30 am", " 8:45 am", "0:15", "0:06"],
-        ["2nd", " 8:51 am", " 9:37 am", "0:46", "0:08"],
-        ["3rd", " 9:45 am", "10:30 am", "0:45", "0:08"],
-        ["4th", "10:38 am", "11:24 am", "0:46", "0:08"],
-        ["5th", "11:32 am", "12:18 pm", "0:46", "0:08"],
-        ["6th", "12:26 pm", " 1:12 pm", "0:46", "0:08"],
-        ["7th", " 1:20 pm", " 2:06 pm", "0:46", "0:08"],
-        ["8th", " 2:14 pm", " 3:00 pm", "0:46", "0:01"],
-        ["9th", " 3:01 pm", " 3:30 pm", "0:29", "0:01"]],
+        ["1st", " 7:40 am", " 9:00 am", "1:20", "0:08"],
+        ["2nd", " 9:08 am", " 9:46 am", "0:38", "0:08"],
+        ["3rd", " 9:54 am", "10:32 am", "0:38", "0:08"],
+        ["4th", "10:40 am", "11:20 am", "0:40", "0:08"],
+        ["5th", "11:28 am", "12:08 pm", "0:40", "0:08"],
+        ["6th", "12:16 pm", "12:56 pm", "0:40", "0:08"],
+        ["7th", " 1:04 pm", " 1:42 pm", "0:38", "0:08"],
+        ["8th", " 1:50 pm", " 2:28 pm", "0:38", "0:01"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["05/02/2025", "Friday", "Progress Reports"],
-        ["05/19/2025", "Monday", "NOON Dismissal<br>Yearbook distribution"],
-        ["05/20/2025", "Tuesday", "Last Day for Assessment<br>Awards Night 7pm<br>Senior Parade"],
         ["05/22/2025", "Thursday", "NO SCHOOL (Graduation)"],
         ["05/26/2025", "Monday", "NO SCHOOL (Memorial Day)"],
         ["05/27/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
@@ -297,6 +292,9 @@ var data = {
         ["05/15/2025", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
         ["05/16/2025", "Friday", "AP Testing<br>8am - Physics 1 Algebra-Based / Spanish Literature and Culture<br>12pm - Psychology / Latin<br>Senior Grades Due<br>Senior's Last Day"],
         ["05/19/2025", "Monday", "Noon Dismissal"],
+        ["05/02/2025", "Friday", "Progress Reports"],
+        ["05/19/2025", "Monday", "NOON Dismissal<br>Yearbook distribution"],
+        ["05/20/2025", "Tuesday", "Last Day for Assessment<br>Awards Night 7pm<br>Senior Parade"],
     ]                
 }
 
@@ -439,7 +437,7 @@ else if (day.toLocaleDateString('en-Us') == "5/1/2025")
     document.getElementById("btn-custom1").click();
 else if (day.toLocaleDateString('en-Us') == "5/19/2025")
     document.getElementById("btn-noon").click();
-else if (day.toLocaleDateString('en-Us') == "5/20/2025")
+else if (day.toLocaleDateString('en-Us') == "5/21/2025")
     document.getElementById("btn-custom1").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();

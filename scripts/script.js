@@ -439,6 +439,14 @@ else if (day.toLocaleDateString('en-Us') == "5/19/2025")
     document.getElementById("btn-noon").click();
 else if (day.toLocaleDateString('en-Us') == "5/21/2025")
     document.getElementById("btn-custom1").click();
+else if (day.toLocaleDateString('en-Us') == "5/27/2025")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "5/28/2025")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "5/29/2025")
+    document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "5/30/2025")
+    document.getElementById("btn-Exams").click();
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else

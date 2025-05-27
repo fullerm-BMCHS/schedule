@@ -154,8 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["05/22/2025", "Thursday", "NO SCHOOL (Graduation)"],
-        ["05/26/2025", "Monday", "NO SCHOOL (Memorial Day)"],
         ["05/27/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am"],
         ["05/28/2025", "Wednesday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am"],
         ["05/29/2025", "Thursday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
@@ -295,6 +293,8 @@ var data = {
         ["05/02/2025", "Friday", "Progress Reports"],
         ["05/19/2025", "Monday", "NOON Dismissal<br>Yearbook distribution"],
         ["05/20/2025", "Tuesday", "Last Day for Assessment<br>Awards Night 7pm<br>Senior Parade"],
+        ["05/22/2025", "Thursday", "NO SCHOOL (Graduation)"],
+        ["05/26/2025", "Monday", "NO SCHOOL (Memorial Day)"],
     ]                
 }
 

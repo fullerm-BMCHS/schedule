@@ -154,18 +154,10 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["07/30/2025", "Wednesday", "New Teacher Orientation (Student Center 7:30am - 3:30pm)"],
-        ["07/31/2025", "Thursday", "New Teacher Orientation (Student Center 7:30am - 3:30pm)"],
-        ["08/01/2025", "Friday", "Teacher Pre-Planning Day 1<br>Transfer Student Orientation (Dome 7:30am - 1pm)"],
-        ["08/04/2025", "Monday", "Teacher Pre-Planning Day 2"],
-        ["08/05/2025", "Tuesday", "Staff Retreat"],
-        ["08/06/2025", "Wednesday", "Diocesan Kick Off Day for New School Year"],
-        ["08/07/2025", "Thursday", "Freshman Orientation Day"],
-        ["08/08/2025", "Friday", "Teacher Pre-Planning Day 3<br>Faculty and Staff Yearbook Picture Day (Pines 7:30am - 10:30am)<br>CPR Training (8:30am - 2:30pm)"],
-        ["08/11/2025", "Monday", "FIRST DAY OF SCHOOL 2025-2026<br>Back to School Blessing (8:45am - 9:15am)"],
+        ["08/11/2025", "Monday", "FIRST DAY OF SCHOOL 2025-2026<br>Back to School Blessing (8:45am - 9:15am) <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?gid=700752536#gid=700752536'>Seating Chart</a>"],
         ["08/13/2025", "Wednesday", "9th hour - Faculty Meeting"],
         ["08/14/2025", "Thursday", "Yearbook Picture Day - Freshman, Sophomore, Junior"],
-        ["08/15/2025", "Friday", "All School Mass (10am - 11am)<br>Back-to-School Slides due to evaluator<br>New Teacher Check-in Meeting (Optional)"],
+        ["08/15/2025", "Friday", "All School Mass (10am - 11am) <a href='https://docs.google.com/spreadsheets/d/1U8yRWXlBcS17uDNW3NEOwu9mjgZSxZcog_szhU4kmTY/edit?gid=171656829#gid=171656829'>Seating Chart</a><br>Back-to-School Slides due to evaluator<br>New Teacher Check-in Meeting (Optional)"],
         ["08/18/2025", "Monday", "Dept Chair Meeting"],
         ["08/20/2025", "Wednesday", "Fire Drill<br>9th hour - Department Meeting"],
         ["08/21/2025", "Thursday", "Lunch n'Learn<br>Back to School Night 6:00 pm"],
@@ -237,6 +229,14 @@ var data = {
         ["**********", "*****", "*********************************"],
         ["**********", "*****", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],
+        ["07/30/2025", "Wednesday", "New Teacher Orientation (Student Center 7:30am - 3:30pm)"],
+        ["07/31/2025", "Thursday", "New Teacher Orientation (Student Center 7:30am - 3:30pm)"],
+        ["08/01/2025", "Friday", "Teacher Pre-Planning Day 1<br>Transfer Student Orientation (Dome 7:30am - 1pm)"],
+        ["08/04/2025", "Monday", "Teacher Pre-Planning Day 2"],
+        ["08/05/2025", "Tuesday", "Staff Retreat"],
+        ["08/06/2025", "Wednesday", "Diocesan Kick Off Day for New School Year"],
+        ["08/07/2025", "Thursday", "Freshman Orientation Day"],
+        ["08/08/2025", "Friday", "Teacher Pre-Planning Day 3<br>Faculty and Staff Yearbook Picture Day (Pines 7:30am - 10:30am)<br>CPR Training (8:30am - 2:30pm)"],
     ]                
 }
 
@@ -374,4 +374,5 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 

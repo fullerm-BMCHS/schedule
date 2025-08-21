@@ -156,7 +156,7 @@ var data = {
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["08/20/2025", "Wednesday", "Fire Drill: <a href='https://docs.google.com/spreadsheets/d/1s_k__cjW58Oxgj6wjTB9dAeJeAruWP8B65aJ6Ly10SQ/edit?gid=0#gid=0'>Teacher Lineup</a><br>1st Period: BD, Dome, MC<br>2nd Period: BB, BG, Cafe<br>3rd Period: LO,MM,Gym<br>9th hour - Department Meeting"],
         ["08/21/2025", "Thursday", "Back to School Night 6:00 pm<a href='https://docs.google.com/document/d/1qnAOc2n82QBf70cUSdDY49EjInxZihIAX98tTo00iig/edit?usp=sharing'>Schedule</a>"],
-        ["08/25/2025", "Monday", "Lockdown Drill / Lockout Drill"],
+        ["08/25/2025", "Monday", "Lockdown Drill / Lockout Drill (1st Period, using Raptor)"],
         ["08/26/2025", "Tuesday", "Weather Hold Drill<br>Lunch n'Learn: Formative Assesments"],
         ["08/27/2025", "Wednesday", "9th hour - New Teacher PLC / Faithfit Bookclub / Individual PD"],
         ["08/28/2025", "Thursday", "Freshman Retreat (Day 1)"],
@@ -376,6 +376,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

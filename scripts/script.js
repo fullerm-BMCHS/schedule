@@ -154,10 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["08/28/2025", "Thursday", "Freshman Retreat (Day 1)"],
-        ["08/29/2025", "Friday", "Freshman Retreat (Day 2)"],
-        ["09/01/2025", "Monday", "NO SCHOOL - Labor Day"],
-        ["09/02/2025", "Tuesday", "Cutoff for textbook purchases. eTextbook assignments can be given"],
         ["09/03/2025", "Wednesday", "9th hour - Faculty Meeting"],
         ["09/09/2025", "Tuesday", "Lunch n'Learn - Incorporating Catholic Identity in the classroom"],
         ["09/10/2025", "Wednesday", "9th hour - New"],
@@ -239,6 +235,10 @@ var data = {
         ["08/25/2025", "Monday", "Lockdown Drill / Lockout Drill (1st Period, using Raptor)"],
         ["08/26/2025", "Tuesday", "Weather Hold Drill<br>Lunch n'Learn: Formative Assesments"],
         ["08/27/2025", "Wednesday", "9th hour - New Teacher PLC / Faithfit Bookclub / Individual PD"],
+        ["08/28/2025", "Thursday", "Freshman Retreat (Day 1)"],
+        ["08/29/2025", "Friday", "Freshman Retreat (Day 2)"],
+        ["09/01/2025", "Monday", "NO SCHOOL - Labor Day"],
+        ["09/02/2025", "Tuesday", "Cutoff for textbook purchases. eTextbook assignments can be given"],
     ]                
 }
 
@@ -378,6 +378,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

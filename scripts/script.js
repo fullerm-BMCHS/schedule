@@ -154,9 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["09/15/2025", "Monday", "Dept Chair Meeting"],
-        ["09/17/2025", "Wednesday", "9th hour - Department PLC"],
-        ["09/18/2025", "Thursday", "Junior Parent Night MC-6:30pm"],
         ["09/23/2025", "Tuesday", "Lunch n'Learn - Ed Tech Macbook Tips and Tricks or AI Tools for Teachers"],
         ["09/24/2025", "Wednesday", "9th hour - Common-Course PLC"],
         ["09/25/2025", "Thursday", "Junior Retreat (Day 1)<br>Sophomore Parent Night"],
@@ -248,6 +245,9 @@ var data = {
         ["09/10/2025", "Wednesday", "9th hour - New Teacher PLC / Individual PD"],
         ["09/11/2025", "Thursday", "All School Mass (10am - 11am)<br>Senior Picture Retakes"],
         ["09/12/2025", "Friday", "Progress Reports Q1"],
+        ["09/15/2025", "Monday", "Dept Chair Meeting"],
+        ["09/17/2025", "Wednesday", "9th hour - Department PLC"],
+        ["09/18/2025", "Thursday", "Junior Parent Night MC-6:30pm"],
     ]                
 }
 
@@ -387,6 +387,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

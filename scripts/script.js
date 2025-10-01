@@ -154,10 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["09/23/2025", "Tuesday", "Lunch n'Learn - Ed Tech Macbook Tips and Tricks or AI Tools for Teachers"],
-        ["09/24/2025", "Wednesday", "9th hour - Common-Course PLC"],
-        ["09/25/2025", "Thursday", "Junior Retreat (Day 1)<br>Sophomore Parent Night"],
-        ["09/26/2025", "Friday", "Junior Retreat (Day 2)"],
         ["10/01/2025", "Wednesday", "Herf Jones Assembly Seniors (2nd), Juniors (3rd)<br>9th hour - Faculty Meeting"],
         ["10/02/2025", "Thursday", "Faculty and Staff Yearbook Picture Retake Day (Dome at Lunch)"],
         ["10/04/2025 - 10/11/2025", "Saturday - Saturday", "Fall Mission Trip to the Dominican Republic (25 Seniors)"],
@@ -248,6 +244,10 @@ var data = {
         ["09/15/2025", "Monday", "Dept Chair Meeting"],
         ["09/17/2025", "Wednesday", "9th hour - Department PLC"],
         ["09/18/2025", "Thursday", "Junior Parent Night MC-6:30pm"],
+        ["09/23/2025", "Tuesday", "Lunch n'Learn - Ed Tech Macbook Tips and Tricks or AI Tools for Teachers"],
+        ["09/24/2025", "Wednesday", "9th hour - Common-Course PLC"],
+        ["09/25/2025", "Thursday", "Junior Retreat (Day 1)<br>Sophomore Parent Night"],
+        ["09/26/2025", "Friday", "Junior Retreat (Day 2)"],
     ]                
 }
 
@@ -387,6 +387,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

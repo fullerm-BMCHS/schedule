@@ -143,18 +143,18 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 6:00 pm", " 6:08 pm", "0:08", "0:10"],
-        ["2nd", " 6:18 pm", " 6:26 pm", "0:08", "0:10"],
-        ["3rd", " 6:36 pm", " 6:44 pm", "0:08", "0:10"],
-        ["4th", " 6:54 pm", " 7:02 pm", "0:08", "0:10"],
-        ["5th", " 7:12 pm", " 7:20 pm", "0:08", "0:10"],
-        ["6th", " 7:30 pm", " 7:38 pm", "0:08", "0:10"],
-        ["7th", " 7:48 pm", " 7:56 pm", "0:08", "0:10"],
-        ["8th", " 8:06 pm", " 8:14 pm", "0:08", ""]],
+        ["1st", " 7:40 am", " 8:28 am", "0:48", "0:08"],
+        ["2nd", " 8:36 am", " 9:24 am", "0:48", "0:08"],
+        ["3rd", " 9:32 am", "10:20 am", "0:48", "0:08"],
+        ["4th", "10:28 am", "11:16 am", "0:48", "0:08"],
+        ["5th", "11:24 am", "12:12 pm", "0:48", "0:08"],
+        ["6th", "12:20 pm", " 1:08 pm", "0:48", "0:08"],
+        ["7th", " 1:16 pm", " 2:04 pm", "0:48", "0:08"],
+        ["8th", " 2:12 pm", " 3:00 pm", "0:48", "0:01"],
+        ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["10/01/2025", "Wednesday", "Herf Jones Assembly Seniors (2nd), Juniors (3rd)<br>9th hour - Faculty Meeting"],
         ["10/02/2025", "Thursday", "Faculty and Staff Yearbook Picture Retake Day (Dome at Lunch)"],
         ["10/04/2025 - 10/11/2025", "Saturday - Saturday", "Fall Mission Trip to the Dominican Republic (25 Seniors)"],
         ["10/07/2025", "Tuesday", "PSAT 10th Grade Testing<br>Lunch n'Learn - Instructional Strategies"],
@@ -248,6 +248,7 @@ var data = {
         ["09/24/2025", "Wednesday", "9th hour - Common-Course PLC"],
         ["09/25/2025", "Thursday", "Junior Retreat (Day 1)<br>Sophomore Parent Night"],
         ["09/26/2025", "Friday", "Junior Retreat (Day 2)"],
+        ["10/01/2025", "Wednesday", "Herf Jones Assembly Seniors (2nd), Juniors (3rd)<br>9th hour - Faculty Meeting"],
     ]                
 }
 
@@ -374,6 +375,8 @@ else if (day.toLocaleDateString('en-Us') == "8/22/2025")
     document.getElementById("btn-pep").click();
 else if (day.toLocaleDateString('en-Us') == "9/11/2025")
     document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "10/2/2025")
+    document.getElementById("btn-MF").click();
 else if (day.toLocaleDateString('en-Us') == "10/14/2025")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/24/2025")
@@ -387,6 +390,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

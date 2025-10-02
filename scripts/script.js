@@ -376,7 +376,7 @@ else if (day.toLocaleDateString('en-Us') == "8/22/2025")
 else if (day.toLocaleDateString('en-Us') == "9/11/2025")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/2/2025")
-    document.getElementById("btn-MF").click();
+    document.getElementById("btn-custom1").click();
 else if (day.toLocaleDateString('en-Us') == "10/14/2025")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "10/24/2025")
@@ -390,6 +390,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

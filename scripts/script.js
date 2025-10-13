@@ -155,17 +155,10 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["10/02/2025", "Thursday", "Faculty and Staff Yearbook Picture Retake Day (Dome at Lunch)"],
-        ["10/04/2025 - 10/11/2025", "Saturday - Saturday", "Fall Mission Trip to the Dominican Republic (25 Seniors)"],
-        ["10/07/2025", "Tuesday", "PSAT 10th Grade Testing<br>Lunch n'Learn - Instructional Strategies"],
-        ["10/08/2025", "Wednesday", "PSAT 10th Grade Testing<br>9th hour - Individual PD<br>STEM Night"],
-        ["10/09/2025", "Thursday", "PSAT 9th Grade Testing"],
-        ["10/10/2025", "Friday", "PSAT 9th Grade Testing<br>End of Q1"],
         ["10/13/2025", "Monday", "NO SCHOOL - Teacher Work Day"],
         ["10/14/2025", "Tuesday", "All School Mass (10am - 11am)"],
-        ["10/15/2025", "Wednesday", "PSAT 11th Grade Testing<br>9th hour - Common-Course PLC<br>STEM Night"],
+        ["10/15/2025", "Wednesday", "PSAT 11th Grade Testing<br>9th hour - Common-Course PLC"],
         ["10/16/2025", "Thursday", "PSAT 11th Grade Testing"],
-        ["10/17/2025", "Friday", "PSAT ??th Grade Testing"],
         ["10/20/2025", "Monday", "Dept Chair Meeting"],
         ["10/22/2025", "Wednesday", "9th hour - Department PLC"],
         ["10/24/2025", "Friday", "Homecoming Pep Rally"],
@@ -177,6 +170,7 @@ var data = {
         ["11/02/2025", "Sunday", "Open House"],
         ["11/03/2025", "Monday", "Sophomore Retreat (Day 2)"],
         ["11/05/2025", "Wednesday", "9th hour - Faculty Meeting"],
+        ["11/10/2025", "Monday", "Fire Drill During Lunch"],
         ["11/11/2025", "Tuesday", "All School Mass (10am - 11am)"],
         ["11/12/2025", "Wednesday", "9th hour - New Teacher PLC / Individual PD"],
         ["11/13/2025", "Thursday", "Lunch n'Learn - TBD"],
@@ -249,6 +243,12 @@ var data = {
         ["09/25/2025", "Thursday", "Junior Retreat (Day 1)<br>Sophomore Parent Night"],
         ["09/26/2025", "Friday", "Junior Retreat (Day 2)"],
         ["10/01/2025", "Wednesday", "Herf Jones Assembly Seniors (2nd), Juniors (3rd)<br>9th hour - Faculty Meeting"],
+        ["10/02/2025", "Thursday", "Faculty and Staff Yearbook Picture Retake Day (Dome at Lunch)"],
+        ["10/04/2025 - 10/11/2025", "Saturday - Saturday", "Fall Mission Trip to the Dominican Republic (25 Seniors)"],
+        ["10/07/2025", "Tuesday", "PSAT 10th Grade Testing<br>Lunch n'Learn - Instructional Strategies"],
+        ["10/08/2025", "Wednesday", "PSAT 10th Grade Testing<br>9th hour - Individual PD<br>STEM Night"],
+        ["10/09/2025", "Thursday", "PSAT 9th Grade Testing"],
+        ["10/10/2025", "Friday", "PSAT 9th Grade Testing<br>End of Q1"],
     ]                
 }
 
@@ -390,6 +390,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

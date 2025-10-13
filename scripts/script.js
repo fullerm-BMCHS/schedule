@@ -156,7 +156,7 @@ var data = {
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["10/13/2025", "Monday", "NO SCHOOL - Teacher Work Day"],
-        ["10/14/2025", "Tuesday", "All School Mass (10am - 11am)"],
+        ["10/14/2025", "Tuesday", "All School Mass (10am - 11am) <a href="https://docs.google.com/spreadsheets/d/1U8yRWXlBcS17uDNW3NEOwu9mjgZSxZcog_szhU4kmTY/edit?gid=171656829#gid=171656829">Seating Chart</a>],
         ["10/15/2025", "Wednesday", "PSAT 11th Grade Testing<br>9th hour - Common-Course PLC"],
         ["10/16/2025", "Thursday", "PSAT 11th Grade Testing"],
         ["10/20/2025", "Monday", "Dept Chair Meeting"],
@@ -390,6 +390,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

@@ -155,16 +155,11 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["10/24/2025", "Friday", "Homecoming Pep Rally"],
-        ["10/25/2025", "Saturday", "Homecoming Dance"],
-        ["10/27/2025", "Monday", "Fire Education Video (3rd Period - 4 minutes)"],
-        ["10/29/2025", "Wednesday", "9th hour - New Teacher PLC / Faithfit Bookclub / Individual PD"],
-        ["10/30/2025", "Thursday", "Lunch n'Learn - Ed Tech"],
         ["10/31/2025", "Friday", "Sophomore Retreat (Day 1)"],
-        ["11/02/2025", "Sunday", "Open House"],
+        ["11/02/2025", "Sunday", "Open House 1pm to 3pm"],
         ["11/03/2025", "Monday", "Sophomore Retreat (Day 2)"],
         ["11/05/2025", "Wednesday", "9th hour - Faculty Meeting"],
-        ["11/10/2025", "Monday", "Fire Drill During Lunch"],
+        ["11/10/2025", "Monday", "Fire Drill During Lunch<br>Cafeteria Only<br>Alarm will sound in multiple buildings"],
         ["11/11/2025", "Tuesday", "All School Mass (10am - 11am)"],
         ["11/12/2025", "Wednesday", "9th hour - New Teacher PLC / Individual PD"],
         ["11/13/2025", "Thursday", "Lunch n'Learn - TBD"],
@@ -249,6 +244,11 @@ var data = {
         ["10/16/2025", "Thursday", "PSAT 11th Grade Testing"],
         ["10/20/2025", "Monday", "Dept Chair Meeting"],
         ["10/22/2025", "Wednesday", "9th hour - Department PLC"],
+        ["10/24/2025", "Friday", "Homecoming Pep Rally"],
+        ["10/25/2025", "Saturday", "Homecoming Dance"],
+        ["10/27/2025", "Monday", "Fire Education Video (3rd Period - 4 minutes)"],
+        ["10/29/2025", "Wednesday", "9th hour - New Teacher PLC / Faithfit Bookclub / Individual PD"],
+        ["10/30/2025", "Thursday", "Lunch n'Learn - Ed Tech"],
     ]                
 }
 
@@ -390,6 +390,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

@@ -164,7 +164,7 @@ var data = {
         ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Borders, Grady, Loretta, and Gym<br>Concert B: Dorsey, Mary Martha, and Moore Center"],
         ["12/12/2025", "Friday", "End of Quarter 2"],
         ["12/16/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>FaithFit Book Club Ch 2,3,4"],
-        ["12/17/2025", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am<br>Faculty Christmas Party (MC 12pmm)"],
+        ["12/17/2025", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am<br>Faculty Christmas Party (MC 12pm)"],
         ["12/18/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
         ["12/19/2025", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester 1"],
         ["12/22/2025 - 01/02/2026", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
@@ -407,6 +407,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

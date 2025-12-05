@@ -90,16 +90,16 @@ var data = {
         ["8th", "11:34 am", "12:00 pm", "0:26", " "]],
     "btn-assembly" : [
         ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:27 am", "0:47", "0:13"],
-        ["Assembly", " 8:40 am", " 9:25 am", "0:45", "0:13"],
-        ["2nd", " 9:38 am", "10:16 am", "0:38", "0:08"],
-        ["3rd", "10:24 am", "11:02 am", "0:38", "0:08"],
-        ["4th", "11:10 am", "11:48 am", "0:38", "0:08"],
-        ["5th", "11:56 am", "12:34 pm", "0:38", "0:08"],
-        ["6th", "12:42 pm", " 1:20 pm", "0:38", "0:08"],
-        ["7th", " 1:28 pm", " 2:06 pm", "0:38", "0:08"],
-        ["8th", " 2:14 pm", " 2:52 pm", "0:38", "0:01"],
-        ["9th", " 2:53 pm", " 3:30 pm", "0:38", " "]],
+        ["1st", " 7:40 am", " 8:23 am", "0:43", "0:08"],
+        ["2nd", " 8:31 am", " 9:14 am", "0:43", "0:08"],
+        ["3rd", " 9:22 am", "10:05 am", "0:43", "0:08"],
+        ["4th", "10:13 am", "10:57 am", "0:44", "0:08"],
+        ["5th", "11:05 am", "11:49 am", "0:44", "0:08"],
+        ["6th", "11:57 am", "12:41 pm", "0:44", "0:08"],
+        ["7th", "12:49 pm", " 1:32 pm", "0:43", "0:08"],
+        ["8th", " 1:40 pm", " 2:23 pm", "0:43", "0:12"],
+        ["Assembly", " 2:35 pm", " 3:00 pm", "0:25", "0:01"],
+        ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
     "btn-pep" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:21 am", "0:41", "0:08"],
@@ -156,13 +156,11 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["12/01/2025", "Monday", "Advent Wreath Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?gid=700752536#gid=700752536'>Seating Chart</a>"],
-        ["12/03/2025", "Wednesday", "9th hour - Faculty Meeting"],
         ["12/05/2025", "Friday", "Noon Dismissal"],
         ["12/08/2025", "Monday", "All School Mass (10am - 11am)"],
         ["12/10/2025", "Wednesday", "ASP Exams Due to Testing Center<br>Last Day to Give Assessments<br>9th hour - Common Course PLC"],
-        ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Borders, Grady, Loretta, and Gym<br>Concert B: Dorsey, Mary Martha, and Moore Center"],
-        ["12/12/2025", "Friday", "End of Quarter 2"],
+        ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Morning Star, St. Charles, Borders, Grady, Mary Martha, and Gym<br>Concert B: Dorsey, Loretta, and Moore Center"],
+        ["12/12/2025", "Friday", "Banner Reveal Assembly<br>End of Quarter 2"],
         ["12/16/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>FaithFit Book Club Ch 2,3,4"],
         ["12/17/2025", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am<br>Faculty Christmas Party (MC 12pm)"],
         ["12/18/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
@@ -252,6 +250,8 @@ var data = {
         ["11/19/2025", "Wednesday", "Semester 1 Exams due to Dept Chair<br>9th hour - Department PLC"],
         ["11/21/2025", "Friday", "TGI Due in Rediker"],
         ["11/24/2025 - 11/28/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
+        ["12/01/2025", "Monday", "Advent Wreath Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?gid=700752536#gid=700752536'>Seating Chart</a>"],
+        ["12/03/2025", "Wednesday", "9th hour - Faculty Meeting"],
     ]                
 }
 
@@ -394,6 +394,8 @@ else if (day.toLocaleDateString('en-Us') == "12/8/2025")
     document.getElementById("btn-allMass").click();
 else if (day.toLocaleDateString('en-Us') == "12/11/2025")
     document.getElementById("btn-custom1").click();
+else if (day.toLocaleDateString('en-Us') == "12/12/2025")
+    document.getElementById("btn-assembly").click();
 else if (day.toLocaleDateString('en-Us') == "12/16/2025")
     document.getElementById("btn-Exams").click();
 else if (day.toLocaleDateString('en-Us') == "12/17/2025")
@@ -407,6 +409,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

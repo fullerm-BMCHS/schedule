@@ -146,19 +146,16 @@ var data = {
         ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
         ["2nd", " 8:30 am", " 9:12 am", "0:42", "0:08"],
         ["A/3A", " 9:20 am", " 9:55 am", "0:35", "0:20"],
-        ["B/3B", "10:15 am", "10:50 am", "0:35", "0:08"],
-        ["4th", "10:58 am", "11:40 am", "0:42", "0:08"],
-        ["5th", "11:48 am", "12:30 pm", "0:42", "0:08"],
-        ["6th", "12:38 pm", " 1:20 pm", "0:42", "0:08"],
-        ["7th", " 1:28 pm", " 2:10 pm", "0:42", "0:08"],
-        ["8th", " 2:18 pm", " 3:00 pm", "0:42", "0:01"],
+        ["B/3B", "10:15 am", "11:00am am", "0:35", "0:15"],
+        ["4th", "11:15 am", "11:54 am", "0:39", "0:08"],
+        ["5th", "12:02 pm", "12:41 pm", "0:39", "0:08"],
+        ["6th", "12:49 pm", " 1:28 pm", "0:39", "0:08"],
+        ["7th", " 1:36 pm", " 2:14 pm", "0:38", "0:08"],
+        ["8th", " 2:22 pm", " 3:00 pm", "0:38", "0:01"],
         ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["12/05/2025", "Friday", "Noon Dismissal"],
-        ["12/08/2025", "Monday", "All School Mass (10am - 11am)"],
-        ["12/10/2025", "Wednesday", "ASP Exams Due to Testing Center<br>Last Day to Give Assessments<br>9th hour - Common Course PLC"],
         ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Morning Star, St. Charles, Borders, Grady, Mary Martha, and Gym<br>Concert B: Dorsey, Loretta, and Moore Center"],
         ["12/12/2025", "Friday", "Banner Reveal Assembly<br>End of Quarter 2"],
         ["12/16/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>FaithFit Book Club Ch 2,3,4"],
@@ -252,6 +249,9 @@ var data = {
         ["11/24/2025 - 11/28/2024", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
         ["12/01/2025", "Monday", "Advent Wreath Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?gid=700752536#gid=700752536'>Seating Chart</a>"],
         ["12/03/2025", "Wednesday", "9th hour - Faculty Meeting"],
+        ["12/05/2025", "Friday", "Noon Dismissal"],
+        ["12/08/2025", "Monday", "All School Mass (10am - 11am)"],
+        ["12/10/2025", "Wednesday", "ASP Exams Due to Testing Center<br>Last Day to Give Assessments<br>9th hour - Common Course PLC"],
     ]                
 }
 
@@ -409,6 +409,7 @@ else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

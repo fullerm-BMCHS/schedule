@@ -50,11 +50,11 @@ var data = {
         ["2nd", " 8:25 am", " 9:02 am", "0:37", "0:08"],
         ["3rd", " 9:10 am", " 9:45 am", "0:35", "0:15"],
         ["MASS", "10:00 am", "11:15 am", "1:15", "0:13"],
-        ["4th", "11:28 am", "11:58 am", "0:30", "0:08"],
-        ["5th", "12:06 pm", "12:36 pm", "0:30", "0:08"],
-        ["6th", "12:44 pm", " 1:14 pm", "0:30", "0:08"],
-        ["7th", " 1:22 pm", " 1:47 pm", "0:25", "0:08"],
-        ["8th", " 1:55 pm", " 2:20 pm", "0:25", " "]],
+        ["4th", "11:28 am", "11:59 am", "0:31", "0:08"],
+        ["5th", "12:07 pm", "12:38 pm", "0:31", "0:08"],
+        ["6th", "12:46 pm", " 1:17 pm", "0:31", "0:08"],
+        ["7th", " 1:25 pm", " 1:55 pm", "0:30", "0:08"],
+        ["8th", " 2:03 pm", " 2:28 pm", "0:25", " "]],
     "btn-bless" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:27 am", "0:47", "0:18"],
@@ -156,14 +156,36 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Morning Star, St. Charles, Borders, Grady, Mary Martha, and Gym<br>Concert B: Dorsey, Loretta, and Moore Center"],
-        ["12/12/2025", "Friday", "Banner Reveal Assembly<br>End of Quarter 2"],
-        ["12/16/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>FaithFit Book Club Ch 2,3,4"],
         ["12/17/2025", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am<br>Faculty Christmas Party (MC 12pm)"],
         ["12/18/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
         ["12/19/2025", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester 1"],
         ["12/22/2025 - 01/02/2026", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
         ["01/05/2026", "Monday", "Start of 2nd Semester<br>New Year Blessing"],
+        ["01/06/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
+        ["01/07/2026", "Wednesday", "Small Clubs Pictures (Gym)<br>Faculty Meeting"],
+        ["01/14/2026", "Wednesday", "Lockdown Drill<br>Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
+        ["01/08/2026", "Thursday", "Large Clubs Pictures (Gym)"],
+        ["01/19/2026", "Monday", "NO SCHOOL"],
+        ["01/20/2026", "Tuesday", "Department Chair Meeting"],
+        ["01/21/2026", "Wednesday", "Department Meeting"],
+        ["01/22/2026", "Thursday", "Transfer Student Pictures (Gym)<br>Lunch n' Learn: Ed-Tech"],
+        ["01/23/2026", "Friday", "Senior Retreat (Men) (Overnight)"],
+        ["01/28/2026", "Wednesday", "Common Course PLC"],
+        ["01/30/2026", "Friday", "All School Mass"],
+        ["01/31/2026 - 02/07/2026", "Saturday - Saturday", "Winter Mission Trip to the Dominican Republic (25 Seniors)"],
+        ["02/03/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
+        ["02/04/2026", "Wednesday", "Athlete Signing Day<br>Faculty Meeting"],
+        ["02/06/2026", "Friday", "Progress Reports Q3"],
+        ["02/09/2026", "Monday", "Tornado Drill"],
+        ["02/11/2026", "Wednesday", "Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
+        ["02/12/2026", "Thursday", "Fire Drill<br>Men's Retreat"],
+        ["02/16/2026", "Monday", "NO SCHOOL<br>Teacher PD Day"],
+        ["02/17/2026", "Tuesday", "Department Chair Meeting"],
+        ["02/18/2026", "Wednesday", "All School Mass: Ash Wednesday<br>Department Meeting"],
+        ["02/19/2026", "Thursday", "Lunch n' Learn: Ed-Tech"],
+        ["02/20/2026", "Friday", "Senior Retreat (Women) (Overnight)<br>FaithFit Completion Date"],
+        ["02/15/2026", "Wednesday", "Common Course PLC"],
+        ["02/27/2026", "Friday", "NOON Dismissal"],
         ["04/30/2026", "Thursday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
         ["05/04/2026", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
         ["05/05/2026", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
@@ -252,6 +274,9 @@ var data = {
         ["12/05/2025", "Friday", "Noon Dismissal"],
         ["12/08/2025", "Monday", "All School Mass (10am - 11am)"],
         ["12/10/2025", "Wednesday", "ASP Exams Due to Testing Center<br>Last Day to Give Assessments<br>9th hour - Common Course PLC"],
+        ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Morning Star, St. Charles, Borders, Grady, Mary Martha, and Gym<br>Concert B: Dorsey, Loretta, and Moore Center"],
+        ["12/12/2025", "Friday", "Banner Reveal Assembly<br>End of Quarter 2"],
+        ["12/16/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>FaithFit Book Club Ch 2,3,4"],
     ]                
 }
 
@@ -370,32 +395,6 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/11/2025")
     document.getElementById("btn-bless").click();
-else if (day.toLocaleDateString('en-Us') == "8/15/2025")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "8/21/2025")
-    document.getElementById("btn-custom1").click();
-else if (day.toLocaleDateString('en-Us') == "8/22/2025")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "9/11/2025")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/2/2025")
-    document.getElementById("btn-custom1").click();
-else if (day.toLocaleDateString('en-Us') == "10/14/2025")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "10/24/2025")
-    document.getElementById("btn-pep").click();
-else if (day.toLocaleDateString('en-Us') == "11/11/2025")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "12/1/2025")
-    document.getElementById("btn-bless").click();
-else if (day.toLocaleDateString('en-Us') == "12/5/2025")
-    document.getElementById("btn-noon").click();
-else if (day.toLocaleDateString('en-Us') == "12/8/2025")
-    document.getElementById("btn-allMass").click();
-else if (day.toLocaleDateString('en-Us') == "12/11/2025")
-    document.getElementById("btn-custom1").click();
-else if (day.toLocaleDateString('en-Us') == "12/12/2025")
-    document.getElementById("btn-assembly").click();
 else if (day.toLocaleDateString('en-Us') == "12/16/2025")
     document.getElementById("btn-Exams").click();
 else if (day.toLocaleDateString('en-Us') == "12/17/2025")
@@ -404,11 +403,20 @@ else if (day.toLocaleDateString('en-Us') == "12/18/2025")
     document.getElementById("btn-Exams").click();
 else if (day.toLocaleDateString('en-Us') == "12/19/2025")
     document.getElementById("btn-Exams").click();
+else if (day.toLocaleDateString('en-Us') == "1/5/2026")
+    document.getElementById("btn-bless").click();
+else if (day.toLocaleDateString('en-Us') == "1/30/2026")
+    document.getElementById("btn-allMass").click();
+else if (day.toLocaleDateString('en-Us') == "2/18/2026")
+    document.getElementById("btn-allMassWed").click();
+else if (day.toLocaleDateString('en-Us') == "2/27/2026")
+    document.getElementById("btn-noon").click();
 // Do not change below here. All custom bells should be above this line
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 else
     document.getElementById("btn-MF").click();
+
 
 
 

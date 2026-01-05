@@ -58,7 +58,7 @@ var data = {
     "btn-bless" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:27 am", "0:47", "0:18"],
-        ["Bless", " 8:45 am", " 9:15 am", "0:30", "0:15"],
+        ["Bless 1st", " 8:45 am", " 9:15 am", "0:30", "0:15"],
         ["2nd", "09:30 am", "10:11 am", "0:41", "0:08"],
         ["3rd", "10:19 am", "11:00 am", "0:40", "0:08"],
         ["4th", "11:08 am", "11:48 am", "0:40", "0:08"],
@@ -429,6 +429,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

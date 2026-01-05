@@ -395,27 +395,41 @@ let day = new Date();
 
 if (day.toLocaleDateString('en-Us') == "8/11/2025")
     document.getElementById("btn-bless").click();
+
 else if (day.toLocaleDateString('en-Us') == "12/16/2025")
     document.getElementById("btn-Exams").click();
+
 else if (day.toLocaleDateString('en-Us') == "12/17/2025")
     document.getElementById("btn-Exams").click();
+
 else if (day.toLocaleDateString('en-Us') == "12/18/2025")
     document.getElementById("btn-Exams").click();
+
 else if (day.toLocaleDateString('en-Us') == "12/19/2025")
     document.getElementById("btn-Exams").click();
+
 else if (day.toLocaleDateString('en-Us') == "1/5/2026")
     document.getElementById("btn-bless").click();
+
 else if (day.toLocaleDateString('en-Us') == "1/30/2026")
     document.getElementById("btn-allMass").click();
+
 else if (day.toLocaleDateString('en-Us') == "2/18/2026")
     document.getElementById("btn-allMassWed").click();
+
 else if (day.toLocaleDateString('en-Us') == "2/27/2026")
     document.getElementById("btn-noon").click();
+
+    
 // Do not change below here. All custom bells should be above this line
+// If no custom schedule, set all for Wednesday Schedule
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
+
+// All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

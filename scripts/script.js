@@ -156,11 +156,7 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["12/17/2025", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am<br>Faculty Christmas Party (MC 12pm)"],
-        ["12/18/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
-        ["12/19/2025", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester 1"],
-        ["12/22/2025 - 01/02/2026", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
-        ["01/05/2026", "Monday", "Start of 2nd Semester<br>New Year Blessing"],
+        ["01/05/2026", "Monday", "Start of 2nd Semester<br>New Year Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?usp=sharing'>Seating Chart</a>"],
         ["01/06/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
         ["01/07/2026", "Wednesday", "Small Clubs Pictures (Gym)<br>Faculty Meeting"],
         ["01/14/2026", "Wednesday", "Lockdown Drill<br>Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
@@ -277,6 +273,10 @@ var data = {
         ["12/11/2025", "Thursday", "Christmas Concert<br>Concert A: Morning Star, St. Charles, Borders, Grady, Mary Martha, and Gym<br>Concert B: Dorsey, Loretta, and Moore Center"],
         ["12/12/2025", "Friday", "Banner Reveal Assembly<br>End of Quarter 2"],
         ["12/16/2025", "Tuesday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 2: 10:00am - 11:30am<br>FaithFit Book Club Ch 2,3,4"],
+        ["12/17/2025", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am<br>Faculty Christmas Party (MC 12pm)"],
+        ["12/18/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
+        ["12/19/2025", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester 1"],
+        ["12/22/2025 - 01/02/2026", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
     ]                
 }
 
@@ -429,6 +429,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

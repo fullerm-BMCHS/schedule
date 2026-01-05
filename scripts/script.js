@@ -157,10 +157,10 @@ var data = {
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
         ["01/05/2026", "Monday", "Start of 2nd Semester<br>New Year Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?usp=sharing'>Seating Chart</a>"],
-        ["01/06/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
-        ["01/07/2026", "Wednesday", "Small Clubs Pictures (Gym)<br>Faculty Meeting"],
+        ["01/07/2026", "Wednesday", "Small Club Pictures (Gym)<br>Faculty Meeting"],
+        ["01/08/2026", "Thursday", "Large Club Pictures (Gym)"],
         ["01/14/2026", "Wednesday", "Lockdown Drill<br>Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
-        ["01/08/2026", "Thursday", "Large Clubs Pictures (Gym)"],
+        ["01/15/2026", "Thursday", "Lunch n' Learn: Instructional Strategies"],
         ["01/19/2026", "Monday", "NO SCHOOL"],
         ["01/20/2026", "Tuesday", "Department Chair Meeting"],
         ["01/21/2026", "Wednesday", "Department Meeting"],
@@ -429,6 +429,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

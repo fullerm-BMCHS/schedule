@@ -156,21 +156,12 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["01/05/2026", "Monday", "Start of 2nd Semester<br>New Year Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?usp=sharing'>Seating Chart</a>"],
-        ["01/07/2026", "Wednesday", "Small Club Pictures (Gym)<br>Faculty Meeting"],
-        ["01/08/2026", "Thursday", "Large Club Pictures (Gym)"],
-        ["01/14/2026", "Wednesday", "Lockdown Drill<br>Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
-        ["01/15/2026", "Thursday", "Lunch n' Learn: Instructional Strategies"],
-        ["01/19/2026", "Monday", "NO SCHOOL"],
-        ["01/20/2026", "Tuesday", "Department Chair Meeting"],
-        ["01/21/2026", "Wednesday", "Department Meeting"],
-        ["01/22/2026", "Thursday", "Transfer Student Pictures (Gym)<br>Lunch n' Learn: Ed-Tech"],
-        ["01/23/2026", "Friday", "Senior Retreat (Men) (Overnight)"],
         ["01/28/2026", "Wednesday", "Common Course PLC"],
         ["01/30/2026", "Friday", "All School Mass"],
         ["01/31/2026 - 02/07/2026", "Saturday - Saturday", "Winter Mission Trip to the Dominican Republic (25 Seniors)"],
         ["02/03/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
         ["02/04/2026", "Wednesday", "Athlete Signing Day<br>Faculty Meeting"],
+        ["02/05/2026", "Thursday", "Lunch n' Learn"],
         ["02/06/2026", "Friday", "Progress Reports Q3"],
         ["02/09/2026", "Monday", "Tornado Drill"],
         ["02/11/2026", "Wednesday", "Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
@@ -277,6 +268,16 @@ var data = {
         ["12/18/2025", "Thursday", "Semester Exams:<br>Period 7: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
         ["12/19/2025", "Friday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am<br>End of Semester 1"],
         ["12/22/2025 - 01/02/2026", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
+        ["01/05/2026", "Monday", "Start of 2nd Semester<br>New Year Blessing <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?usp=sharing'>Seating Chart</a>"],
+        ["01/07/2026", "Wednesday", "Small Club Pictures (Gym)<br>Faculty Meeting"],
+        ["01/08/2026", "Thursday", "Large Club Pictures (Gym)"],
+        ["01/14/2026", "Wednesday", "Lockdown Drill<br>Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
+        ["01/15/2026", "Thursday", "Lunch n' Learn: Instructional Strategies"],
+        ["01/19/2026", "Monday", "NO SCHOOL"],
+        ["01/20/2026", "Tuesday", "Department Chair Meeting"],
+        ["01/21/2026", "Wednesday", "Department Meeting"],
+        ["01/22/2026", "Thursday", "Transfer Student Pictures (Gym)<br>Lunch n' Learn: Ed-Tech"],
+        ["01/23/2026", "Friday", "Senior Retreat (Men) (Overnight)"],
     ]                
 }
 
@@ -429,6 +430,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

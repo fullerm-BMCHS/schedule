@@ -156,13 +156,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["01/28/2026", "Wednesday", "Common Course PLC"],
-        ["01/30/2026", "Friday", "All School Mass"],
-        ["01/31/2026 - 02/07/2026", "Saturday - Saturday", "Winter Mission Trip to the Dominican Republic (25 Seniors)"],
-        ["02/03/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
-        ["02/04/2026", "Wednesday", "Athlete Signing Day<br>Faculty Meeting"],
-        ["02/05/2026", "Thursday", "Lunch n' Learn"],
-        ["02/06/2026", "Friday", "Progress Reports Q3"],
         ["02/09/2026", "Monday", "Tornado Drill"],
         ["02/11/2026", "Wednesday", "Individual PD<br>New Teacher PLC<br>FaithFit Book Club"],
         ["02/12/2026", "Thursday", "Fire Drill<br>Men's Retreat"],
@@ -278,6 +271,13 @@ var data = {
         ["01/21/2026", "Wednesday", "Department Meeting"],
         ["01/22/2026", "Thursday", "Transfer Student Pictures (Gym)<br>Lunch n' Learn: Ed-Tech"],
         ["01/23/2026", "Friday", "Senior Retreat (Men) (Overnight)"],
+        ["01/28/2026", "Wednesday", "Common Course PLC"],
+        ["01/30/2026", "Friday", "All School Mass"],
+        ["01/31/2026 - 02/07/2026", "Saturday - Saturday", "Winter Mission Trip to the Dominican Republic (25 Seniors)"],
+        ["02/03/2026", "Tuesday", "Lunch n' Learn: Instructional Strategies"],
+        ["02/04/2026", "Wednesday", "Athlete Signing Day<br>Faculty Meeting"],
+        ["02/05/2026", "Thursday", "Lunch n' Learn"],
+        ["02/06/2026", "Friday", "Progress Reports Q3"],
     ]                
 }
 
@@ -430,6 +430,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

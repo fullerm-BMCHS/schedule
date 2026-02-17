@@ -156,16 +156,12 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["02/09/2026", "Monday", "Tornado Drill"],
-        ["02/11/2026", "Wednesday", "Individual PD<br>New Teacher PLC<br>FaithFit Book Club<br>Men's Overnight Retreat (Sophomores and Juniors)"],
-        ["02/12/2026", "Thursday", "Tornado Drill (1st Period)<br>Men's Retreat (Sophomores and Juniors)"],
-        ["02/16/2026", "Monday", "NO SCHOOL<br>Teacher PD Day"],
         ["02/17/2026", "Tuesday", "Department Chair Meeting"],
         ["02/18/2026", "Wednesday", "All School Mass: Ash Wednesday<br>Department Meeting"],
         ["02/19/2026", "Thursday", "Lunch n' Learn: Ed-Tech"],
         ["02/20/2026", "Friday", "Senior Retreat (Women) (Overnight)<br>FaithFit Completion Date"],
         ["02/25/2026", "Wednesday", "Common Course PLC"],
-        ["02/27/2026", "Friday", "NOON Dismissal"],
+        ["02/27/2026", "Friday", "NOON Dismissal<br>National Latin Exam"],
         ["03/03/2026", "Tuesday", "Lunch n' Learn"],
         ["03/04/2026", "Wednesday", "Men's Overnight Retreat (Seniors)"],
         ["03/05/2026", "Thursday", "Lunch n' Learn: Ed-Tech<br>Men's Retreat (Seniors)"],
@@ -175,16 +171,15 @@ var data = {
         ["03/12/2026", "Friday", "End of Q3"],
         ["03/16/2026 - 03/20/2026", "Monday - Friday", "NO SCHOOL (Spring Break)"],
         ["03/23/2026", "Monday", "Department Chair Meeting"],
-        ["03/24/2026", "Tuesday", "Women's Overnight Retreat"],
-        ["03/25/2026", "Wednesday", "Women's Retreat<br>Noon Dismissal"],
+        ["03/25/2026", "Wednesday", "Noon Dismissal"],
         ["03/26/2026", "Thursday", "All School Mass"],
         ["03/27/2026", "Friday", "TGI due in Rediker"],
         ["04/01/2026", "Wednesday", "Holy Week Prayer Service<br>Faculty Meeting"],
         ["04/02/2026", "Thursday", "NO SCHOOL - Holy Thursday"],
         ["04/03/2026", "Friday", "NO SCHOOL - Good Friday"],
         ["04/06/2026", "Monday", "NO SCHOOL - Easter Monday"],
-        ["04/07/2026", "Tuesday", "Lunch n' Learn"],
-        ["04/08/2026", "Wednesday", "Individual PD<br>New Teacher PLC"],
+        ["04/07/2026", "Tuesday", "Lunch n' Learn<br>Women's Overnight Retreat (Seniors)"],
+        ["04/08/2026", "Wednesday", "Women's Retreat<br>Individual PD<br>New Teacher PLC"],
         ["04/09/2026", "Thursday", "All School Mass"],
         ["04/11/2026 - 04/18/2026", "Saturday - Saturday", "Spring Mission Trip to the Dominican Republic (Seniors)"],
         ["04/13/2026", "Monday", "Department Chair Meeting"],
@@ -306,6 +301,10 @@ var data = {
         ["02/04/2026", "Wednesday", "Athlete Signing Day<br>Faculty Meeting"],
         ["02/05/2026", "Thursday", "Lunch n' Learn"],
         ["02/06/2026", "Friday", "Progress Reports Q3"],
+        ["02/09/2026", "Monday", "Tornado Drill"],
+        ["02/11/2026", "Wednesday", "Individual PD<br>New Teacher PLC<br>FaithFit Book Club<br>Men's Overnight Retreat (Sophomores and Juniors)"],
+        ["02/12/2026", "Thursday", "Tornado Drill (1st Period)<br>Men's Retreat (Sophomores and Juniors)"],
+        ["02/16/2026", "Monday", "NO SCHOOL<br>Teacher PD Day"],
     ]                
 }
 
@@ -458,6 +457,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

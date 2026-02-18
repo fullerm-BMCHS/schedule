@@ -156,10 +156,9 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["02/17/2026", "Tuesday", "Department Chair Meeting"],
         ["02/18/2026", "Wednesday", "All School Mass: Ash Wednesday<br>Department Meeting"],
         ["02/19/2026", "Thursday", "Lunch n' Learn: Ed-Tech"],
-        ["02/20/2026", "Friday", "Senior Retreat (Women) (Overnight)<br>FaithFit Completion Date"],
+        ["02/20/2026", "Friday", "FaithFit Completion Date"],
         ["02/25/2026", "Wednesday", "Common Course PLC"],
         ["02/27/2026", "Friday", "NOON Dismissal<br>National Latin Exam"],
         ["03/03/2026", "Tuesday", "Lunch n' Learn"],
@@ -168,7 +167,7 @@ var data = {
         ["03/06/2026", "Friday", "Spring Pep Rally"],
         ["03/10/2026", "Tuesday", "ACT Test (Juniors)"],
         ["03/11/2026", "Wednesday", "Individual PD"],
-        ["03/12/2026", "Friday", "End of Q3"],
+        ["03/13/2026", "Friday", "End of Q3"],
         ["03/16/2026 - 03/20/2026", "Monday - Friday", "NO SCHOOL (Spring Break)"],
         ["03/23/2026", "Monday", "Department Chair Meeting"],
         ["03/25/2026", "Wednesday", "Noon Dismissal"],
@@ -200,7 +199,16 @@ var data = {
         ["05/12/2026", "Tuesday", "AP Testing<br>8am - French Language and Culture / Precalculus<br>12pm - Psychology"],
         ["05/13/2026", "Wednesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C: Mechanics / Spanish Literature and Culture"],
         ["05/14/2026", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
-        ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A"],
+        ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A<br>Senior Grades Due<br>ASP Exams due"],
+        ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade"],
+        ["05/20/2026", "Wednesday", "Individual PD"],
+        ["05/21/2026", "Thursday", "NO SCHOOL (Baccalaureate Mass)"],
+        ["05/22/2026", "Friday", "Q4 Grade Books Completion"],
+        ["05/25/2026", "Monday", "NO SCHOOL (Memorial Day)"],
+        ["05/16/2026", "Tuesday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 7: 10:00am - 11:30am"],
+        ["05/17/2026", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
+        ["05/18/2026", "Thursday", "Semester Exams:<br>Period 2: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
+        ["05/19/2026", "Friday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am"],
         ["**********", "*****", "*********************************"],
         ["**********", "*****", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],
@@ -305,6 +313,7 @@ var data = {
         ["02/11/2026", "Wednesday", "Individual PD<br>New Teacher PLC<br>FaithFit Book Club<br>Men's Overnight Retreat (Sophomores and Juniors)"],
         ["02/12/2026", "Thursday", "Tornado Drill (1st Period)<br>Men's Retreat (Sophomores and Juniors)"],
         ["02/16/2026", "Monday", "NO SCHOOL<br>Teacher PD Day"],
+        ["02/17/2026", "Tuesday", "Department Chair Meeting"],
     ]                
 }
 
@@ -457,6 +466,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

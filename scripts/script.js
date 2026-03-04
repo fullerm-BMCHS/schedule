@@ -155,14 +155,8 @@ var data = {
         ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2024-2025", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["02/18/2026", "Wednesday", "All School Mass: Ash Wednesday<br>Department Meeting"],
-        ["02/19/2026", "Thursday", "Lunch n' Learn: Ed-Tech"],
-        ["02/20/2026", "Friday", "FaithFit Completion Date"],
-        ["02/25/2026", "Wednesday", "Common Course PLC"],
-        ["02/27/2026", "Friday", "NOON Dismissal<br>National Latin Exam"],
-        ["03/03/2026", "Tuesday", "Lunch n' Learn"],
-        ["03/04/2026", "Wednesday", "Men's Overnight Retreat (Seniors)"],
+        ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
+        ["03/04/2026", "Wednesday", "Faculty Meeting<br>Men's Overnight Retreat (Seniors)"],
         ["03/05/2026", "Thursday", "Lunch n' Learn: Ed-Tech<br>Men's Retreat (Seniors)"],
         ["03/06/2026", "Friday", "Spring Pep Rally"],
         ["03/10/2026", "Tuesday", "ACT Test (Juniors)"],
@@ -314,6 +308,12 @@ var data = {
         ["02/12/2026", "Thursday", "Tornado Drill (1st Period)<br>Men's Retreat (Sophomores and Juniors)"],
         ["02/16/2026", "Monday", "NO SCHOOL<br>Teacher PD Day"],
         ["02/17/2026", "Tuesday", "Department Chair Meeting"],
+        ["02/18/2026", "Wednesday", "All School Mass: Ash Wednesday<br>Department Meeting"],
+        ["02/19/2026", "Thursday", "Lunch n' Learn: Ed-Tech"],
+        ["02/20/2026", "Friday", "FaithFit Completion Date"],
+        ["02/25/2026", "Wednesday", "Common Course PLC"],
+        ["02/27/2026", "Friday", "NOON Dismissal<br>National Latin Exam"],
+        ["03/03/2026", "Tuesday", "Lunch n' Learn"],
     ]                
 }
 
@@ -466,6 +466,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

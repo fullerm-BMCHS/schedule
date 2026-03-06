@@ -156,8 +156,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["03/04/2026", "Wednesday", "Faculty Meeting<br>Men's Overnight Retreat (Seniors)"],
-        ["03/05/2026", "Thursday", "Lunch n' Learn: Ed-Tech<br>Men's Retreat (Seniors)"],
         ["03/06/2026", "Friday", "Spring Pep Rally"],
         ["03/10/2026", "Tuesday", "ACT Test (Juniors)"],
         ["03/11/2026", "Wednesday", "Individual PD"],
@@ -314,6 +312,8 @@ var data = {
         ["02/25/2026", "Wednesday", "Common Course PLC"],
         ["02/27/2026", "Friday", "NOON Dismissal<br>National Latin Exam"],
         ["03/03/2026", "Tuesday", "Lunch n' Learn"],
+        ["03/04/2026", "Wednesday", "Faculty Meeting<br>Men's Overnight Retreat (Seniors)"],
+        ["03/05/2026", "Thursday", "Lunch n' Learn: Ed-Tech<br>Men's Retreat (Seniors)"],
     ]                
 }
 
@@ -469,6 +469,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

@@ -457,7 +457,7 @@ else if (day.toLocaleDateString('en-Us') == "2/18/2026")
 else if (day.toLocaleDateString('en-Us') == "2/27/2026")
     document.getElementById("btn-noon").click();
 
-else if (day.toLocaleDateString('en-Us') == "2/27/2026")
+else if (day.toLocaleDateString('en-Us') == "3/6/2026")
     document.getElementById("btn-pep").click();
 
     
@@ -469,6 +469,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

@@ -457,6 +457,9 @@ else if (day.toLocaleDateString('en-Us') == "2/18/2026")
 else if (day.toLocaleDateString('en-Us') == "2/27/2026")
     document.getElementById("btn-noon").click();
 
+else if (day.toLocaleDateString('en-Us') == "2/27/2026")
+    document.getElementById("btn-pep").click();
+
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule, set all for Wednesday Schedule
@@ -466,6 +469,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

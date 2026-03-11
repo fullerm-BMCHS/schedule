@@ -142,17 +142,15 @@ var data = {
         ["Exam 2", "10:00 am", "11:30 am", "1:30", "0:01"],
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-custom1" : [
-        ["Period","Start","End","Duration","Passing"],        
-        ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
-        ["2nd", " 8:30 am", " 9:12 am", "0:42", "0:08"],
-        ["A/3A", " 9:20 am", " 9:55 am", "0:35", "0:20"],
-        ["B/3B", "10:15 am", "11:00am am", "0:35", "0:15"],
-        ["4th", "11:15 am", "11:54 am", "0:39", "0:08"],
-        ["5th", "12:02 pm", "12:41 pm", "0:39", "0:08"],
-        ["6th", "12:49 pm", " 1:28 pm", "0:39", "0:08"],
-        ["7th", " 1:36 pm", " 2:14 pm", "0:38", "0:08"],
-        ["8th", " 2:22 pm", " 3:00 pm", "0:38", "0:01"],
-        ["9th", " 3:01 pm", " 3:30 pm", "0:30", " "]],
+        ["Period","Start","End","Duration","Passing"],
+        ["1st", " 7:40 am", " 8:21 am", "0:41", "0:08"],
+        ["2nd", " 8:29 am", " 9:09 am", "0:40", "0:08"],
+        ["3rd", " 9:17 am", " 9:57 am", "0:40", "0:08"],
+        ["4th", "10:05 am", "10:46 am", "0:41", "0:08"],
+        ["5th", "10:54 am", "11:35 am", "0:41", "0:08"],
+        ["6th", "11:43 am", "12:24 pm", "0:41", "0:08"],
+        ["7th", "12:32 pm", " 1:12 pm", "0:40", "0:08"],
+        ["8th", " 1:20 pm", " 2:00 pm", "0:40", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
@@ -460,6 +458,9 @@ else if (day.toLocaleDateString('en-Us') == "2/27/2026")
 else if (day.toLocaleDateString('en-Us') == "3/6/2026")
     document.getElementById("btn-pep").click();
 
+else if (day.toLocaleDateString('en-Us') == "3/12/2026")
+    document.getElementById("btn-custom1").click();
+
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule, set all for Wednesday Schedule
@@ -469,6 +470,7 @@ else if (day.getDay() == 3)
 // All else fails, schedule is M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
 
 
 

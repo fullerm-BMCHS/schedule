@@ -154,11 +154,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["03/11/2026", "Wednesday", "Individual PD"],
-        ["03/12/2026", "Thursday", "2pm Dismissal"],
-        ["03/13/2026", "Friday", "End of Q3"],
-        ["03/16/2026 - 03/20/2026", "Monday - Friday", "NO SCHOOL (Spring Break)"],
-        ["03/23/2026", "Monday", "Department Chair Meeting"],
         ["03/25/2026", "Wednesday", "Noon Dismissal"],
         ["03/26/2026", "Thursday", "All School Mass"],
         ["03/27/2026", "Friday", "TGI due in Rediker"],
@@ -313,6 +308,11 @@ var data = {
         ["03/05/2026", "Thursday", "Lunch n' Learn: Ed-Tech<br>Men's Retreat (Seniors)"],
         ["03/06/2026", "Friday", "Spring Pep Rally"],
         ["03/10/2026", "Tuesday", "ACT Test (Juniors)"],
+        ["03/11/2026", "Wednesday", "Individual PD"],
+        ["03/12/2026", "Thursday", "2pm Dismissal"],
+        ["03/13/2026", "Friday", "End of Q3"],
+        ["03/16/2026 - 03/20/2026", "Monday - Friday", "NO SCHOOL (Spring Break)"],
+        ["03/23/2026", "Monday", "Department Chair Meeting"],
     ]                
 }
 
@@ -461,6 +461,12 @@ else if (day.toLocaleDateString('en-Us') == "3/6/2026")
 
 else if (day.toLocaleDateString('en-Us') == "3/12/2026")
     document.getElementById("btn-custom1").click();
+
+else if (day.toLocaleDateString('en-Us') == "3/25/2026")
+    document.getElementById("btn-noon").click();
+
+else if (day.toLocaleDateString('en-Us') == "3/26/2026")
+    document.getElementById("btn-allMass").click();
 
     
 // Do not change below here. All custom bells should be above this line

@@ -468,6 +468,10 @@ else if (day.toLocaleDateString('en-Us') == "3/25/2026")
 else if (day.toLocaleDateString('en-Us') == "3/26/2026")
     document.getElementById("btn-allMass").click();
 
+else if (day.toLocaleDateString('en-Us') == "3/27/2026")
+    document.getElementById("btn-assembly").click();
+
+
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule, set all for Wednesday Schedule

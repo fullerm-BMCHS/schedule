@@ -143,14 +143,17 @@ var data = {
         ["Dismiss", "11:31 am", " 3:30 pm", "4:00", "0:00"]],
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],
-        ["1st", " 7:40 am", " 8:21 am", "0:41", "0:08"],
-        ["2nd", " 8:29 am", " 9:09 am", "0:40", "0:08"],
-        ["3rd", " 9:17 am", " 9:57 am", "0:40", "0:08"],
-        ["4th", "10:05 am", "10:46 am", "0:41", "0:08"],
-        ["5th", "10:54 am", "11:35 am", "0:41", "0:08"],
-        ["6th", "11:43 am", "12:24 pm", "0:41", "0:08"],
-        ["7th", "12:32 pm", " 1:12 pm", "0:40", "0:08"],
-        ["8th", " 1:20 pm", " 2:00 pm", "0:40", " "]],
+        ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
+        ["2nd", " 8:30 am", " 9:07 am", "0:37", "0:08"],
+        ["Passing to Service A", " 9:15 am", "09:25 am", "0:10", ""],
+        ["Service A", " 9:25 am", "10:00 am", "0:35", "0:35"],
+        ["Passing to Service B", "10:00 am", "10:10 am", "0:10", ""],
+        ["Service B", "10:10 am", "10:45 am", "0:35", "0:10"],
+        ["4th", "10:55 am", "11:32 am", "0:37", "0:08"],
+        ["5th", "11:40 am", "12:17 pm", "0:37", "0:08"],
+        ["6th", "12:25 pm", "01:02 pm", "0:37", "0:08"],
+        ["7th", "01:10 pm", " 1:45 pm", "0:35", "0:08"],
+        ["8th", " 1:53 pm", " 2:28 pm", "0:35", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
@@ -470,6 +473,9 @@ else if (day.toLocaleDateString('en-Us') == "3/26/2026")
 
 else if (day.toLocaleDateString('en-Us') == "3/27/2026")
     document.getElementById("btn-assembly").click();
+
+else if (day.toLocaleDateString('en-Us') == "4/1/2026")
+    document.getElementById("btn-custom1").click();
 
 
     

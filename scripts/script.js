@@ -157,16 +157,9 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["03/25/2026", "Wednesday", "Noon Dismissal"],
-        ["03/26/2026", "Thursday", "All School Mass"],
-        ["03/27/2026", "Friday", "TGI due in Rediker"],
-        ["04/01/2026", "Wednesday", "Holy Week Prayer Service<br>Faculty Meeting"],
-        ["04/02/2026", "Thursday", "NO SCHOOL - Holy Thursday"],
-        ["04/03/2026", "Friday", "NO SCHOOL - Good Friday"],
-        ["04/06/2026", "Monday", "NO SCHOOL - Easter Monday"],
         ["04/07/2026", "Tuesday", "Lunch n' Learn<br>Women's Overnight Retreat (Seniors)"],
         ["04/08/2026", "Wednesday", "Women's Retreat<br>Individual PD<br>New Teacher PLC"],
-        ["04/09/2026", "Thursday", "All School Mass"],
+        ["04/09/2026", "Thursday", "All School Mass<br>Speech and Debate Showcase 5:30pm"],
         ["04/11/2026 - 04/18/2026", "Saturday - Saturday", "Spring Mission Trip to the Dominican Republic (Seniors)"],
         ["04/13/2026", "Monday", "Department Chair Meeting"],
         ["04/14/2026", "Tuesday", "PreACT (10th Grade)"],
@@ -316,6 +309,13 @@ var data = {
         ["03/13/2026", "Friday", "End of Q3"],
         ["03/16/2026 - 03/20/2026", "Monday - Friday", "NO SCHOOL (Spring Break)"],
         ["03/23/2026", "Monday", "Department Chair Meeting"],
+        ["03/25/2026", "Wednesday", "Noon Dismissal"],
+        ["03/26/2026", "Thursday", "All School Mass"],
+        ["03/27/2026", "Friday", "TGI due in Rediker"],
+        ["04/01/2026", "Wednesday", "Holy Week Prayer Service<br>Faculty Meeting"],
+        ["04/02/2026", "Thursday", "NO SCHOOL - Holy Thursday"],
+        ["04/03/2026", "Friday", "NO SCHOOL - Good Friday"],
+        ["04/06/2026", "Monday", "NO SCHOOL - Easter Monday"],
     ]                
 }
 
@@ -476,6 +476,9 @@ else if (day.toLocaleDateString('en-Us') == "3/27/2026")
 
 else if (day.toLocaleDateString('en-Us') == "4/1/2026")
     document.getElementById("btn-custom1").click();
+
+else if (day.toLocaleDateString('en-Us') == "4/9/2026")
+    document.getElementById("btn-allMass").click();
 
 
     

@@ -156,17 +156,12 @@ var data = {
         ["8th", " 1:53 pm", " 2:28 pm", "0:35", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
-        ["04/07/2026", "Tuesday", "Lunch n' Learn<br>Women's Overnight Retreat (Seniors)"],
-        ["04/08/2026", "Wednesday", "Women's Retreat<br>Individual PD<br>New Teacher PLC"],
-        ["04/09/2026", "Thursday", "All School Mass<br>Speech and Debate Showcase 5:30pm"],
         ["04/11/2026 - 04/18/2026", "Saturday - Saturday", "Spring Mission Trip to the Dominican Republic (Seniors)"],
-        ["04/13/2026", "Monday", "Department Chair Meeting"],
-        ["04/14/2026", "Tuesday", "PreACT (10th Grade)"],
-        ["04/15/2026", "Wednesday", "PreACT (9th Grade)<br>Athlete Signing Day<br>Department PLC"],
         ["04/22/2026", "Wednesday", "Individual PD"],
-        ["04/24/2026", "Friday", "Q4 Progress Reports"],
-        ["04/29/2026", "Wednesday", "Common Course PLC"],
+        ["04/23/2026", "Thursday", "College Application Bootcamp (Juniors All Day)"],
+        ["04/24/2026", "Friday", "Q4 Progress Reports<br>Senior Retreat @ Holy Family"],
+        ["04/25/2026", "Saturday", "Prom"],
+        ["04/29/2026", "Wednesday", "Faculty Meeting"],
         ["04/30/2026", "Thursday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
         ["05/01/2026", "Friday", "All School Mass"],
         ["05/04/2026", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
@@ -180,15 +175,17 @@ var data = {
         ["05/13/2026", "Wednesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C: Mechanics / Spanish Literature and Culture"],
         ["05/14/2026", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
         ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A<br>Senior Grades Due<br>ASP Exams due"],
-        ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade"],
+        ["05/18/2026", "Monday", "Noon Dismissal"],
+        ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade<Awards Night 6pm"],
         ["05/20/2026", "Wednesday", "Individual PD"],
         ["05/21/2026", "Thursday", "NO SCHOOL (Baccalaureate Mass)"],
         ["05/22/2026", "Friday", "Q4 Grade Books Completion"],
         ["05/25/2026", "Monday", "NO SCHOOL (Memorial Day)"],
         ["05/26/2026", "Tuesday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 7: 10:00am - 11:30am"],
-        ["05/27/2026", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am"],
+        ["05/27/2026", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am<br>Faculty Luncheon 12pm @ MC"],
         ["05/28/2026", "Thursday", "Semester Exams:<br>Period 2: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["05/29/2026", "Friday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am"],
+        ["06/01/2026", "Monday", "Teacher PD Day, CPR Training 8am - 10am and 10am - 12pm"],
         ["**********", "*****", "*********************************"],
         ["**********", "*****", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],
@@ -316,6 +313,13 @@ var data = {
         ["04/02/2026", "Thursday", "NO SCHOOL - Holy Thursday"],
         ["04/03/2026", "Friday", "NO SCHOOL - Good Friday"],
         ["04/06/2026", "Monday", "NO SCHOOL - Easter Monday"],
+        ["2025-2026", "BMCHS", "<a href='https://bishopmoore.gofmx.com/calendar' target='_blank'>FMX Calendar</a>"],
+        ["04/07/2026", "Tuesday", "Lunch n' Learn<br>Women's Overnight Retreat (Seniors)"],
+        ["04/08/2026", "Wednesday", "Women's Retreat<br>Individual PD<br>New Teacher PLC"],
+        ["04/09/2026", "Thursday", "All School Mass<br>Speech and Debate Showcase 5:30pm"],
+        ["04/13/2026", "Monday", "Department Chair Meeting"],
+        ["04/14/2026", "Tuesday", "PreACT (10th Grade)"],
+        ["04/15/2026", "Wednesday", "PreACT (9th Grade)<br>Athlete Signing Day<br>Department PLC"],
     ]                
 }
 
@@ -480,14 +484,18 @@ else if (day.toLocaleDateString('en-Us') == "4/1/2026")
 else if (day.toLocaleDateString('en-Us') == "4/9/2026")
     document.getElementById("btn-allMass").click();
 
+else if (day.toLocaleDateString('en-Us') == "5/1/2026")
+    document.getElementById("btn-allMass").click();
 
+else if (day.toLocaleDateString('en-Us') == "5/18/2026")
+    document.getElementById("btn-noon").click();
     
 // Do not change below here. All custom bells should be above this line
-// If no custom schedule, set all for Wednesday Schedule
+// If no custom schedule was choosen, decide if it is a wednesday
 else if (day.getDay() == 3)
     document.getElementById("btn-Wed").click();
 
-// All else fails, schedule is M,T,Th, F schedules
+// All else fails, schedule is normal M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
 

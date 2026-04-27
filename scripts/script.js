@@ -157,10 +157,6 @@ var data = {
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["04/11/2026 - 04/18/2026", "Saturday - Saturday", "Spring Mission Trip to the Dominican Republic (Seniors)"],
-        ["04/22/2026", "Wednesday", "Individual PD"],
-        ["04/23/2026", "Thursday", "College Application Bootcamp (Juniors All Day)"],
-        ["04/24/2026", "Friday", "Q4 Progress Reports<br>Senior Retreat @ Holy Family"],
-        ["04/25/2026", "Saturday", "Prom"],
         ["04/29/2026", "Wednesday", "Faculty Meeting"],
         ["04/30/2026", "Thursday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
         ["05/01/2026", "Friday", "All School Mass"],
@@ -320,6 +316,10 @@ var data = {
         ["04/13/2026", "Monday", "Department Chair Meeting"],
         ["04/14/2026", "Tuesday", "PreACT (10th Grade)"],
         ["04/15/2026", "Wednesday", "PreACT (9th Grade)<br>Athlete Signing Day<br>Department PLC"],
+        ["04/22/2026", "Wednesday", "Individual PD"],
+        ["04/23/2026", "Thursday", "College Application Bootcamp (Juniors All Day)"],
+        ["04/24/2026", "Friday", "Q4 Progress Reports<br>Senior Retreat @ Holy Family"],
+        ["04/25/2026", "Saturday", "Prom"],
     ]                
 }
 

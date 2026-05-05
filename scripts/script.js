@@ -156,11 +156,6 @@ var data = {
         ["8th", " 1:53 pm", " 2:28 pm", "0:35", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["04/11/2026 - 04/18/2026", "Saturday - Saturday", "Spring Mission Trip to the Dominican Republic (Seniors)"],
-        ["04/29/2026", "Wednesday", "Faculty Meeting"],
-        ["04/30/2026", "Thursday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
-        ["05/01/2026", "Friday", "All School Mass"],
-        ["05/04/2026", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
         ["05/05/2026", "Tuesday", "AP Testing<br>8am - Chemistry / Human Geography<br>12pm - United States Government and Politics"],
         ["05/06/2026", "Wednesday", "AP Testing<br>8am - English Literature and Composition<br>12pm - Comparative Government and Politics / Physics 1 Algebra-Based"],
         ["05/07/2026", "Thursday", "AP Testing<br>8am - Physics 2: Algebra-Based / World History: Modern<br>12pm - Statistics / African American Studies"],
@@ -320,6 +315,11 @@ var data = {
         ["04/23/2026", "Thursday", "College Application Bootcamp (Juniors All Day)"],
         ["04/24/2026", "Friday", "Q4 Progress Reports<br>Senior Retreat @ Holy Family"],
         ["04/25/2026", "Saturday", "Prom"],
+        ["04/11/2026 - 04/18/2026", "Saturday - Saturday", "Spring Mission Trip to the Dominican Republic (Seniors)"],
+        ["04/29/2026", "Wednesday", "Faculty Meeting"],
+        ["04/30/2026", "Thursday", "AP Computer Science Principles students to submit their Create performance task as final by 11:59pm"],
+        ["05/01/2026", "Friday", "All School Mass"],
+        ["05/04/2026", "Monday", "AP Testing<br>8am - Biology / Latin<br>12pm - European History / Microeconomics"],
     ]                
 }
 

@@ -165,6 +165,9 @@ var data = {
         ["05/28/2026", "Thursday", "Semester Exams:<br>Period 2: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
         ["05/29/2026", "Friday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am"],
         ["06/01/2026", "Monday", "Teacher PD Day, CPR Training 8am - 10am and 10am - 12pm"],
+        ["**********", "*****", "*********************************"],
+        ["**********", "*****", "********* 2026 - 2027 ***********"],
+        ["**********", "*****", "*********************************"],
         ["07/30/2026", "Thursday", "New Teacher Orientation"],
         ["07/31/2026", "Friday", "New Teacher Orientation"],
         ["08/03/2026", "Monday", "PD for Faculty"],
@@ -179,6 +182,7 @@ var data = {
         ["08/20/2026", "Thursday", "Back to School Night 6pm - 8pm"],
         ["08/27/2026", "Thursday", "Freshman Retreat (Day 1)"],
         ["08/28/2026", "Friday", "Freshman Retreat (Day 2)"],
+        /*
         ["**********", "*****", "*********************************"],
         ["**********", "*****", "**********OLDER EVENTS***********"],
         ["**********", "*****", "*********************************"],
@@ -318,6 +322,7 @@ var data = {
         ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A<br>Senior Grades Due<br>ASP Exams due"],
         ["05/16/2026", "Saturday", "Hornet Expo "],
         ["05/18/2026", "Monday", "Noon Dismissal"],
+        */
     ]                
 }
 

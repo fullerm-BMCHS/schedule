@@ -144,23 +144,17 @@ var data = {
     "btn-custom1" : [
         ["Period","Start","End","Duration","Passing"],
         ["1st", " 7:40 am", " 8:22 am", "0:42", "0:08"],
-        ["2nd", " 8:30 am", " 9:07 am", "0:37", "0:08"],
-        ["Passing to Service A", " 9:15 am", "09:25 am", "0:10", ""],
-        ["Service A", " 9:25 am", "10:00 am", "0:35", "0:35"],
-        ["Passing to Service B", "10:00 am", "10:10 am", "0:10", ""],
-        ["Service B", "10:10 am", "10:45 am", "0:35", "0:10"],
-        ["4th", "10:55 am", "11:32 am", "0:37", "0:08"],
-        ["5th", "11:40 am", "12:17 pm", "0:37", "0:08"],
-        ["6th", "12:25 pm", "01:02 pm", "0:37", "0:08"],
-        ["7th", "01:10 pm", " 1:45 pm", "0:35", "0:08"],
-        ["8th", " 1:53 pm", " 2:28 pm", "0:35", " "]],
+        ["Parade (1st)", " 8:30 am", " 8:45 am", "0:15", "0:06"],
+        ["2nd", " 8:51 am", " 9:37 am", "0:46", "0:08"],
+        ["3rd", " 9:45 am", "10:30 am", "0:45", "0:08"],
+        ["4th", "10:38 am", "11:24 am", "0:46", "0:08"],
+        ["5th", "11:32 am", "12:18 pm", "0:46", "0:08"],
+        ["6th", "12:26 pm", " 1:12 pm", "0:46", "0:08"],
+        ["7th", "01:20 pm", " 2:06 pm", "0:46", "0:08"],
+        ["8th", " 2:14 pm", " 3:00 pm", "0:46", "0:01"],
+        ["9th", " 3:01 pm", " 3:30 pm", "0:29", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["05/13/2026", "Wednesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C: Mechanics / Spanish Literature and Culture"],
-        ["05/14/2026", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
-        ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A<br>Senior Grades Due<br>ASP Exams due"],
-        ["05/16/2026", "Saturday", "Hornet Expo "],
-        ["05/18/2026", "Monday", "Noon Dismissal"],
         ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade<Awards Night 6pm"],
         ["05/20/2026", "Wednesday", "Individual PD"],
         ["05/21/2026", "Thursday", "NO SCHOOL (Baccalaureate Mass)"],
@@ -319,6 +313,11 @@ var data = {
         ["05/08/2026", "Friday", "Deadline for AP Art and Design students to submit their three portfolio components 8pm EST"],
         ["05/11/2026", "Monday", "AP Testing<br>8am - Calculus AB / Calculus BC<br>12pm - Music Theory"],
         ["05/12/2026", "Tuesday", "AP Testing<br>8am - French Language and Culture / Precalculus<br>12pm - Psychology"],
+        ["05/13/2026", "Wednesday", "AP Testing<br>8am - English Language and Composition<br>12pm - Physics C: Mechanics / Spanish Literature and Culture"],
+        ["05/14/2026", "Thursday", "AP Testing<br>8am - Art History / Spanish Language and Culture<br>12pm - Computer Science Principles / Physics C: Electricity and Magnetism"],
+        ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A<br>Senior Grades Due<br>ASP Exams due"],
+        ["05/16/2026", "Saturday", "Hornet Expo "],
+        ["05/18/2026", "Monday", "Noon Dismissal"],
     ]                
 }
 
@@ -488,6 +487,9 @@ else if (day.toLocaleDateString('en-Us') == "5/1/2026")
 
 else if (day.toLocaleDateString('en-Us') == "5/18/2026")
     document.getElementById("btn-noon").click();
+
+else if (day.toLocaleDateString('en-Us') == "5/19/2026")
+    document.getElementById("btn-custom1").click();
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule was choosen, decide if it is a wednesday

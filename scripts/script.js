@@ -150,7 +150,7 @@ var data = {
         ["5th", "11:28 am", "12:08 pm", "0:40", "0:08"],
         ["6th", "12:16 pm", "12:56 pm", "0:40", "0:08"],
         ["7th", " 1:04 pm", " 1:42 pm", "0:38", "0:08"],
-        ["8th", " 1:50 pm", " 1:42 pm", "0:38", "0:01"]],
+        ["8th", " 1:50 pm", " 2:28 pm", "0:38", "0:01"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
         ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade<Awards Night 6pm"],

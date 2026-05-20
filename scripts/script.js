@@ -493,6 +493,9 @@ else if (day.toLocaleDateString('en-Us') == "5/18/2026")
 
 else if (day.toLocaleDateString('en-Us') == "5/19/2026")
     document.getElementById("btn-custom1").click();
+
+else if (day.toLocaleDateString('en-Us') == "5/20/2026")
+    document.getElementById("btn-custom1").click();
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule was choosen, decide if it is a wednesday

@@ -153,9 +153,6 @@ var data = {
         ["8th", " 1:50 pm", " 2:28 pm", "0:38", "0:01"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade<Awards Night 6pm"],
-        ["05/20/2026", "Wednesday", "Individual PD"],
-        ["05/21/2026", "Thursday", "NO SCHOOL (Baccalaureate Mass)"],
         ["05/22/2026", "Friday", "Q4 Grade Books Completion"],
         ["05/25/2026", "Monday", "NO SCHOOL (Memorial Day)"],
         ["05/26/2026", "Tuesday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 7: 10:00am - 11:30am"],
@@ -167,19 +164,21 @@ var data = {
         ["**********", "*****", "********* 2026 - 2027 ***********"],
         ["**********", "*****", "*********************************"],
         ["07/30/2026", "Thursday", "New Teacher Orientation"],
-        ["07/31/2026", "Friday", "New Teacher Orientation"],
+        ["07/31/2026", "Friday", "New Teacher Orientation<br>New Teacher Photos (8:30am-10:30am @ Gym / Pines)<br>CPR Training for New Hires (8am-12pm @ MC)"],
         ["08/03/2026", "Monday", "PD for Faculty"],
         ["08/04/2026", "Tuesday", "PD for Faculty<br>Faculty & Staff Retreat"],
         ["08/05/2026", "Wednesday", "Faculty and Staff Yearbook Picture Day (Pines 7:30am - 10:30am)<br>New Teacher Orientation 8:30am - 11:30am MC"],
-        ["08/06/2026", "Thursday", "Faculty Kick Off 2026 @ Rosen Centre"],
+        ["08/06/2026", "Thursday", "Faculty Kick Off 2026 (8:30am - 1:30pm @ Rosen Centre)"],
         ["08/07/2026", "Friday", "PD Day for Faculty<br>Freshman Orientation"],
-        ["08/11/2026", "Monday", "FIRST DAY OF SCHOOL 2026-2027<br>Back to School Blessing (8:45am - 9:15am) <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?gid=700752536#gid=700752536'>Seating Chart</a>"],
-        ["08/12/2026", "Wednesday", "Bishop Mass (9:45am = 10:45am)"],
+        ["08/11/2026", "Monday", "FIRST DAY OF SCHOOL 2026-2027<br>Back to School Blessing (9:45am - 10:45am) <a href='https://docs.google.com/spreadsheets/d/1pZldyJCgGSQhzlg31snwTEoO8U8E8nYV7fnePuMLbqo/edit?gid=700752536#gid=700752536'>Seating Chart</a>"],
+        ["08/12/2026", "Wednesday", "Bishop Mass (9:45am - 10:45am)"],
         ["08/13/2026", "Thursday", "Yearbook Picture Day - Freshman, Sophomore, Junior"],
-        ["08/14/2026", "Friday", "Fall Pep Rally 2pm"],
-        ["08/20/2026", "Thursday", "Back to School Night 6pm - 8pm"],
+        ["08/14/2026", "Friday", "Fall Pep Rally (2pm - 3pm)"],
+        ["08/20/2026", "Thursday", "Back to School Night (6pm - 8pm)"],
         ["08/27/2026", "Thursday", "Freshman Retreat (Day 1)"],
         ["08/28/2026", "Friday", "Freshman Retreat (Day 2)"],
+        ["09/04/2026", "Friday", "Progress Reports Q1"],
+        ["09/07/2026", "Monday", "NO SCHOOL - Labor Day"],
         /*
         ["**********", "*****", "*********************************"],
         ["**********", "*****", "**********OLDER EVENTS***********"],
@@ -320,6 +319,9 @@ var data = {
         ["05/15/2026", "Friday", "AP Testing<br>8am - Environmental Science<br>12pm - Computer Science A<br>Senior Grades Due<br>ASP Exams due"],
         ["05/16/2026", "Saturday", "Hornet Expo "],
         ["05/18/2026", "Monday", "Noon Dismissal"],
+        ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade<Awards Night 6pm"],
+        ["05/20/2026", "Wednesday", "Individual PD"],
+        ["05/21/2026", "Thursday", "NO SCHOOL (Baccalaureate Mass)"],
         */
     ]                
 }
@@ -496,6 +498,18 @@ else if (day.toLocaleDateString('en-Us') == "5/19/2026")
 
 else if (day.toLocaleDateString('en-Us') == "5/20/2026")
     document.getElementById("btn-custom1").click();
+
+else if (day.toLocaleDateString('en-Us') == "5/26/2026")
+    document.getElementById("btn-Exams").click();
+
+else if (day.toLocaleDateString('en-Us') == "5/27/2026")
+    document.getElementById("btn-Exams").click();
+
+else if (day.toLocaleDateString('en-Us') == "5/28/2026")
+    document.getElementById("btn-Exams").click();
+
+else if (day.toLocaleDateString('en-Us') == "5/29/2026")
+    document.getElementById("btn-Exams").click();
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule was choosen, decide if it is a wednesday

@@ -153,16 +153,6 @@ var data = {
         ["8th", " 1:50 pm", " 2:28 pm", "0:38", "0:01"]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["05/22/2026", "Friday", "Q4 Grade Books Completion"],
-        ["05/25/2026", "Monday", "NO SCHOOL (Memorial Day)"],
-        ["05/26/2026", "Tuesday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 7: 10:00am - 11:30am"],
-        ["05/27/2026", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am<br>Faculty Luncheon 12pm @ MC"],
-        ["05/28/2026", "Thursday", "Semester Exams:<br>Period 2: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
-        ["05/29/2026", "Friday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am"],
-        ["06/01/2026", "Monday", "Teacher PD Day, CPR Training 8am - 10am and 10am - 12pm"],
-        ["**********", "*****", "*********************************"],
-        ["**********", "*****", "********* 2026 - 2027 ***********"],
-        ["**********", "*****", "*********************************"],
         ["07/30/2026", "Thursday", "New Teacher Orientation"],
         ["07/31/2026", "Friday", "New Teacher Orientation<br>New Teacher Photos (8:30am-10:30am @ Gym / Pines)<br>CPR Training for New Hires (8am-12pm @ MC)"],
         ["08/03/2026", "Monday", "PD for Faculty"],
@@ -179,6 +169,38 @@ var data = {
         ["08/28/2026", "Friday", "Freshman Retreat (Day 2)"],
         ["09/04/2026", "Friday", "Progress Reports Q1"],
         ["09/07/2026", "Monday", "NO SCHOOL - Labor Day"],
+        ["09/11/2026", "Friday", "All School Mass"],
+        ["10/01/2026", "Thursday", "Underclassman Photo Retakes"],
+        ["10/08/2026", "Thursday", "Programs of Distinction Night (6pm - 8pm)"],
+        ["10/09/2026", "Friday", "Homecoming Pep Rally<br>End of Q1"],
+        ["10/10/2026", "Saturday", "Homecoming Dance"],
+        ["10/12/2026", "Monday", "NO SCHOOL<br>PD for Faculty"],
+        ["10/13/2026", "Tuesday", "Q2 Starts"],
+        ["10/14/2026", "Wednesday", "PSAT Testing"],
+        ["10/15/2026", "Thursday", "PSAT Testing"],
+        ["10/16/2026", "Friday", "PSAT Testing"],
+        ["10/22/2026", "Thursday", "All School Mass"],
+        ["10/31/2026 - 11/07/2026", "Saturday - Saturday", "Fall Mission Trip to the Dominican Republic (25 Seniors)"],
+        ["11/06/2026", "Friday", "Q2 Progress Reports"],
+        ["11/11/2026", "Wednesday", "Signing Day (7:30am - 10am)"],
+        ["11/12/2026", "Thursday", "Sophomore Retreat"],
+        ["11/13/2026", "Friday", "Sophomore Retreat"],
+        ["11/23/2026 - 11/27/2026", "Monday - Friday", "NO SCHOOL (Thanksgiving Break)"],
+        ["11/30/2026", "Monday", "Advent Blessing 9:45am - 10:45am"],
+        ["12/04/2026", "Friday", "Winter Pep Rally"],
+        ["12/08/2026", "Tuesday", "All School Mass"],
+        ["12/09/2026", "Wednesday", "Black and Gold Christmas Concert"],
+        ["12/10/2026", "Thursday", "Black and Gold Christmas Concert"],
+        ["12/11/2026", "Friday", "Noon Dismissal<br>End of Q2"],
+        ["12/15/2026", "Tuesday", "Semester Exams"],
+        ["12/16/2026", "Wednesday", "Semester Exams<br>Staff and Faculty Christmas Party (12pm - 2:45pm)"],
+        ["12/17/2026", "Thursday", "Semester Exams"],
+        ["12/18/2026", "Friday", "Semester Exams"],
+        ["12/21/2026 - 01/01/2027", "Monday - Friday", "NO SCHOOL (Christmas Break)"],
+        ["01/04/2027", "Monday", "Semester 2 Begins<br>New Year Blessing"],
+        ["01/05/2027", "Tuesday", "Small Club Picture Day"],
+        ["01/06/2027", "Wednesday", "Large Club Picture Day"],
+        ["01/08/2027", "Friday", "All School Mass"],
         /*
         ["**********", "*****", "*********************************"],
         ["**********", "*****", "**********OLDER EVENTS***********"],
@@ -322,6 +344,13 @@ var data = {
         ["05/19/2026", "Tuesday", "Last Day for Assessments<br>Senior Parade<Awards Night 6pm"],
         ["05/20/2026", "Wednesday", "Individual PD"],
         ["05/21/2026", "Thursday", "NO SCHOOL (Baccalaureate Mass)"],
+        ["05/22/2026", "Friday", "Q4 Grade Books Completion"],
+        ["05/25/2026", "Monday", "NO SCHOOL (Memorial Day)"],
+        ["05/26/2026", "Tuesday", "Semester Exams:<br>Period 8: 8:00am - 9:30am<br>Period 7: 10:00am - 11:30am"],
+        ["05/27/2026", "Wednesday", "Semester Exams:<br>Period 3: 8:00am - 9:30am<br>Period 5: 10:00am - 11:30am<br>Faculty Luncheon 12pm @ MC"],
+        ["05/28/2026", "Thursday", "Semester Exams:<br>Period 2: 8:00am - 9:30am<br>Period 4: 10:00am - 11:30am"],
+        ["05/29/2026", "Friday", "Semester Exams:<br>Period 1: 8:00am - 9:30am<br>Period 6: 10:00am - 11:30am"],
+        ["06/01/2026", "Monday", "Teacher PD Day, CPR Training 8am - 10am and 10am - 12pm"],
         */
     ]                
 }
@@ -439,77 +468,14 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
-if (day.toLocaleDateString('en-Us') == "8/11/2025")
+if (day.toLocaleDateString('en-Us') == "8/10/2026")
     document.getElementById("btn-bless").click();
 
-else if (day.toLocaleDateString('en-Us') == "12/16/2025")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "12/17/2025")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "12/18/2025")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "12/19/2025")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "1/5/2026")
-    document.getElementById("btn-bless").click();
-
-else if (day.toLocaleDateString('en-Us') == "1/30/2026")
+else if (day.toLocaleDateString('en-Us') == "8/11/2026")
     document.getElementById("btn-allMass").click();
 
-else if (day.toLocaleDateString('en-Us') == "2/18/2026")
-    document.getElementById("btn-allMassWed").click();
-
-else if (day.toLocaleDateString('en-Us') == "2/27/2026")
-    document.getElementById("btn-noon").click();
-
-else if (day.toLocaleDateString('en-Us') == "3/6/2026")
+else if (day.toLocaleDateString('en-Us') == "8/14/2026")
     document.getElementById("btn-pep").click();
-
-else if (day.toLocaleDateString('en-Us') == "3/12/2026")
-    document.getElementById("btn-custom1").click();
-
-else if (day.toLocaleDateString('en-Us') == "3/25/2026")
-    document.getElementById("btn-noon").click();
-
-else if (day.toLocaleDateString('en-Us') == "3/26/2026")
-    document.getElementById("btn-allMass").click();
-
-else if (day.toLocaleDateString('en-Us') == "3/27/2026")
-    document.getElementById("btn-assembly").click();
-
-else if (day.toLocaleDateString('en-Us') == "4/1/2026")
-    document.getElementById("btn-custom1").click();
-
-else if (day.toLocaleDateString('en-Us') == "4/9/2026")
-    document.getElementById("btn-allMass").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/1/2026")
-    document.getElementById("btn-allMass").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/18/2026")
-    document.getElementById("btn-noon").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/19/2026")
-    document.getElementById("btn-custom1").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/20/2026")
-    document.getElementById("btn-custom1").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/26/2026")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/27/2026")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/28/2026")
-    document.getElementById("btn-Exams").click();
-
-else if (day.toLocaleDateString('en-Us') == "5/29/2026")
-    document.getElementById("btn-Exams").click();
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule was choosen, decide if it is a wednesday

@@ -1,0 +1,96 @@
+/* Temporary accelerated-clock debugger. */
+
+/* Add a row for debug controls. */
+.bmc-v3 .debug-app {
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+}
+
+/* Compact playback toolbar. */
+.bmc-v3 .debug-toolbar {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .55rem clamp(.65rem, 1.5vw, 1.25rem);
+  border-bottom: 1px solid var(--bmc-v3-gray-300);
+  background: var(--bmc-v3-white);
+}
+
+.bmc-v3 .debug-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: .4rem;
+}
+
+.bmc-v3 .debug-toolbar .bmc-btn {
+  min-height: 36px;
+  padding-block: .45rem;
+}
+
+/* Native speed selector. */
+.bmc-v3 .debug-speed {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: .6rem;
+  color: var(--bmc-v3-gray-700);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.bmc-v3 .debug-speed select {
+  min-height: 36px;
+  padding: .35rem 2rem .35rem .6rem;
+  border: 2px solid var(--bmc-v3-black);
+  background: var(--bmc-v3-white);
+  color: var(--bmc-v3-black);
+  font: inherit;
+}
+
+/* Truncated playback status. */
+.bmc-v3 .debug-status {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: var(--bmc-v3-black);
+  font-size: .9rem;
+  font-weight: 650;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Current simulated row. */
+.bmc-v3 #schedTable tr.debug-current-row td:first-child {
+  box-shadow: inset 7px 0 0 var(--bmc-v3-black);
+}
+
+/* Clickable timed rows. */
+.bmc-v3 #schedTable tr[data-debug-jump] {
+  cursor: pointer;
+}
+
+.bmc-v3 #schedTable tr[data-debug-jump]:hover td:first-child,
+.bmc-v3 #schedTable tr[data-debug-jump]:focus-visible td:first-child {
+  box-shadow: inset 7px 0 0 var(--bmc-v3-gold-dark);
+}
+
+.bmc-v3 #schedTable tr[data-debug-jump]:focus-visible {
+  outline: 3px solid var(--bmc-v3-gold-dark);
+  outline-offset: -3px;
+}
+
+@media (max-width: 800px) {
+  .bmc-v3 .debug-toolbar {
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .bmc-v3 .debug-status {
+    width: 100%;
+    text-align: left;
+  }
+}

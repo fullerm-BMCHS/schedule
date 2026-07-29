@@ -358,6 +358,7 @@ var data = {
 // Global State Variable to know if Calendar is being shown
 //     Need to disable period highlighting
 currentButton = "";
+let screenTimer = null;
 
 // Respond to topnav menu button clicked 
 function navClick(btnClicked) {
@@ -370,7 +371,10 @@ function navClick(btnClicked) {
     currentButton = btnClicked;
     buildTable(data[btnClicked]);
     updateScreen();
-    setInterval(updateScreen, 1000);
+
+    // Keep one screen timer regardless of menu changes.
+    if (screenTimer === null)
+        screenTimer = setInterval(updateScreen, 1000);
 }
 
 // Generic build table from data array
@@ -417,8 +421,20 @@ function updateScreen() {
 
     // Update Clock
     const timeDiv = document.getElementById("time");
-    const dateString = now.toLocaleString('en-US');
-    timeDiv.innerHTML = "<h2>" + dateString + "</h2>";
+    // Format the full date and live time separately.
+    const fullDate = now.toLocaleDateString('en-US', {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+    });
+    const currentTime = now.toLocaleTimeString('en-US', {
+        hour: 'numeric',
+        minute: '2-digit',
+        second: '2-digit'
+    });
+    timeDiv.innerHTML = "<h2><span class='utility-date'>" + fullDate
+        + "</span><span class='utility-time'>" + currentTime + "</span></h2>";
 
     if (currentButton == "btn-Cal")
         return;
@@ -426,10 +442,10 @@ function updateScreen() {
     // Get table to highlight current period
     let table = document.getElementById("schedTable");
 
-    // Clear prior highlighted period
-    for (const e of document.getElementsByClassName("highlighted")) {
-        e.classList.remove('highlighted');
-     }
+    // Use a static list so removing classes cannot skip cells.
+    document.querySelectorAll("#schedTable .highlighted").forEach(function (cell) {
+        cell.classList.remove("highlighted");
+    });
 
     // Highlight Current Period
     for (var r = 1, n = table.rows.length; r < n; r++) {
@@ -438,7 +454,7 @@ function updateScreen() {
         let endStr = table.rows[r].cells[2].innerHTML;
         let endTime = getDate(endStr);
         // console.log(startTime, now, endTime);
-        if (startTime <= now && now <= endTime) {
+        if (startTime <= now && now < endTime) {
             // console.log("Row:", r);
             table.rows[r].cells[0].classList.add('highlighted');
             table.rows[r].cells[1].classList.add('highlighted');
@@ -454,7 +470,7 @@ function updateScreen() {
         let endStr = table.rows[r+1].cells[1].innerHTML;
         let endTime = getDate(endStr);
         // console.log(startTime, now, endTime);
-        if (startTime <= now && now <= endTime) {
+        if (startTime <= now && now < endTime) {
             // console.log("Row:", r);
             table.rows[r].cells[0].classList.remove('highlighted');
             table.rows[r].cells[1].classList.remove('highlighted');
@@ -485,6 +501,224 @@ else if (day.getDay() == 3)
 // All else fails, schedule is normal M,T,Th, F schedules
 else
     document.getElementById("btn-MF").click();
+
+/* Add a live countdown to the highlighted passing cell. */
+function updatePassingCountdown() {
+    const table = document.getElementById("schedTable");
+    const existingCountdowns = document.querySelectorAll(".passing-countdown");
+
+    // Clear countdowns when no passing column is available.
+    if (!table || currentButton == "btn-Cal") {
+        existingCountdowns.forEach(function (countdown) {
+            countdown.remove();
+        });
+        return;
+    }
+
+    // The fifth cell is highlighted only during passing time.
+    const passingCell = table.querySelector("tbody td:nth-child(5).highlighted");
+    if (!passingCell) {
+        existingCountdowns.forEach(function (countdown) {
+            countdown.remove();
+        });
+        return;
+    }
+
+    const currentRow = passingCell.parentElement;
+    const nextRow = currentRow.nextElementSibling;
+    if (!nextRow) {
+        return;
+    }
+
+    const nextStart = getDate(nextRow.cells[1].textContent);
+    const remainingSeconds = Math.max(
+        0,
+        Math.ceil((nextStart.getTime() - new Date().getTime()) / 1000)
+    );
+
+    // Remove zero at the next period boundary.
+    if (remainingSeconds === 0) {
+        existingCountdowns.forEach(function (countdown) {
+            countdown.remove();
+        });
+        return;
+    }
+
+    const minutes = Math.floor(remainingSeconds / 60);
+    const seconds = String(remainingSeconds % 60).padStart(2, "0");
+    let countdown = passingCell.querySelector(".passing-countdown");
+
+    // Append the countdown without replacing the passing duration.
+    if (!countdown) {
+        countdown = document.createElement("span");
+        countdown.className = "passing-countdown";
+
+        const countdownValue = document.createElement("span");
+        countdownValue.className = "passing-countdown-value";
+        countdown.appendChild(countdownValue);
+
+        const countdownLabel = document.createElement("span");
+        countdownLabel.className = "passing-countdown-label";
+        countdownLabel.textContent = "left";
+        countdown.appendChild(countdownLabel);
+
+        passingCell.appendChild(countdown);
+    }
+
+    // Update the numeric value and keep the LEFT label stable.
+    countdown.querySelector(".passing-countdown-value").textContent =
+        minutes + ":" + seconds;
+    countdown.title = minutes + " minutes and " + seconds
+        + " seconds until " + nextRow.cells[0].textContent.trim();
+
+    // Apply the urgent style below two minutes.
+    countdown.classList.toggle(
+        "passing-countdown-urgent",
+        remainingSeconds < 120
+    );
+
+    // Remove countdowns left in previous rows.
+    existingCountdowns.forEach(function (existingCountdown) {
+        if (existingCountdown !== countdown) {
+            existingCountdown.remove();
+        }
+    });
+}
+
+// Refresh after the screen timer updates the highlight.
+updatePassingCountdown();
+setInterval(updatePassingCountdown, 1000);
+
+/* Replay the end-time cue when a period reaches 10 or 5 minutes left. */
+let lastEndTimeReminderTick = null;
+
+function updateEndTimeReminder() {
+    const now = new Date();
+    const previousTick = lastEndTimeReminderTick;
+    lastEndTimeReminderTick = now.getTime();
+
+    // Ignore the first check and backward debug jumps.
+    if (previousTick === null || now.getTime() < previousTick) {
+        return;
+    }
+
+    const endTimeCell = document.querySelector(
+        "#schedTable tbody td:nth-child(3).highlighted"
+    );
+    if (!endTimeCell || currentButton == "btn-Cal") {
+        return;
+    }
+
+    const row = endTimeCell.parentElement;
+    const startTime = getDate(row.cells[1].textContent).getTime();
+    const endTime = getDate(endTimeCell.textContent).getTime();
+    const thresholds = [10 * 60 * 1000, 5 * 60 * 1000];
+    const crossedReminders = thresholds.filter(function (threshold) {
+        const reminderTime = endTime - threshold;
+        return endTime - startTime >= threshold
+            && previousTick < reminderTime
+            && now.getTime() >= reminderTime;
+    });
+
+    if (crossedReminders.length === 0) {
+        return;
+    }
+
+    const reminderMinutes =
+        crossedReminders[crossedReminders.length - 1] / (60 * 1000);
+    endTimeCell.classList.remove("end-time-reminder");
+    void endTimeCell.offsetWidth;
+    endTimeCell.setAttribute(
+        "data-end-time-reminder",
+        "T-" + reminderMinutes
+    );
+    endTimeCell.classList.add("end-time-reminder");
+
+    window.setTimeout(function () {
+        endTimeCell.classList.remove("end-time-reminder");
+        endTimeCell.removeAttribute("data-end-time-reminder");
+    }, 1400);
+}
+
+updateEndTimeReminder();
+setInterval(updateEndTimeReminder, 1000);
+
+/* Celebrate when the clock crosses the end of 8th period. */
+let lastEndOfDayTick = null;
+
+function launchEndOfDayConfetti() {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        return;
+    }
+
+    const existingConfetti = document.querySelector(".end-of-day-confetti");
+    if (existingConfetti) {
+        existingConfetti.remove();
+    }
+
+    const confetti = document.createElement("div");
+    confetti.className = "end-of-day-confetti";
+    confetti.setAttribute("aria-hidden", "true");
+
+    for (let index = 0; index < 48; index++) {
+        const piece = document.createElement("span");
+        piece.className = "confetti-piece";
+        piece.style.setProperty("--confetti-left", Math.random() * 100 + "%");
+        piece.style.setProperty(
+            "--confetti-drift",
+            (Math.random() * 12 - 6) + "vw"
+        );
+        piece.style.setProperty(
+            "--confetti-spin",
+            (Math.random() * 720 + 360) + "deg"
+        );
+        piece.style.setProperty(
+            "--confetti-duration",
+            (Math.random() * 1.2 + 2.8) + "s"
+        );
+        piece.style.setProperty(
+            "--confetti-delay",
+            (Math.random() * .45) + "s"
+        );
+        confetti.appendChild(piece);
+    }
+
+    document.body.appendChild(confetti);
+    window.setTimeout(function () {
+        confetti.remove();
+    }, 4500);
+}
+
+function updateEndOfDayCelebration() {
+    const now = new Date().getTime();
+    const previousTick = lastEndOfDayTick;
+    lastEndOfDayTick = now;
+
+    // Ignore the first check and backward debug jumps.
+    if (previousTick === null || now < previousTick || currentButton == "btn-Cal") {
+        return;
+    }
+
+    const rows = document.querySelectorAll("#schedTable tbody tr");
+    let eighthPeriodRow = null;
+    rows.forEach(function (row) {
+        if (row.cells[0].textContent.trim().toLowerCase() === "8th") {
+            eighthPeriodRow = row;
+        }
+    });
+
+    if (!eighthPeriodRow) {
+        return;
+    }
+
+    const endTime = getDate(eighthPeriodRow.cells[2].textContent).getTime();
+    if (previousTick < endTime && now >= endTime) {
+        launchEndOfDayConfetti();
+    }
+}
+
+updateEndOfDayCelebration();
+setInterval(updateEndOfDayCelebration, 1000);
 
 
 

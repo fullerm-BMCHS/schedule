@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#242122">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Bell Schedule Debugger | Bishop Moore Catholic</title>
+
+    <!-- Production styles. -->
+    <link rel="stylesheet" type="text/css" href="styles/bmc-v3.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <!-- Debug-only styles. -->
+    <link rel="stylesheet" type="text/css" href="styles/debug.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<!-- Unlinked production-schedule debugger. -->
+<body class="bmc-v3">
+    <div class="schedule-app debug-app">
+        <!-- Debug clock header. -->
+        <header class="utility-header bmc-section-dark">
+            <div class="utility-brand">
+                <span class="bmc-eyebrow">Debug Mode</span>
+                <h1>Period Cycle</h1>
+            </div>
+            <div id="time" class="utility-clock" aria-label="Current date and time"></div>
+        </header>
+
+        <!-- Debug playback controls. -->
+        <section class="debug-toolbar" aria-label="Period cycle controls">
+            <div class="debug-actions">
+                <button id="debug-previous" class="bmc-btn bmc-btn-sm bmc-btn-outline" type="button">−1 Minute</button>
+                <button id="debug-toggle" class="bmc-btn bmc-btn-sm" type="button">Pause</button>
+                <button id="debug-next" class="bmc-btn bmc-btn-sm bmc-btn-outline" type="button">+1 Minute</button>
+            </div>
+
+            <label class="debug-speed" for="debug-speed">
+                <span>Simulation speed</span>
+                <select id="debug-speed">
+                    <option value="normal">Normal speed (1×)</option>
+                    <option value="1">1 minute / second</option>
+                    <option value="5">5 minutes / second</option>
+                    <option value="10" selected>10 minutes / second</option>
+                    <option value="20">20 minutes / second</option>
+                </select>
+            </label>
+
+            <!-- Playback status. -->
+            <p id="debug-status" class="debug-status" aria-live="polite"></p>
+        </section>
+
+        <!-- All schedule datasets. -->
+        <nav class="schedule-nav" aria-label="Schedules available for debugging">
+            <div class="schedule-nav-scroll">
+                <button type="button" onclick="navClick('btn-MF')" id="btn-MF" class="bmc-btn bmc-btn-sm bmc-btn-outline active">M / T / Th / F</button>
+                <button type="button" onclick="navClick('btn-Wed')" id="btn-Wed" class="bmc-btn bmc-btn-sm bmc-btn-outline">Wednesday</button>
+                <button type="button" onclick="navClick('btn-classMass')" id="btn-classMass" class="bmc-btn bmc-btn-sm bmc-btn-outline">Class Mass</button>
+                <button type="button" onclick="navClick('btn-allMass')" id="btn-allMass" class="bmc-btn bmc-btn-sm bmc-btn-outline">All School Mass</button>
+                <button type="button" onclick="navClick('btn-allMassWed')" id="btn-allMassWed" class="bmc-btn bmc-btn-sm bmc-btn-outline">Mass (Wed)</button>
+                <button type="button" onclick="navClick('btn-bless')" id="btn-bless" class="bmc-btn bmc-btn-sm bmc-btn-outline">Blessing</button>
+                <button type="button" onclick="navClick('btn-blessWed')" id="btn-blessWed" class="bmc-btn bmc-btn-sm bmc-btn-outline">Blessing (Wed)</button>
+                <button type="button" onclick="navClick('btn-noon')" id="btn-noon" class="bmc-btn bmc-btn-sm bmc-btn-outline">Noon Dismissal</button>
+                <button type="button" onclick="navClick('btn-assembly')" id="btn-assembly" class="bmc-btn bmc-btn-sm bmc-btn-outline">Assembly</button>
+                <button type="button" onclick="navClick('btn-pep')" id="btn-pep" class="bmc-btn bmc-btn-sm bmc-btn-outline">Pep Rally</button>
+                <button type="button" onclick="navClick('btn-speaker')" id="btn-speaker" class="bmc-btn bmc-btn-sm bmc-btn-outline">Speaker</button>
+                <button type="button" onclick="navClick('btn-speakerWed')" id="btn-speakerWed" class="bmc-btn bmc-btn-sm bmc-btn-outline">Speaker (Wed)</button>
+                <button type="button" onclick="navClick('btn-Exams')" id="btn-Exams" class="bmc-btn bmc-btn-sm bmc-btn-outline">Exams</button>
+                <button type="button" onclick="navClick('btn-custom1')" id="btn-custom1" class="bmc-btn bmc-btn-sm bmc-btn-outline">5 / 20 / 2026</button>
+                <button type="button" onclick="navClick('btn-Cal')" id="btn-Cal" class="bmc-btn bmc-btn-sm bmc-btn-dark">Calendar</button>
+            </div>
+        </nav>
+
+        <!-- Selected schedule output. -->
+        <main id="schedule" class="schedule-display"></main>
+    </div>
+
+    <!-- Install a simulated Date and suppress production timers. -->
+    <script>
+        window.__debugNativeDate = window.Date;
+        window.__debugNativeSetInterval = window.setInterval.bind(window);
+        window.__debugNow = new window.__debugNativeDate().getTime();
+
+        window.Date = class DebugDate extends window.__debugNativeDate {
+            constructor(...args) {
+                if (args.length === 0) {
+                    super(window.__debugNow);
+                } else {
+                    super(...args);
+                }
+            }
+
+            static now() {
+                return window.__debugNow;
+            }
+        };
+
+        window.setInterval = function () {
+            return 0;
+        };
+    </script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/debug.js"></script>
+</body>
+</html>

@@ -506,6 +506,30 @@ else if (day.toLocaleDateString('en-Us') == "8/11/2026")
 
 else if (day.toLocaleDateString('en-Us') == "8/14/2026")
     document.getElementById("btn-pep").click();
+
+else if (day.toLocaleDateString('en-Us') == "9/11/2026")
+    document.getElementById("btn-allMass").click();
+
+else if (day.toLocaleDateString('en-Us') == "10/9/2026")
+    document.getElementById("btn-pep").click();
+
+else if (day.toLocaleDateString('en-Us') == "10/22/2026")
+    document.getElementById("btn-allMass").click();
+
+else if (day.toLocaleDateString('en-Us') == "11/2/2026")
+    document.getElementById("btn-allMass").click();
+
+else if (day.toLocaleDateString('en-Us') == "11/30/2026")
+    document.getElementById("btn-bless").click();
+
+else if (day.toLocaleDateString('en-Us') == "12/4/2026")
+    document.getElementById("btn-pep").click();
+
+else if (day.toLocaleDateString('en-Us') == "12/11/2026")
+    document.getElementById("btn-noon").click();
+
+else if (day.toLocaleDateString('en-Us') == "12/8/2026")
+    document.getElementById("btn-allMass").click();
     
 // Do not change below here. All custom bells should be above this line
 // If no custom schedule was choosen, decide if it is a wednesday

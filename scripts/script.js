@@ -184,7 +184,7 @@ var data = {
         ["09/02/2026", "Wednesday", "Faculty Meeting"],
         ["09/04/2026", "Friday", "Progress Reports Q1"],
         ["09/07/2026", "Monday", "NO SCHOOL - Labor Day"],
-        ["09/09/2026", "Wednesday", "New Teacher PLC<br>Individual PD"]
+        ["09/09/2026", "Wednesday", "New Teacher PLC<br>Individual PD"],
         ["09/11/2026", "Friday", "All School Mass <a href='https://docs.google.com/spreadsheets/d/1tDrjqoZAk080aqlYBCnK_uhgCkcJA7tRw-rGkWOPPZw/edit?gid=0#gid=0'>Seating Chart</a>"],
         ["09/16/2026", "Wednesday", "Department PLC<br>Senior Men's Overnight Trip"],
         ["09/23/2026", "Wednesday", "Common Course PLC"],

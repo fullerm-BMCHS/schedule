@@ -432,6 +432,7 @@ function buildTable(tableArr) {
 
     for (let aRow of rows) {
         tableString += "<tr>";
+        console.log(aRow);
         for (let cell of aRow) {
             tableString += "<td>" + cell + "</td>";
         }

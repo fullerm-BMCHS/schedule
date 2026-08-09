@@ -163,8 +163,6 @@ var data = {
         ["8th", " 8:06 pm", " 8:14 pm", "0:08", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["08/06/2026", "Thursday", "Faculty Kick Off 2026 (8:30am - 1:30pm @ Rosen Centre)"],
-        ["08/07/2026", "Friday", "PD Day for Faculty<br>Freshman Orientation"],
         ["08/10/2026", "Monday", "FIRST DAY OF SCHOOL 2026-2027<br>Back to School Blessing (9:45am - 10:45am) <a href='https://docs.google.com/spreadsheets/d/1qc4GwWaRitMhAYNkJ4OSBxmb33os6eVFaHeh8LgT1Wc/edit?gid=0#gid=0'>Seating Chart</a>"],
         ["08/11/2026", "Tuesday", "Bishop Mass (9:45am - 10:45am) <a href='https://docs.google.com/spreadsheets/d/1tDrjqoZAk080aqlYBCnK_uhgCkcJA7tRw-rGkWOPPZw/edit?gid=0#gid=0'>Seating Chart</a>"],
         ["08/12/2026", "Wednesday", "Safe Environment Video for Students (2nd Period)<br>Faculty Meeting"],
@@ -245,6 +243,8 @@ var data = {
         ["08/03/2026", "Monday", "PD for Faculty"],
         ["08/04/2026", "Tuesday", "PD for Faculty<br>Faculty & Staff Retreat"],
         ["08/05/2026", "Wednesday", "Faculty and Staff Yearbook Picture Day (Pines 7:30am - 10:30am)<br>New Teacher Orientation 8:30am - 11:30am MC"],
+        ["08/06/2026", "Thursday", "Faculty Kick Off 2026 (8:30am - 1:30pm @ Rosen Centre)"],
+        ["08/07/2026", "Friday", "PD Day for Faculty<br>Freshman Orientation"],
         /*
         ["08/20/2025", "Wednesday", "Fire Drill: <a href='https://docs.google.com/spreadsheets/d/1s_k__cjW58Oxgj6wjTB9dAeJeAruWP8B65aJ6Ly10SQ/edit?gid=0#gid=0'>Teacher Lineup</a><br>1st Period: BD, Dome, MC<br>2nd Period: BB, BG, Cafe<br>3rd Period: LO,MM,Gym<br>9th hour - Department Meeting"],
         ["08/25/2025", "Monday", "Lockdown Drill / Lockout Drill (1st Period, using Raptor)"],

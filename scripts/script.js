@@ -535,8 +535,8 @@ else if (day.toLocaleDateString('en-Us') == "8/14/2026")
     document.getElementById("btn-pep").click();
 
 // Uncomment after 3:30pm
-// else if (day.toLocaleDateString('en-Us') == "8/19/2026")
-//    document.getElementById("btn-bck2sch").click();
+else if (day.toLocaleDateString('en-Us') == "8/19/2026")
+    document.getElementById("btn-bck2sch").click();
 
 else if (day.toLocaleDateString('en-Us') == "9/11/2026")
     document.getElementById("btn-allMass").click();

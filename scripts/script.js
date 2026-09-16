@@ -534,8 +534,8 @@ else if (day.toLocaleDateString('en-Us') == "8/11/2026")
 else if (day.toLocaleDateString('en-Us') == "8/14/2026")
     document.getElementById("btn-pep").click();
 
-// Uncomment after 3:30pm
-else if (day.toLocaleDateString('en-Us') == "8/19/2026")
+// Special check for Back to School Night Schedule after 4pm (16th hour)
+else if (day.toLocaleDateString('en-Us') == "8/19/2026" && day.getHours() >= 16)
     document.getElementById("btn-bck2sch").click();
 
 else if (day.toLocaleDateString('en-Us') == "9/2/2026")
@@ -791,48 +791,4 @@ function updateEndOfDayCelebration() {
 
 updateEndOfDayCelebration();
 setInterval(updateEndOfDayCelebration, 1000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -260,10 +260,13 @@ function navClick(btnClicked) {
     
     // Build table corresponding to button id clicked
     currentButton = btnClicked;
+
+    // Added feature so that calender is resorted with all entries today and after appearing first
+    // followed by all dates prior to today displaying as older events.
     if (btnClicked === "btn-Cal") {
         var oldDates = [["**********", "*****", "*********************************"],
-                ["**********", "*****", "**********OLDER EVENTS***********"],
-                ["**********", "*****", "*********************************"]];
+                        ["**********", "*****", "**********OLDER EVENTS***********"],
+                        ["**********", "*****", "*********************************"]];
         var currDates = [["Date","Day","Event"]];
         var nowDate = new Date();
         var today = nowDate.getFullYear() + '/' + String(nowDate.getMonth() + 1).padStart(2, '0') + '/' + String(nowDate.getDate()).padStart(2, '0');

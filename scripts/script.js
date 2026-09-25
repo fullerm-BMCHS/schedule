@@ -163,7 +163,7 @@ var data = {
         ["8th", " 8:06 pm", " 8:14 pm", "0:08", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        // NOTE: The first 10 digits must look like a date. Keep it all in order. It will be sorted later into oldeer and newer
+        // NOTE: The first 10 digits must look like a date. Keep it all in order. It will be sorted later into older and newer
         ["07/30/2026", "Thursday", "New Teacher Orientation"],
         ["07/31/2026", "Friday", "New Teacher Orientation<br>New Teacher Photos (8:30am-10:30am @ Gym / Pines)<br>CPR Training for New Hires (8am-12pm @ MC)"],
         ["08/03/2026", "Monday", "PD for Faculty"],
@@ -268,17 +268,17 @@ function navClick(btnClicked) {
         var nowDate = new Date();
         var today = nowDate.getFullYear() + '/' + String(nowDate.getMonth() + 1).padStart(2, '0') + '/' + String(nowDate.getDate()).padStart(2, '0');
         for (let aRow of data["btn-Cal"]) {
-        if (aRow[0] === "Date") {
-    	    continue;
-        }
+            if (aRow[0] === "Date") {
+    	        continue;
+            }
 
-        aRowDateStr = aRow[0].slice(6,10) + '/' + aRow[0].slice(0,2) + '/' + aRow[0].slice(3,5);
-        if (today > aRowDateStr) {
-            oldates.push(aRow);
-        } else {
-            currDates.push(aRow);
+            aRowDateStr = aRow[0].slice(6,10) + '/' + aRow[0].slice(0,2) + '/' + aRow[0].slice(3,5);
+            if (today > aRowDateStr) {
+                oldates.push(aRow);
+            } else {
+                currDates.push(aRow);
+            }
         }
-
         const merged = [...currDates, ...oldDates];
         
         buildTable(merged);

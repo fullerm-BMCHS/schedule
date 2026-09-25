@@ -163,9 +163,6 @@ var data = {
         ["8th", " 8:06 pm", " 8:14 pm", "0:08", " "]],
     "btn-Cal" : [
         ["Date","Day","Event"],
-        ["09/16/2026", "Wednesday", "Department PLC<br>Senior Men's Overnight Trip"],
-        ["09/23/2026", "Wednesday", "Common Course PLC"],
-        ["09/24/2026", "Thursday", "Senior Women's Overnight Trip"],
         ["09/30/2026", "Wednesday", "Faculty Meeting"],
         ["10/01/2026", "Thursday", "Underclassman Photo Retakes"],
         ["10/07/2026", "Wednesday", "New Teacher PLC / Individual PD<br>Programs of Distinction Night (6pm - 8pm)"],
@@ -245,6 +242,9 @@ var data = {
         ["09/07/2026", "Monday", "NO SCHOOL - Labor Day"],
         ["09/09/2026", "Wednesday", "New Teacher PLC<br>Individual PD"],
         ["09/11/2026", "Friday", "All School Mass <a href='https://docs.google.com/spreadsheets/d/1tDrjqoZAk080aqlYBCnK_uhgCkcJA7tRw-rGkWOPPZw/edit?gid=0#gid=0'>Seating Chart</a>"],
+        ["09/16/2026", "Wednesday", "Department PLC<br>Senior Men's Overnight Trip"],
+        ["09/23/2026", "Wednesday", "Common Course PLC"],
+        ["09/24/2026", "Thursday", "Senior Women's Overnight Trip"],
         /*
         ["08/20/2025", "Wednesday", "Fire Drill: <a href='https://docs.google.com/spreadsheets/d/1s_k__cjW58Oxgj6wjTB9dAeJeAruWP8B65aJ6Ly10SQ/edit?gid=0#gid=0'>Teacher Lineup</a><br>1st Period: BD, Dome, MC<br>2nd Period: BB, BG, Cafe<br>3rd Period: LO,MM,Gym<br>9th hour - Department Meeting"],
         ["08/25/2025", "Monday", "Lockdown Drill / Lockout Drill (1st Period, using Raptor)"],

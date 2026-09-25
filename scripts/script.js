@@ -274,7 +274,7 @@ function navClick(btnClicked) {
 
             aRowDateStr = aRow[0].slice(6,10) + '/' + aRow[0].slice(0,2) + '/' + aRow[0].slice(3,5);
             if (today > aRowDateStr) {
-                oldates.push(aRow);
+                oldDates.push(aRow);
             } else {
                 currDates.push(aRow);
             }

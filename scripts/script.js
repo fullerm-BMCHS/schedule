@@ -1,4 +1,7 @@
-// Data for Bell Schedules and Calendar
+// ===========================================================
+// Data for Bell Schedules 
+// ===========================================================
+
 var data = { 
     "btn-MF" : [
         ["Period","Start","End","Duration","Passing"],        
@@ -162,8 +165,10 @@ var data = {
         ["7th", " 7:48 pm", " 7:56 pm", "0:08", "0:10"],
         ["8th", " 8:06 pm", " 8:14 pm", "0:08", " "]],
     "btn-Cal" : [
+        // Assumption: There can only be a single header row, and it must contain the string "Date" in the 1st column
         ["Date","Day","Event"],
         // NOTE: The first 10 digits must look like a date. Keep it all in order. It will be sorted later into older and newer
+        // The first 10 digits are converted into a Date object, and then compared to todays date, re-ordering the information below
         ["07/30/2026", "Thursday", "New Teacher Orientation"],
         ["07/31/2026", "Friday", "New Teacher Orientation<br>New Teacher Photos (8:30am-10:30am @ Gym / Pines)<br>CPR Training for New Hires (8am-12pm @ MC)"],
         ["08/03/2026", "Monday", "PD for Faculty"],
@@ -402,6 +407,11 @@ function updateScreen() {
 // Determine default button on startup
 let day = new Date();
 
+
+// ===================================================================
+// Determine which dates to show non-standard bell schedules
+// Date format should not include leading zero's here for month and day
+// ===================================================================
 if (day.toLocaleDateString('en-Us') == "8/10/2026")
     document.getElementById("btn-bless").click();
 
@@ -411,7 +421,8 @@ else if (day.toLocaleDateString('en-Us') == "8/11/2026")
 else if (day.toLocaleDateString('en-Us') == "8/14/2026")
     document.getElementById("btn-pep").click();
 
-// Special check for Back to School Night Schedule after 4pm (16th hour)
+// Special check for Back to School Night Schedule after 4pm (hour 16+ )
+// Regular schedule is shown before 4pm. Back to School is shown after 4pm
 else if (day.toLocaleDateString('en-Us') == "8/19/2026" && day.getHours() >= 16)
     document.getElementById("btn-bck2sch").click();
 

@@ -1,0 +1,6 @@
+Copyright (c) 2026 Mark Fuller
+All rights reserved.
+
+This software and associated documentation files are the sole property of the copyright holder. 
+No part of this software may be reproduced, distributed, modified, or used to create derivative 
+works in any form or by any means without the express written permission of the copyright holder.

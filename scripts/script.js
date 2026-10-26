@@ -207,7 +207,7 @@ var data = {
         ["10/16/2026", "Friday", "PSAT Testing 11th Grade"],
         ["10/21/2026", "Wednesday", "Common Course PLC"],
         ["10/22/2026", "Thursday", "All School Mass <a href='https://docs.google.com/spreadsheets/d/1tDrjqoZAk080aqlYBCnK_uhgCkcJA7tRw-rGkWOPPZw/edit?gid=0#gid=0'>Seating Chart</a><br>St. Augustine Girls Pilgrimage"],
-        ["10/26/2026", "Monday", "Fire Education Video"],
+        ["10/26/2026", "Monday", "<a href='https://youtu.be/kcSIpTo2EBI?si=HzpYfkJ_i-F_Tz-B--'>Fire Education Video - 3rd Period</a>"],
         ["10/28/2026", "Wednesday", "Individual PD"],
         ["10/31/2026 - 11/07/2026", "Saturday - Saturday", "Fall Mission Trip to the Dominican Republic (25 Seniors)"],
         ["11/02/2026", "Monday", "All School Mass <a href='https://docs.google.com/spreadsheets/d/1tDrjqoZAk080aqlYBCnK_uhgCkcJA7tRw-rGkWOPPZw/edit?gid=0#gid=0'>Seating Chart</a>"],
